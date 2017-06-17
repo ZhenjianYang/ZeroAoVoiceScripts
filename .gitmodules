@@ -1,5 +1,5 @@
-[submodule "tools\\EDDecompiler"]
-	path = tools\\EDDecompiler
+[submodule "tools/EDDecompiler"]
+	path = tools/EDDecompiler
 	url = https://github.com/ZhenjianYang/EDDecompiler
 [submodule "tools/PyLibs"]
 	path = tools/PyLibs
