@@ -1,0 +1,1122 @@
+﻿from ScenarioHelper import *
+
+def main():
+    CreateScenaFile(
+        "t105b.bin",                # FileName
+        "t105b",                    # MapName
+        "t105b",                    # Location
+        0x0042,                     # MapIndex
+        "ed7513",
+        0x00002000,                 # Flags
+        ("", "", "", "", "", ""),   # include
+        0x00,                       # PlaceNameNumber
+        0x1A,                       # PreInitFunctionIndex
+        b'\x00\xff\xff',            # Unknown_51
+
+        # Information
+        [0, 0, -1000, 0, 0, 0, 24000, 500, 30, 45, 0, 360, 0, 0, 0, 0, 0, 1, 66, 0, 3, 0, 4],
+    )
+
+    BuildStringList((
+        "t105b",                  # 0
+        "哈加经理",               # 1
+        "茜特拉丝",               # 2
+        "游客",                   # 3
+        "游客",                   # 4
+        "游客",                   # 5
+        "游客",                   # 6
+        "游客",                   # 7
+        "玛格丽特夫人",           # 8
+        "芙兰",                   # 9
+        "塞茜尔",                 # 10
+        "伊莉娅",                 # 11
+        "莉夏",                   # 12
+        "修利",                   # 13
+        "蔡特",                   # 14
+    ))
+
+    AddCharChip((
+        "chr/ch25800.itc",                   # 00
+        "chr/ch25600.itc",                   # 01
+        "chr/ch20802.itc",                   # 02
+        "chr/ch20902.itc",                   # 03
+        "chr/ch23600.itc",                   # 04
+        "chr/ch22000.itc",                   # 05
+        "chr/ch22100.itc",                   # 06
+        "chr/ch44002.itc",                   # 07
+    ))
+
+    DeclNpc(-479,    0,       10050,   180,  389,  0x0, 0,   0,   0,   0,   0,   0,   6,   255,  0)
+    DeclNpc(106129,  0,       11579,   0,    385,  0x0, 0,   1,   0,   0,   1,   0,   7,   255,  0)
+    DeclNpc(-102180, 150,     124540,  90,   453,  0x0, 0,   2,   0,   255, 255, 0,   8,   255,  0)
+    DeclNpc(-99410,  150,     124540,  270,  453,  0x0, 0,   3,   0,   255, 255, 0,   9,   255,  0)
+    DeclNpc(-99779,  0,       -80750,  268,  385,  0x0, 0,   4,   0,   0,   2,   0,   10,  255,  0)
+    DeclNpc(98669,   0,       120930,  90,   389,  0x0, 0,   5,   0,   0,   0,   0,   11,  255,  0)
+    DeclNpc(99650,   0,       120900,  270,  389,  0x0, 0,   6,   0,   0,   0,   0,   12,  255,  0)
+    DeclNpc(97559,   0,       -84269,  90,   453,  0x0, 0,   7,   0,   255, 255, 0,   13,  255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+    DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
+
+    DeclActor(-20,     0,       8270,    1500,    -480,    1500,    10050,   0x007E, 0,  5,  0x0000)
+
+    ChipFrameInfo(680, 0)                                        # 0
+
+    ScpFunction((
+        "Function_0_2A8",          # 00, 0
+        "Function_1_360",          # 01, 1
+        "Function_2_3C1",          # 02, 2
+        "Function_3_3EC",          # 03, 3
+        "Function_4_487",          # 04, 4
+        "Function_5_513",          # 05, 5
+        "Function_6_517",          # 06, 6
+        "Function_7_619",          # 07, 7
+        "Function_8_6F7",          # 08, 8
+        "Function_9_769",          # 09, 9
+        "Function_10_7DD",         # 0A, 10
+        "Function_11_938",         # 0B, 11
+        "Function_12_9AA",         # 0C, 12
+        "Function_13_A0D",         # 0D, 13
+        "Function_14_A66",         # 0E, 14
+        "Function_15_10C0",        # 0F, 15
+        "Function_16_10E2",        # 10, 16
+        "Function_17_112F",        # 11, 17
+    ))
+
+
+    def Function_0_2A8(): pass
+
+    label("Function_0_2A8")
+
+    RunExpression(0x2, (scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_IMOD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    Switch(
+        (scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_END)),
+        (0, "loc_2E8"),
+        (1, "loc_2F4"),
+        (2, "loc_300"),
+        (3, "loc_30C"),
+        (4, "loc_318"),
+        (5, "loc_324"),
+        (6, "loc_330"),
+        (SWITCH_DEFAULT, "loc_33C"),
+    )
+
+
+    label("loc_2E8")
+
+    OP_A0(0xFE, 1450, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_2F4")
+
+    OP_A0(0xFE, 1550, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_300")
+
+    OP_A0(0xFE, 1600, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_30C")
+
+    OP_A0(0xFE, 1400, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_318")
+
+    OP_A0(0xFE, 1650, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_324")
+
+    OP_A0(0xFE, 1350, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_330")
+
+    OP_A0(0xFE, 1500, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_33C")
+
+    OP_A0(0xFE, 1500, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_348")
+
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_35F")
+    OP_A0(0xFE, 1500, 0x0, 0xFB)
+    Jump("loc_348")
+
+    label("loc_35F")
+
+    Return()
+
+    # Function_0_2A8 end
+
+    def Function_1_360(): pass
+
+    label("Function_1_360")
+
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_3C0")
+    OP_95(0xFE, 106130, 0, 11580, 2000, 0x0)
+    OP_95(0xFE, 106130, 0, 8150, 2000, 0x0)
+    OP_95(0xFE, 94190, 0, 8150, 2000, 0x0)
+    OP_95(0xFE, 94190, 0, 11580, 2000, 0x0)
+    Jump("Function_1_360")
+
+    label("loc_3C0")
+
+    Return()
+
+    # Function_1_360 end
+
+    def Function_2_3C1(): pass
+
+    label("Function_2_3C1")
+
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_3EB")
+    OP_94(0xFE, 0xFFFE7366, 0xFFFEBF88, 0xFFFE7F8C, 0xFFFECB72, 0x3E8)
+    Sleep(450)
+    Jump("Function_2_3C1")
+
+    label("loc_3EB")
+
+    Return()
+
+    # Function_2_3C1 end
+
+    def Function_3_3EC(): pass
+
+    label("Function_3_3EC")
+
+    SetChrChipByIndex(0xA, 0x2)
+    SetChrSubChip(0xA, 0x0)
+    EndChrThread(0xA, 0x0)
+    SetChrBattleFlags(0xA, 0x4)
+    SetChrChipByIndex(0xB, 0x3)
+    SetChrSubChip(0xB, 0x0)
+    EndChrThread(0xB, 0x0)
+    SetChrBattleFlags(0xB, 0x4)
+    SetChrChipByIndex(0xF, 0x7)
+    SetChrSubChip(0xF, 0x0)
+    EndChrThread(0xF, 0x0)
+    SetChrBattleFlags(0xF, 0x4)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 7)), scpexpr(EXPR_END)), "loc_42D")
+    Jump("loc_477")
+
+    label("loc_42D")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_477")
+    ClearChrFlags(0x8, 0x80)
+    ClearChrFlags(0x9, 0x80)
+    ClearChrFlags(0xA, 0x80)
+    SetChrFlags(0xA, 0x10)
+    ClearChrFlags(0xB, 0x80)
+    SetChrFlags(0xB, 0x10)
+    ClearChrFlags(0xC, 0x80)
+    ClearChrFlags(0xD, 0x80)
+    SetChrFlags(0xD, 0x10)
+    ClearChrFlags(0xE, 0x80)
+    SetChrFlags(0xE, 0x10)
+    ClearChrFlags(0xF, 0x80)
+    SetChrFlags(0xF, 0x10)
+
+    label("loc_477")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x22, 0)), scpexpr(EXPR_END)), "loc_486")
+    ClearScenarioFlags(0x22, 0)
+    Event(0, 14)
+
+    label("loc_486")
+
+    Return()
+
+    # Function_3_3EC end
+
+    def Function_4_487(): pass
+
+    label("Function_4_487")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 7)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x146, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_4CB")
+    OP_7D(0xAA, 0xAA, 0xFF, 0x0, 0x0)
+    SetMapObjFrame(0xFF, "hikari00_add", 0x1, 0x1)
+    SetMapObjFrame(0xFF, "hikari01_add", 0x1, 0x1)
+    Jump("loc_4F3")
+
+    label("loc_4CB")
+
+    SetMapObjFrame(0xFF, "hikari00_add", 0x0, 0x1)
+    SetMapObjFrame(0xFF, "hikari01_add", 0x0, 0x1)
+
+    label("loc_4F3")
+
+    OP_65(0x0, 0x1)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 7)), scpexpr(EXPR_END)), "loc_505")
+    Jump("loc_512")
+
+    label("loc_505")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_512")
+    OP_66(0x0, 0x1)
+
+    label("loc_512")
+
+    Return()
+
+    # Function_4_487 end
+
+    def Function_5_513(): pass
+
+    label("Function_5_513")
+
+    Call(0, 6)
+    Return()
+
+    # Function_5_513 end
+
+    def Function_6_517(): pass
+
+    label("Function_6_517")
+
+    TalkBegin(0x8)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_5F0")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_58F")
+
+    #C0001
+    ChrTalk(
+        0x8,
+        (
+            "您的同伴们已经\x01",
+            "前往迎宾馆了。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0002
+    ChrTalk(
+        0x8,
+        (
+            "别让迪塔市长和玛丽亚贝尔小姐久等，\x01",
+            "请尽快过去吧。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    SetScenarioFlags(0x0, 0)
+    Jump("loc_5EB")
+
+    label("loc_58F")
+
+
+    #C0003
+    ChrTalk(
+        0x8,
+        (
+            "穿越别墅区，\x01",
+            "就能看到迎宾馆了。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0004
+    ChrTalk(
+        0x8,
+        (
+            "别让迪塔市长和玛丽亚贝尔小姐久等，\x01",
+            "请尽快过去吧。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    label("loc_5EB")
+
+    Jump("loc_615")
+
+    label("loc_5F0")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 2)), scpexpr(EXPR_END)), "loc_5FE")
+    Jump("loc_615")
+
+    label("loc_5FE")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_60C")
+    Jump("loc_615")
+
+    label("loc_60C")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_615")
+
+    label("loc_615")
+
+    TalkEnd(0x8)
+    Return()
+
+    # Function_6_517 end
+
+    def Function_7_619(): pass
+
+    label("Function_7_619")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_6DC")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_68B")
+
+    #C0005
+    ChrTalk(
+        0xFE,
+        (
+            "哎呀呀，不知道洛琪\x01",
+            "能否顺利完成工作。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0006
+    ChrTalk(
+        0xFE,
+        (
+            "……算啦，不管了，\x01",
+            "先把扫除做完吧。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    SetScenarioFlags(0x0, 1)
+    Jump("loc_6D7")
+
+    label("loc_68B")
+
+
+    #C0007
+    ChrTalk(
+        0xFE,
+        (
+            "现在是工作时间，\x01",
+            "不能一直担心\x01",
+            "洛琪那边的情况啊。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0008
+    ChrTalk(
+        0xFE,
+        "先把扫除做完吧。\x02",
+    )
+
+    CloseMessageWindow()
+
+    label("loc_6D7")
+
+    Jump("loc_6F3")
+
+    label("loc_6DC")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_6EA")
+    Jump("loc_6F3")
+
+    label("loc_6EA")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_6F3")
+
+    label("loc_6F3")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_7_619 end
+
+    def Function_8_6F7(): pass
+
+    label("Function_8_6F7")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_74E")
+
+    #C0009
+    ChrTalk(
+        0xFE,
+        (
+            "哎呀呀，真是个\x01",
+            "不错的房间啊。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0010
+    ChrTalk(
+        0xFE,
+        (
+            "看来可以舒服地\x01",
+            "休息到明天了。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    Jump("loc_765")
+
+    label("loc_74E")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_75C")
+    Jump("loc_765")
+
+    label("loc_75C")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_765")
+
+    label("loc_765")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_8_6F7 end
+
+    def Function_9_769(): pass
+
+    label("Function_9_769")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_7C2")
+
+    #C0011
+    ChrTalk(
+        0xFE,
+        (
+            "酒店的服务\x01",
+            "也相当到位。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0012
+    ChrTalk(
+        0xFE,
+        (
+            "呵呵，不如让他们\x01",
+            "给我们送杯葡萄酒吧。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    Jump("loc_7D9")
+
+    label("loc_7C2")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_7D0")
+    Jump("loc_7D9")
+
+    label("loc_7D0")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_7D9")
+
+    label("loc_7D9")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_9_769 end
+
+    def Function_10_7DD(): pass
+
+    label("Function_10_7DD")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_91D")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_8C3")
+
+    #C0013
+    ChrTalk(
+        0xFE,
+        (
+            "听说彩虹剧团的演员们\x01",
+            "今天就住在\x01",
+            "上面的楼层。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0014
+    ChrTalk(
+        0xFE,
+        (
+            "说不定她们就住在\x01",
+            "我正上方的房间……\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0015
+    ChrTalk(
+        0xFE,
+        (
+            "一想到这里，\x01",
+            "真是兴奋难耐呀。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    OP_63(0x101, 0x0, 2000, 0x10, 0x13, 0xFA, 0x1)
+    Sound(23, 0, 100, 0)
+    Sleep(1000)
+
+    #C0016
+    ChrTalk(
+        0x101,
+        "#00006F（真抱歉，正上方是我们的房间……）\x02",
+    )
+
+    CloseMessageWindow()
+    SetScenarioFlags(0x0, 2)
+    Jump("loc_918")
+
+    label("loc_8C3")
+
+
+    #C0017
+    ChrTalk(
+        0xFE,
+        (
+            "彩虹剧团的演员们\x01",
+            "说不定就住在我正上方的房间……\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0018
+    ChrTalk(
+        0xFE,
+        "一想到这里，就心跳加快呢。\x02",
+    )
+
+    CloseMessageWindow()
+
+    label("loc_918")
+
+    Jump("loc_934")
+
+    label("loc_91D")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_92B")
+    Jump("loc_934")
+
+    label("loc_92B")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_934")
+
+    label("loc_934")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_10_7DD end
+
+    def Function_11_938(): pass
+
+    label("Function_11_938")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_98F")
+
+    #C0019
+    ChrTalk(
+        0xFE,
+        (
+            "好，这就去西餐厅\x01",
+            "吃顿豪华大餐吧。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0020
+    ChrTalk(
+        0xFE,
+        (
+            "听说那里的夜景\x01",
+            "很漂亮哦。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    Jump("loc_9A6")
+
+    label("loc_98F")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_99D")
+    Jump("loc_9A6")
+
+    label("loc_99D")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_9A6")
+
+    label("loc_9A6")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_11_938 end
+
+    def Function_12_9AA(): pass
+
+    label("Function_12_9AA")
+
+    TalkBegin(0xFE)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 5)), scpexpr(EXPR_END)), "loc_9F2")
+
+    #C0021
+    ChrTalk(
+        0xFE,
+        (
+            "不知在西餐厅\x01",
+            "能否看到烟花。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0022
+    ChrTalk(
+        0xFE,
+        "呵呵，好期待啊。\x02",
+    )
+
+    CloseMessageWindow()
+    Jump("loc_A09")
+
+    label("loc_9F2")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x145, 1)), scpexpr(EXPR_END)), "loc_A00")
+    Jump("loc_A09")
+
+    label("loc_A00")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x144, 5)), scpexpr(EXPR_END)), "loc_A09")
+
+    label("loc_A09")
+
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_12_9AA end
+
+    def Function_13_A0D(): pass
+
+    label("Function_13_A0D")
+
+    TalkBegin(0xFE)
+
+    #C0023
+    ChrTalk(
+        0xFE,
+        (
+            "呵呵呵……我很中意\x01",
+            "这里的别墅。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0024
+    ChrTalk(
+        0xFE,
+        (
+            "回去之后，一定要赶快和\x01",
+            "克莱德先生联系。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_13_A0D end
+
+    def Function_14_A66(): pass
+
+    label("Function_14_A66")
+
+    EventBegin(0x0)
+    FadeToDark(0, 0, -1)
+    LoadChrToIndex("chr/ch08500.itc", 0x1E)
+    LoadChrToIndex("chr/ch05200.itc", 0x1F)
+    LoadChrToIndex("chr/ch05100.itc", 0x20)
+    LoadChrToIndex("chr/ch07500.itc", 0x21)
+    LoadChrToIndex("chr/ch10000.itc", 0x22)
+    LoadChrToIndex("chr/ch02702.itc", 0x23)
+    LoadChrToIndex("chr/ch25800.itc", 0x24)
+    LoadChrToIndex("chr/ch02751.itc", 0x25)
+    ClearChrFlags(0x4, 0x80)
+    ClearChrBattleFlags(0x4, 0x8000)
+    ClearChrFlags(0x5, 0x80)
+    ClearChrBattleFlags(0x5, 0x8000)
+    SetChrChipByIndex(0x10, 0x1E)
+    SetChrSubChip(0x10, 0x0)
+    ClearChrFlags(0x10, 0x80)
+    SetChrFlags(0x10, 0x8000)
+    SetChrChipByIndex(0x13, 0x1F)
+    SetChrSubChip(0x13, 0x0)
+    ClearChrFlags(0x13, 0x80)
+    SetChrFlags(0x13, 0x8000)
+    SetChrChipByIndex(0x12, 0x20)
+    SetChrSubChip(0x12, 0x0)
+    ClearChrFlags(0x12, 0x80)
+    SetChrFlags(0x12, 0x8000)
+    SetChrChipByIndex(0x11, 0x21)
+    SetChrSubChip(0x11, 0x0)
+    ClearChrFlags(0x11, 0x80)
+    SetChrFlags(0x11, 0x8000)
+    SetChrChipByIndex(0x14, 0x22)
+    SetChrSubChip(0x14, 0x0)
+    ClearChrFlags(0x14, 0x80)
+    SetChrFlags(0x14, 0x8000)
+    SetChrChipByIndex(0x15, 0x25)
+    SetChrSubChip(0x15, 0x0)
+    ClearChrFlags(0x15, 0x80)
+    SetChrFlags(0x15, 0x8000)
+    SetChrPos(0x15, -10260, -2040, -2830, 0)
+    SetChrFlags(0x15, 0x20)
+    OP_52(0x15, 0x7, (scpexpr(EXPR_PUSH_LONG, 0x6A4), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    SetChrFlags(0x15, 0x8)
+    SetChrChipByIndex(0x8, 0x24)
+    SetChrSubChip(0x8, 0x0)
+    ClearChrFlags(0x8, 0x80)
+    SetChrPos(0x8, -2500, 0, 7000, 135)
+    OP_4B(0x8, 0xFF)
+    SetChrPos(0x101, -1000, 0, 6000, 315)
+    SetChrPos(0x102, -1500, 0, 5000, 315)
+    SetChrPos(0x103, -500, 0, 4500, 315)
+    SetChrPos(0x104, -1000, 0, 7200, 225)
+    SetChrPos(0x109, 0, 0, 6000, 270)
+    SetChrPos(0x105, 0, 0, 7200, 225)
+    SetChrPos(0x10, 1000, 0, 6350, 270)
+    SetChrPos(0x13, 350, 0, 4750, 315)
+    SetChrPos(0x12, 1350, 0, 5050, 270)
+    SetChrPos(0x11, -100, 0, 3250, 315)
+    SetChrPos(0x14, -1350, 0, 3900, 315)
+    OP_68(-1300, 2700, 5700, 0)
+    MoveCamera(320, 23, 0, 0)
+    OP_6E(450, 0)
+    SetCameraDistance(21500, 0)
+    FadeToBright(2000, 0)
+    OP_68(-1300, 1200, 5700, 3000)
+    OP_6F(0x79)
+    OP_0D()
+
+    #C0025
+    ChrTalk(
+        0x101,
+        "#00006F#6P是吗，果然也不在二层……\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0026
+    ChrTalk(
+        0x8,
+        "#5P真、真对不起。\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0027
+    ChrTalk(
+        0x8,
+        (
+            "#5P我们终究不能把所有\x01",
+            "客房搜查一遍……\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0028
+    ChrTalk(
+        0x102,
+        (
+            "#00102F#6P哪里，在大半夜麻烦你们，\x01",
+            "这就已经很过意不去了。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0029
+    ChrTalk(
+        0x14,
+        (
+            "#04208F#6P真是的，那小鬼头\x01",
+            "竟然还会梦游……\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0030
+    ChrTalk(
+        0x11,
+        "#05906F#6P实在是让人担心啊……\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0031
+    ChrTalk(
+        0x10,
+        (
+            "#06411F#12P到、到底去\x01",
+            "哪里了呢？\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0032
+    ChrTalk(
+        0x13,
+        "#01808F#12P………………………………\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0033
+    ChrTalk(
+        0x103,
+        (
+            "#00206F#6P……我使用传感器\x01",
+            "都没有感应到……\x02\x03",
+
+            "#00208F琪雅究竟会跑到什么地方……\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    OP_57(0x0)
+    OP_5A()
+    Sound(3054, 255, 100, 0)    #voice#Zeit
+    Sleep(800)
+    OP_63(0x101, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x102, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x103, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    Sleep(50)
+    OP_63(0x104, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x109, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x105, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    Sleep(50)
+    OP_63(0x12, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x11, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x13, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    OP_63(0x14, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
+    Sleep(1000)
+    OP_68(-2150, 1200, 5200, 2000)
+    ClearChrFlags(0x15, 0x8)
+    BeginChrThread(0x15, 3, 0, 16)
+
+    def lambda_EFC():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x101, 2, lambda_EFC)
+
+    def lambda_F09():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x102, 2, lambda_F09)
+    Sleep(50)
+
+    def lambda_F19():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x103, 2, lambda_F19)
+
+    def lambda_F26():
+        OP_93(0xFE, 0xE1, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x104, 2, lambda_F26)
+    Sleep(50)
+
+    def lambda_F36():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x109, 2, lambda_F36)
+
+    def lambda_F43():
+        OP_93(0xFE, 0xE1, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x105, 2, lambda_F43)
+    Sleep(50)
+
+    def lambda_F53():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x12, 2, lambda_F53)
+
+    def lambda_F60():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x11, 2, lambda_F60)
+    Sleep(50)
+
+    def lambda_F70():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x13, 2, lambda_F70)
+
+    def lambda_F7D():
+        OP_93(0xFE, 0x10E, 0x1F4)
+        ExitThread()
+
+    QueueWorkItem(0x14, 2, lambda_F7D)
+    WaitChrThread(0x101, 2)
+    WaitChrThread(0x102, 2)
+    WaitChrThread(0x103, 2)
+    WaitChrThread(0x104, 2)
+    WaitChrThread(0x109, 2)
+    WaitChrThread(0x105, 2)
+    WaitChrThread(0x12, 2)
+    WaitChrThread(0x11, 2)
+    WaitChrThread(0x13, 2)
+    WaitChrThread(0x14, 2)
+    WaitChrThread(0x15, 3)
+    OP_6F(0x79)
+
+    #C0034
+    ChrTalk(
+        0x12,
+        "#01705F#12P啊……\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0035
+    ChrTalk(
+        0x104,
+        "#00300F#11P哦哦，你来了啊！\x02",
+    )
+
+    CloseMessageWindow()
+    OP_57(0x0)
+    OP_5A()
+    #Sound(3060, 255, 70, 0)    #voice#Zeit
+
+    #C0036
+    ChrTalk(
+        0x15,
+        "#01201F#5P#30W咕呜呜……嗷。\x02",
+    )
+
+    Sleep(300)
+    OP_82(0x64, 0x0, 0xBB8, 0x12C)
+    CloseMessageWindow()
+    Sleep(150)
+    BeginChrThread(0x15, 3, 0, 17)
+    Sleep(1000)
+
+    #C0037
+    ChrTalk(
+        0x101,
+        "#00011F#11P喂、喂……？\x02",
+    )
+
+    CloseMessageWindow()
+
+    #C0038
+    ChrTalk(
+        0x103,
+        (
+            "#00201F#12P它说……\x01",
+            "『跟我来，在这边』。\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    #C0039
+    ChrTalk(
+        0x109,
+        "#10101F#12P赶快追上去吧！\x02",
+    )
+
+    CloseMessageWindow()
+    FadeToDark(1000, 0, -1)
+    OP_0D()
+    EndChrThread(0x15, 0x3)
+    EndChrThread(0x15, 0x0)
+    SetScenarioFlags(0x22, 0)
+    NewScene("t102B", 0, 0, 0)
+    IdleLoop()
+    Return()
+
+    # Function_14_A66 end
+
+    def Function_15_10C0(): pass
+
+    label("Function_15_10C0")
+
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_10E1")
+    Sound(845, 0, 30, 0)
+    OP_A1(0xFE, 0x7D0, 0x5, 0x0, 0x1, 0x2, 0x3, 0x4)
+    Jump("Function_15_10C0")
+
+    label("loc_10E1")
+
+    Return()
+
+    # Function_15_10C0 end
+
+    def Function_16_10E2(): pass
+
+    label("Function_16_10E2")
+
+    BeginChrThread(0xFE, 0, 0, 15)
+    OP_95(0xFE, -8730, 10, 1400, 5000, 0x1)
+    OP_95(0xFE, -4500, 0, 5200, 5000, 0x0)
+    OP_93(0xFE, 0x5A, 0x0)
+    EndChrThread(0xFE, 0x0)
+    SetChrChipByIndex(0xFE, 0x23)
+    SetChrSubChip(0xFE, 0x0)
+    OP_52(0xFE, 0x7, (scpexpr(EXPR_PUSH_LONG, 0x6A4), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    Return()
+
+    # Function_16_10E2 end
+
+    def Function_17_112F(): pass
+
+    label("Function_17_112F")
+
+    SetChrChipByIndex(0xFE, 0x25)
+    SetChrSubChip(0xFE, 0x0)
+    OP_52(0xFE, 0x7, (scpexpr(EXPR_PUSH_LONG, 0x6A4), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    BeginChrThread(0xFE, 0, 0, 15)
+    OP_93(0xFE, 0xE1, 0x320)
+    OP_95(0xFE, -8730, 10, 1400, 5000, 0x1)
+    OP_95(0xFE, -10260, -2040, -2830, 5000, 0x0)
+    EndChrThread(0xFE, 0x0)
+    Return()
+
+    # Function_17_112F end
+
+    SaveToFile()
+
+Try(main)
