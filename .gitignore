@@ -137,3 +137,16 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# dir pack
+pack/
+
+# dir tmp
+tmp/
+
+# import_py_report.txt
+import_py_report.txt
+
+
+
