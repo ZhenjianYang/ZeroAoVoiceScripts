@@ -21,7 +21,7 @@ It is defined by **jis2ucs.bin** and **ucs2jis.bin**
 
 - [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), forked from [Ouroboros/EDDecompiler](https://github.com/Ouroboros/EDDecompiler)   
 
-- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked from [Ouroboros/EDDecompiler](https://github.com/Ouroboros/PyLibs)   
+- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked from [Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs)   
 
 # ZeroAoVoiceScripts
 PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
@@ -45,4 +45,4 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 
 - [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), forked自[Ouroboros/EDDecompiler](https://github.com/Ouroboros/EDDecompiler)   
 
-- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked自[Ouroboros/EDDecompiler](https://github.com/Ouroboros/PyLibs) 
+- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked自[Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs) 
