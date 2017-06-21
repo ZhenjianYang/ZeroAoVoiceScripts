@@ -1,5 +1,14 @@
 # ZeroAoVoiceScripts
-Voice Scripts for PC/PSP games *Zero no Kiseki* & *Ao no Kiseki*
+Voice Scripts for PC/PSP games *Zero no Kiseki* & *Ao no Kiseki*    
+They can be used for project [SoraVoce](https://github.com/ZhenjianYang/SoraVoice)(for PC versions)
+and [ZeroAoVoice-PSP](https://github.com/ZhenjianYang/ZeroAoVoice-PSP)(for PSP versions)
+
+These platforms/versions' scripts were done:
+
+- **PC** : **Chinese Simplified**   
+- **PSP** : **Japanese**, **Chinese Simplified(unofficial)**   
+
+## Follow these steps
 
 1.  **Clone**   
   `git clone --recursive https://github.com/ZhenjianYang/ZeroAoVoiceScripts`
@@ -10,7 +19,7 @@ Voice Scripts for PC/PSP games *Zero no Kiseki* & *Ao no Kiseki*
 
 3.  **Generate script files**   
   Just run the batch file `DoAll.bat`   
-  New script files will be packed in folder `pack`
+  New script files will be packed under folder `pack`
 
 ## About tools/cn_psp_sjis
 
@@ -24,9 +33,18 @@ It is defined by **jis2ucs.bin** and **ucs2jis.bin**
 - [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked from [Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs)   
 
 # ZeroAoVoiceScripts
-PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
+PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本    
+语音脚本可以用于项目[SoraVoce](https://github.com/ZhenjianYang/SoraVoice)(PC版)
+以及[ZeroAoVoice-PSP](https://github.com/ZhenjianYang/ZeroAoVoice-PSP)(PSP版)
 
-1.  **获取**   
+以下平台/版本的语音脚本已完成：
+
+- **PC** : **简体中文版**   
+- **PSP** : **日文版**, **简体中文版(非官方)**   
+
+## 步骤   
+
+1.  **获取**   
   `git clone --recursive https://github.com/ZhenjianYang/ZeroAoVoiceScripts`
   
 2.  **安装python3以及7zip**   
