@@ -12,4 +12,4 @@ set input=%curp%\tmp\py.%curd%
 set output=%curp%\tmp\scena
 
 mkdir "%output%"
-for %%i in ("%input%\*.py") do python "%%i" --cp=gbk "%output%"
+for %%i in ("%input%\*.py") do py "%%i" --cp=gbk "%output%"

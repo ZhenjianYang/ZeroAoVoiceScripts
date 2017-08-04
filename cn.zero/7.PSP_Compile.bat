@@ -12,4 +12,4 @@ set input=%curp%\tmp\psp.py.%curd%
 set output=%curp%\tmp\scena.%curd%
 
 mkdir "%output%"
-for %%i in ("%input%\*.py") do python "%%i" "--cppy=%toolsp%\cn_psp_sjis\cn_psp_sjis.py" "%output%"
+for %%i in ("%input%\*.py") do py "%%i" "--cppy=%toolsp%\cn_psp_sjis\cn_psp_sjis.py" "%output%"

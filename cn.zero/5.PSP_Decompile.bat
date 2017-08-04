@@ -13,5 +13,5 @@ set output=%curp%\tmp\psp.tmp.py.%curd%
 
 md "%output%"
 
-python "%toolsp%\EDDecompiler\Decompiler\ZeroScenarioScript.py" "%input%"
+py "%toolsp%\EDDecompiler\Decompiler\ZeroScenarioScript.py" "%input%"
 move /y "%input%\*.py" "%output%\"
