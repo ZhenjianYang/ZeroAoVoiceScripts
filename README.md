@@ -44,7 +44,7 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 
 ## 步骤   
 
-1.  **获取**   
+1.  **获取**   
   `git clone --recursive https://github.com/ZhenjianYang/ZeroAoVoiceScripts`
   
 2.  **安装python3以及7zip**   
