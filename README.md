@@ -61,6 +61,6 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 
 ## 依赖
 
-- [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), forked自[Ouroboros/EDDecompiler](https://github.com/Ouroboros/EDDecompiler)   
+- [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), Fork自[Ouroboros/EDDecompiler](https://github.com/Ouroboros/EDDecompiler)   
 
-- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), forked自[Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs) 
+- [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), Fork自[Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs) 
