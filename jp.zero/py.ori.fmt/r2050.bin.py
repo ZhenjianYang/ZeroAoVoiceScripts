@@ -288,17 +288,21 @@ def main():
 
     label("Function_2_CF6")
 
-    OP_16(0x2, 0xD0, 0x7, 0x0)
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    ExitThread()
-    OP_82(0x1C401, 0x2214205, 0x1E03251E, 0x9080326)
+    OP_16(0x2, 2000, 0, 0, 386, 452, 557974784)
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x64, 5)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x64, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_D22")
+    SetMapFlags(0x10000000)
+    Event(0, 14)
+
+    label("loc_D22")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x7E, 1)), scpexpr(EXPR_END)), "loc_D3A")
+    ClearScenarioFlags(0x7E, 1)
+    OP_D0(0x1, (scpexpr(EXPR_PUSH_LONG, 0xB), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    Event(0, 11)
+
+    label("loc_D3A")
+
+    Call(0, 9)
     Return()
 
     # Function_2_CF6 end
