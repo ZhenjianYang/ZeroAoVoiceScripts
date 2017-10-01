@@ -2135,7 +2135,7 @@ def main():
     CloseMessageWindow()
     OP_93(0x101, 0x0, 0x1F4)
     Sleep(300)
-    Sound(1000, 255, 100, 0)    #voice#Lloyd
+    #Sound(1000, 255, 100, 0)    #voice#Lloyd
     Sleep(500)
 
     #C0039
