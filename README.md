@@ -8,6 +8,7 @@ These platforms/versions' scripts were done:
 - **PC** : **Chinese Simplified**   
 - **PSP** : **Japanese**, **Chinese Simplified(unofficial)**   
 
+Get them at [Release](https://github.com/ZhenjianYang/ZeroAoVoiceScripts/releases/latest), or   
 ## Follow these steps
 
 1.  **Clone**   
