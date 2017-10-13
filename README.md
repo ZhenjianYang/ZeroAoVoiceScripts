@@ -43,6 +43,8 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 - **PC** : **简体中文版**   
 - **PSP** : **日文版**, **简体中文版(非官方)**   
 
+在[这里](https://github.com/ZhenjianYang/ZeroAoVoiceScripts/releases/latest)可以获取到上述语音脚本。或者，   
+
 ## 步骤   
 
 1.  **获取**   
