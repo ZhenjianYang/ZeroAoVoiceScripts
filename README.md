@@ -3,10 +3,16 @@ Voice Scripts for PC/PSP games *Zero no Kiseki* & *Ao no Kiseki*
 They can be used for project [SoraVoce](https://github.com/ZhenjianYang/SoraVoice)(for PC versions)
 and [ZeroAoVoice-PSP](https://github.com/ZhenjianYang/ZeroAoVoice-PSP)(for PSP versions)
 
-These platforms/versions' scripts were done:
+Scripts for these games were done:
 
-- **PC** : **Chinese Simplified**   
-- **PSP** : **Japanese**, **Chinese Simplified(unofficial)**   
+|Game Title                 |Publisher|Platform    |Language          |             |
+|---------------------------|---------|------------|------------------|-------------|
+|*Zero no Kiseki*           |Joyoland |PC          |Chinese Simplified|
+|*Ao no Kiseki*             |Joyoland |PC          |Chinese Simplified|
+|*Zero no Kiseki*           |Falcom   |PSP & PC    |Japanese          |
+|*Ao no Kiseki*             |Falcom   |PSP         |Japanese          |
+|*Zero no Kiseki*           |Falcom   |PSP         |Chinese Simplified|Unofficial translation
+|*Ao no Kiseki*             |Falcom   |PSP         |Chinese Simplified|Unofficial translation
 
 Get them at [Release](https://github.com/ZhenjianYang/ZeroAoVoiceScripts/releases/latest), or   
 ## Follow these steps
@@ -16,7 +22,7 @@ Get them at [Release](https://github.com/ZhenjianYang/ZeroAoVoiceScripts/release
   
 2.  **Install python3 and 7zip**   
   We assume the path of 7zip is `C:\Program Files\7-Zip\7z.exe`  
-  Some python libs need to be installed. Please refer to [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler).
+  Some python libs need to be installed. Please refer to [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler#1-install-python3).
 
 3.  **Generate script files**   
   Just run the batch file `DoAll.bat`   
@@ -40,8 +46,14 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 
 以下平台/版本的语音脚本已完成：
 
-- **PC** : **简体中文版**   
-- **PSP** : **日文版**, **简体中文版(非官方)**   
+|游戏标题   |发行商   |平台      |语言    |        |
+|-----------|---------|----------|--------|--------|
+|零之轨迹   |欢乐百世 |PC        |简体中文|
+|碧之轨迹   |欢乐百世 |PC        |简体中文|
+|零之轨迹   |Falcom   |PSP & PC  |日文    |
+|碧之轨迹   |Falcom   |PSP       |日文    |
+|零之轨迹   |Falcom   |PSP       |简体中文|非官方翻译
+|碧之轨迹   |Falcom   |PSP       |简体中文|非官方翻译
 
 在[这里](https://github.com/ZhenjianYang/ZeroAoVoiceScripts/releases/latest)可以获取到上述语音脚本。或者，   
 
@@ -52,7 +64,7 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
   
 2.  **安装python3以及7zip**   
   这里假定7zip路径为：`C:\Program Files\7-Zip\7z.exe`   
-  还需要安装一些python库，具体请参考[tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler)。
+  还需要安装一些python库，具体请参考[tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler#1-install-python3)。
 
 3.  **生成脚本文件**   
   执行`DoAll.bat`即可    
@@ -64,6 +76,6 @@ PC/PSP游戏《零之轨迹》&《碧之轨迹》的语音脚本
 
 ## 依赖
 
-- [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), Fork自[Ouroboros/EDDecompiler](https://github.com/Ouroboros/EDDecompiler)   
+- [tools/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler), Fork自[Ouroboros/EDDecompiler](https://github.com/ZhenjianYang/EDDecompiler#1-install-python3)   
 
 - [tools/PyLibs](https://github.com/ZhenjianYang/PyLibs), Fork自[Ouroboros/PyLibs](https://github.com/Ouroboros/PyLibs) 
