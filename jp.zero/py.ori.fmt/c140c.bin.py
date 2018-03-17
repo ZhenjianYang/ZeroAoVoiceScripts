@@ -7539,7 +7539,7 @@ def main():
     #C0304
     ChrTalk(
         0x2A,
-        "#30W#0013F#11P唔……！\x02",
+        "#30W#0013F#11Pくっ……！\x02",
     )
 
     CloseMessageWindow()
