@@ -5720,7 +5720,7 @@ def main():
     NpcTalk(
         0xC,
         "歼灭天使玲",
-        "#6P#3307F#4S『双重加农炮强打』！！\x02",
+        "#6P#3307F#4S『双重加农炮强击』！！\x02",
     )
 
     CloseMessageWindow()
