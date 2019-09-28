@@ -3845,7 +3845,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '旧矿山的钥匙'),
+            scpstr(SCPSTR_CODE_ITEM, 0x323),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -6341,7 +6341,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '旧矿山的钥匙'),
+            scpstr(SCPSTR_CODE_ITEM, 0x323),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

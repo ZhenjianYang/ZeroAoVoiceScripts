@@ -6849,7 +6849,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '明王铃'),
+            scpstr(SCPSTR_CODE_ITEM, 0xAB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -6874,7 +6874,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "旁边\x01",
             "有一封信。\x02",
@@ -6929,7 +6929,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -6954,7 +6954,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "旁边\x01",
             "有一封信。\x02",
@@ -7008,7 +7008,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -7033,7 +7033,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "旁边\x01",
             "有一封信。\x02",
@@ -7085,7 +7085,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -7110,7 +7110,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "旁边\x01",
             "有一封信。\x02",
@@ -7150,7 +7150,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -7175,7 +7175,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "旁边\x01",
             "有一封信。\x02",
@@ -7213,7 +7213,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -7543,7 +7543,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '天上面『日轮』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x190),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7566,7 +7566,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神仙麻婆『麒麟』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x193),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7589,7 +7589,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '天下一品炒饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x196),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7612,7 +7612,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '极品牛排『刚』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x199),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7635,7 +7635,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '三日久煮炖菜'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7658,7 +7658,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '大地锅『烂漫』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7681,7 +7681,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '天河锅『瑞云』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7704,7 +7704,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '特快炸鱼『疾』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7727,7 +7727,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '丰盛蛋包饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A8),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7750,7 +7750,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '翠玉面『治愈』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1AB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7773,7 +7773,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '双层汉堡'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1AE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7796,7 +7796,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '四味奶酪比萨'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7819,7 +7819,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '强效三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7842,7 +7842,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '真心盒饭『诚』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7865,7 +7865,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '辉煌汤'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1BA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7888,7 +7888,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '奇幻糖果'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1BD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7911,7 +7911,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '天上甜点『夜月』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C0),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7934,7 +7934,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '宝物甜点『白雪』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7957,7 +7957,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '冰凉甜点『七彩』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -7980,7 +7980,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '绝品甜点『瞬动』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C9),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -8003,7 +8003,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '玉露『绿风』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1CC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -8026,7 +8026,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '甘露『紫绀』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1CF),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -8049,7 +8049,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '黑茶『梦魇杀手』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )
@@ -8072,7 +8072,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '秘水『桃源乡』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "供奉出了。\x02",
         )

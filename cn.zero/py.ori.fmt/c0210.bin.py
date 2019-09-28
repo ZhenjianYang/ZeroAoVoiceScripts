@@ -4705,7 +4705,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '浓厚卡布奇诺'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法被教授了。\x02",
         )
@@ -4717,7 +4717,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '浓厚卡布奇诺'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )
@@ -10439,7 +10439,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '料理手册'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -10480,7 +10480,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '鲜美三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法被教授了。\x02",
         )
@@ -10492,7 +10492,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '鲜美三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )
@@ -11117,10 +11117,10 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×４\x01",
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×３交给了对方。\x02",
         )
@@ -11548,7 +11548,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×２交给了对方。\x02",
         )

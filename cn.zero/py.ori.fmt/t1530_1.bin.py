@@ -11351,7 +11351,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '选秀活动特别奖纪念盾'),
+            scpstr(SCPSTR_CODE_ITEM, 0x341),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -12871,7 +12871,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '选秀活动特别奖纪念盾'),
+            scpstr(SCPSTR_CODE_ITEM, 0x342),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

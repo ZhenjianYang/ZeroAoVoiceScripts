@@ -5060,7 +5060,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '钢竿侵略者'),
+            scpstr(SCPSTR_CODE_ITEM, 0x17),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -5288,7 +5288,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '钢竿侵略者'),
+            scpstr(SCPSTR_CODE_ITEM, 0x17),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -5694,7 +5694,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '水中支配者'),
+            scpstr(SCPSTR_CODE_ITEM, 0x18),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

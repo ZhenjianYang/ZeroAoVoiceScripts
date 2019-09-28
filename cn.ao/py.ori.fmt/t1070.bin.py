@@ -2875,7 +2875,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '翠耀石挂饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x398),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -3698,7 +3698,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '苍耀石挂饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x399),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -4281,7 +4281,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '红耀石挂饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x39A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -4715,7 +4715,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '琥耀石挂饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x39B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -5092,7 +5092,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '金耀石挂饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x39C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

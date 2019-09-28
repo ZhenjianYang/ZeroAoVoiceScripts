@@ -10887,7 +10887,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '选秀活动特别奖纪念盾'),
+            scpstr(SCPSTR_CODE_ITEM, 0x343),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

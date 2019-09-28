@@ -1452,13 +1452,13 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '特里斯坦号'),
+            scpstr(SCPSTR_CODE_ITEM, 0x349),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02\x03",
-            scpstr(SCPSTR_CODE_ITEM, '优雅衣镜'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02\x03",
-            scpstr(SCPSTR_CODE_ITEM, '八音盒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )

@@ -8481,7 +8481,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '绀碧竿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x344),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

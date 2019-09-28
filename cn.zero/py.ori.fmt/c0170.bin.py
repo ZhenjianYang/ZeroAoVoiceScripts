@@ -12190,7 +12190,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '罗赞贝尔克人偶·Ｍ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x337),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "拿到了。\x02",
         )

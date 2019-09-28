@@ -3472,7 +3472,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '影丸储蓄罐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -3491,7 +3491,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '咪雪玩偶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -3510,7 +3510,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '冲浪板'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -4355,7 +4355,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '点唱机'),
+            scpstr(SCPSTR_CODE_ITEM, 0x34F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -4537,7 +4537,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '封技之刃'),
+            scpstr(SCPSTR_CODE_ITEM, 0x9A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

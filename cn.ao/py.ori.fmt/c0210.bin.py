@@ -604,7 +604,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '最终旅途'),
+            scpstr(SCPSTR_CODE_ITEM, 0x214),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -1841,7 +1841,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '赏月面包'),
+            scpstr(SCPSTR_CODE_ITEM, 0x210),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -1949,7 +1949,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '奶油菠萝包'),
+            scpstr(SCPSTR_CODE_ITEM, 0x211),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -2009,7 +2009,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '贝奈特绝品'),
+            scpstr(SCPSTR_CODE_ITEM, 0x212),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -2068,7 +2068,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '极厚猪排三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x213),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -3038,7 +3038,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '极厚猪排三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x213),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -7625,7 +7625,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '梅琳的伞'),
+            scpstr(SCPSTR_CODE_ITEM, 0x325),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -8098,7 +8098,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '贝奈特绝品'),
+            scpstr(SCPSTR_CODE_ITEM, 0x212),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

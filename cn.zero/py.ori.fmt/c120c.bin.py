@@ -2538,7 +2538,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '冰凉甜点『七彩』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -2642,7 +2642,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '混合冰激凌'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法被教授了。\x02",
         )
@@ -2654,7 +2654,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '混合冰激凌'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )

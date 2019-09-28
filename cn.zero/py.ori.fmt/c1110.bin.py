@@ -7511,7 +7511,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '还魂粉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7835,7 +7835,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '地下空间Ｂ区域的钥匙'),
+            scpstr(SCPSTR_CODE_ITEM, 0x322),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "得到了。\x02",
         )
@@ -10435,7 +10435,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '破言之牙'),
+            scpstr(SCPSTR_CODE_ITEM, 0xA1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了\x02",
         )

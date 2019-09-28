@@ -1773,7 +1773,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '零之神珠'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3A1),
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",

@@ -1941,7 +1941,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '白金'),
+            scpstr(SCPSTR_CODE_ITEM, 0xE0),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -1967,7 +1967,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '幻象'),
+            scpstr(SCPSTR_CODE_ITEM, 0xE1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -1993,7 +1993,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神佑'),
+            scpstr(SCPSTR_CODE_ITEM, 0xE5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -2019,7 +2019,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '王权'),
+            scpstr(SCPSTR_CODE_ITEM, 0xE6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -2996,7 +2996,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了３个。\x02",
         )
@@ -7584,7 +7584,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "艾莉把",
-            scpstr(SCPSTR_CODE_ITEM, '妖精'),
+            scpstr(SCPSTR_CODE_ITEM, 0xDE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7607,7 +7607,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "瓦吉把",
-            scpstr(SCPSTR_CODE_ITEM, '利爪'),
+            scpstr(SCPSTR_CODE_ITEM, 0xDF),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -8027,7 +8027,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精神１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x74),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -8897,7 +8897,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '鹰目'),
+            scpstr(SCPSTR_CODE_ITEM, 0xB7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

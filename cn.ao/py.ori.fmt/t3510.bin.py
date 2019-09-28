@@ -2607,7 +2607,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '易碎品的小包裹'),
+            scpstr(SCPSTR_CODE_ITEM, 0x331),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -2627,7 +2627,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '发往住宅街的送货单'),
+            scpstr(SCPSTR_CODE_ITEM, 0x332),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

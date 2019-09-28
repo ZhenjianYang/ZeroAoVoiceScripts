@@ -12189,7 +12189,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×２收下了。\x02",
         )
@@ -12215,7 +12215,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×３收下了。\x02",
         )
@@ -12240,7 +12240,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×２收下了。\x02",
         )
@@ -12276,7 +12276,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '龙老炒饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x197),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的食谱收下了。\x02",
         )
@@ -12288,7 +12288,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '龙老炒饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x197),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )
@@ -12357,7 +12357,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '龙老炒饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x197),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

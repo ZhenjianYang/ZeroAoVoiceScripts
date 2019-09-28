@@ -8871,7 +8871,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '修利的帽子'),
+            scpstr(SCPSTR_CODE_ITEM, 0x39D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -9126,7 +9126,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '尼克鲁的问诊表'),
+            scpstr(SCPSTR_CODE_ITEM, 0x32D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

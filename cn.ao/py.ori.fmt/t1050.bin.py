@@ -2203,7 +2203,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '塞姆里亚石'),
+            scpstr(SCPSTR_CODE_ITEM, 0x396),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

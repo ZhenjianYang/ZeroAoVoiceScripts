@@ -4750,7 +4750,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '纯白之石'),
+            scpstr(SCPSTR_CODE_ITEM, 0x32B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -6022,7 +6022,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '罗赞贝尔克人偶·Ｍ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x337),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -6036,7 +6036,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '罗赞贝尔克人偶·Ｓ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x338),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )
@@ -6050,7 +6050,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '波波碰！β版'),
+            scpstr(SCPSTR_CODE_ITEM, 0x339),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交出了。\x02",
         )

@@ -670,7 +670,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '极苦面『断头』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x192),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -694,7 +694,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '炼狱麻婆『阎魔』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x195),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -718,7 +718,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '杂色锅巴饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x198),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -742,7 +742,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '顽固肉排『岩』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -766,7 +766,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '混沌久煮『浊』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -790,7 +790,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '男人料理『山』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -814,7 +814,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '男人料理『川』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -838,7 +838,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '箭之鱼'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1A7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -862,7 +862,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '激辣炸弹蛋包饭'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1AA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -886,7 +886,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '细针面'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1AD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -910,7 +910,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '苦味汉堡'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B0),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -934,7 +934,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '四重番茄比萨'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -958,7 +958,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '守护三明治'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -982,7 +982,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '不可思议盒饭『仰天』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B9),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1006,7 +1006,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '奇妙汤'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1BC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1030,7 +1030,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '秘密棉花糖'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1BF),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1054,7 +1054,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '反射巧克力蛋糕'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1078,7 +1078,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '爽弹布丁'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1102,7 +1102,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '痊愈冰激凌'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C8),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1126,7 +1126,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '隐秘爆米花'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1CB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1150,7 +1150,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '良药『熊竹』'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1CE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1174,7 +1174,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '紫色液体'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1198,7 +1198,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '褐色液体'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1222,7 +1222,7 @@ def main():
         0xFF,
         (
             "把",
-            scpstr(SCPSTR_CODE_ITEM, '粉红液体'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1D7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "交给了胡安事务长。\x02",
         )
@@ -1325,7 +1325,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '幻胧'),
+            scpstr(SCPSTR_CODE_ITEM, 0xBD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -2833,7 +2833,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '沐浴阳光的阿尼艾丝１卷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2EE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -6198,7 +6198,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "1个收下了。\x02",
         )
@@ -6229,7 +6229,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "2个收下了。\x02",
         )
@@ -6260,7 +6260,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "3个收下了。\x02",
         )
@@ -6291,7 +6291,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "4个收下了。\x02",
         )
@@ -6322,7 +6322,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "5个收下了。\x02",
         )
@@ -6353,7 +6353,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "6个收下了。\x02",
         )
@@ -6384,7 +6384,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "7个收下了。\x02",
         )
@@ -6415,7 +6415,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "8个收下了。\x02",
         )
@@ -6446,7 +6446,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "9个收下了。\x02",
         )
@@ -6477,7 +6477,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "10个收下了。\x02",
         )
@@ -6495,7 +6495,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神圣布料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x395),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "2个收下了。\x02",
         )
@@ -6514,7 +6514,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神圣布料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x395),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

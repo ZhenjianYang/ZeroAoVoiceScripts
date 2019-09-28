@@ -7584,7 +7584,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '受损的警察徽章'),
+            scpstr(SCPSTR_CODE_ITEM, 0x320),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -8515,7 +8515,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×３获得了。\x02",
         )
@@ -8528,7 +8528,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '复苏药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×２获得了。\x02",
         )
@@ -8541,7 +8541,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅰ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F8),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "×２获得了。\x02",
         )

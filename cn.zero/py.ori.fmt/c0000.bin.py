@@ -3375,7 +3375,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＺＷＥＩ２企鹅'),
+            scpstr(SCPSTR_CODE_ITEM, 0x358),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -5266,7 +5266,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '伊梅尔达馆的钥匙'),
+            scpstr(SCPSTR_CODE_ITEM, 0x321),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -5303,7 +5303,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '调查手册'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -5316,7 +5316,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '战斗手册'),
+            scpstr(SCPSTR_CODE_ITEM, 0x4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

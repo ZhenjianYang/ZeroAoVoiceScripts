@@ -2597,7 +2597,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '支援科车辆钥匙'),
+            scpstr(SCPSTR_CODE_ITEM, 0x35C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

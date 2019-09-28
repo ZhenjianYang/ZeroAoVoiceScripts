@@ -5321,7 +5321,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '沐浴阳光的阿尼艾丝13卷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2FA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -12160,7 +12160,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '舞姬的发饰'),
+            scpstr(SCPSTR_CODE_ITEM, 0x39F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

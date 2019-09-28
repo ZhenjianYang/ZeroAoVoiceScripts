@@ -3824,11 +3824,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '香油'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13B),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '蜂蜜糖浆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13C),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '百药精酒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x136),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
@@ -3866,7 +3866,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '万能青葱'),
+            scpstr(SCPSTR_CODE_ITEM, 0x146),
             "×２\x07\x00",
             "获得了。\x02",
         )
@@ -3884,13 +3884,13 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '胡椒粒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x139),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '热辣椒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13A),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '粗碎岩盐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13D),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '新磨小麦粉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13E),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
@@ -3912,7 +3912,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '迷你胡萝卜'),
+            scpstr(SCPSTR_CODE_ITEM, 0x147),
             "×４\x07\x00",
             "获得了。\x02",
         )
@@ -3930,11 +3930,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '香油'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13B),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '蜂蜜糖浆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13C),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '百药精酒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x136),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
@@ -3990,7 +3990,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '清绿香草'),
+            scpstr(SCPSTR_CODE_ITEM, 0x138),
             "×４\x07\x00",
             "获得了。\x02",
         )
@@ -4008,7 +4008,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '朝摘香叶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x137),
             "×３\x07\x00",
             "获得了。\x02",
         )
@@ -4043,7 +4043,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '国王马铃薯'),
+            scpstr(SCPSTR_CODE_ITEM, 0x145),
             "×４\x07\x00",
             "获得了。\x02",
         )
@@ -4130,7 +4130,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '铃铛草莓'),
+            scpstr(SCPSTR_CODE_ITEM, 0x142),
             "×３\x07\x00",
             "获得了。\x02",
         )
@@ -4165,11 +4165,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '黑暗菇'),
+            scpstr(SCPSTR_CODE_ITEM, 0x143),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '七彩豆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x144),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '苦西红柿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x148),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
@@ -4190,7 +4190,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '发芽糙米'),
+            scpstr(SCPSTR_CODE_ITEM, 0x134),
             "×３\x07\x00",
             "获得了。\x02",
         )
@@ -4208,11 +4208,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '黑暗菇'),
+            scpstr(SCPSTR_CODE_ITEM, 0x143),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '七彩豆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x144),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '苦西红柿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x148),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
@@ -4233,7 +4233,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '五谷味噌'),
+            scpstr(SCPSTR_CODE_ITEM, 0x135),
             "×３\x07\x00",
             "获得了。\x02",
         )
@@ -4251,13 +4251,13 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            scpstr(SCPSTR_CODE_ITEM, '新鲜牛奶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13F),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '新鲜奶酪'),
+            scpstr(SCPSTR_CODE_ITEM, 0x140),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '新鲜鸡蛋'),
+            scpstr(SCPSTR_CODE_ITEM, 0x141),
             scpstr(SCPSTR_CODE_LINE_FEED),
-            scpstr(SCPSTR_CODE_ITEM, '雪花里脊肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x149),
             scpstr(SCPSTR_CODE_LINE_FEED),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",

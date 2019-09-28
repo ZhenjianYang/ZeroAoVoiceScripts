@@ -1716,7 +1716,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '黑市医生格伦　５卷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2CA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

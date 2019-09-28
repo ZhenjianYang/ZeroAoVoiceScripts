@@ -1639,7 +1639,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＩＢＣ贵宾卡片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x326),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -1704,7 +1704,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＩＢＣ贵宾卡片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x326),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -3194,7 +3194,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -5710,7 +5710,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＩＢＣ贵宾卡片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x326),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -5775,7 +5775,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＩＢＣ贵宾卡片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x326),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -6632,7 +6632,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '波波碰！β版'),
+            scpstr(SCPSTR_CODE_ITEM, 0x339),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -8250,7 +8250,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＩＢＣ认证卡片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x324),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

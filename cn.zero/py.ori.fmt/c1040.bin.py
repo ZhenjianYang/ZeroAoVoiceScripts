@@ -5093,7 +5093,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '玛尔克与森林深处的魔女·上'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

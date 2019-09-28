@@ -5071,7 +5071,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '库雷斯队员的问诊表'),
+            scpstr(SCPSTR_CODE_ITEM, 0x32F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

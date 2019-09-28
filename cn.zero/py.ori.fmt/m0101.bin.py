@@ -700,7 +700,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
+            scpstr(SCPSTR_CODE_ITEM, 0x86),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -723,11 +723,11 @@ def main():
         0x3E7,
         (
             "宝箱里装有",
-            scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
+            scpstr(SCPSTR_CODE_ITEM, 0x86),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "。\x01",
             "不过现有的数量太多,",
-            scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
+            scpstr(SCPSTR_CODE_ITEM, 0x86),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "不能再拿更多了。\x02",
         )
@@ -790,7 +790,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -814,11 +814,11 @@ def main():
         0x3E7,
         (
             "宝箱里装有",
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "。\x01",
             "不过现有的数量太多,",
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "不能再拿更多了。\x02",
         )
@@ -883,7 +883,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -907,11 +907,11 @@ def main():
         0x3E7,
         (
             "宝箱里装有",
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "。\x01",
             "不过现有的数量太多,",
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "不能再拿更多了。\x02",
         )
@@ -1038,7 +1038,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '符文长袍'),
+            scpstr(SCPSTR_CODE_ITEM, 0x5E2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )
@@ -1061,11 +1061,11 @@ def main():
         0x3E7,
         (
             "宝箱里装有",
-            scpstr(SCPSTR_CODE_ITEM, '符文长袍'),
+            scpstr(SCPSTR_CODE_ITEM, 0x5E2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "。\x01",
             "不过现有的数量太多,",
-            scpstr(SCPSTR_CODE_ITEM, '符文长袍'),
+            scpstr(SCPSTR_CODE_ITEM, 0x5E2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "不能再拿更多了。\x02",
         )
@@ -3110,7 +3110,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '热酪比萨'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1B2),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )
@@ -5008,7 +5008,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '梅琳的伞'),
+            scpstr(SCPSTR_CODE_ITEM, 0x325),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7505,7 +7505,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '沉重货物'),
+            scpstr(SCPSTR_CODE_ITEM, 0x330),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "得到了。\x02",
         )

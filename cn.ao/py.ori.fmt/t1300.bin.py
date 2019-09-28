@@ -3362,7 +3362,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '米修拉姆·奇幻乐园游乐券'),
+            scpstr(SCPSTR_CODE_ITEM, 0x35D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了五张。\x02",
         )

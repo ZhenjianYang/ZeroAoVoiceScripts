@@ -9091,7 +9091,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '改变大陆的美人们'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -14008,7 +14008,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "1个收下了。\x02",
         )
@@ -14039,7 +14039,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "2个收下了。\x02",
         )
@@ -14070,7 +14070,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "3个收下了。\x02",
         )
@@ -14101,7 +14101,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "4个收下了。\x02",
         )
@@ -14132,7 +14132,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "5个收下了。\x02",
         )
@@ -14163,7 +14163,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "6个收下了。\x02",
         )
@@ -14194,7 +14194,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "7个收下了。\x02",
         )
@@ -14225,7 +14225,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "8个收下了。\x02",
         )
@@ -14256,7 +14256,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "9个收下了。\x02",
         )
@@ -14287,7 +14287,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "10个收下了。\x02",
         )
@@ -14305,7 +14305,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神圣布料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x395),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "2个收下了。\x02",
         )
@@ -14324,7 +14324,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神圣布料'),
+            scpstr(SCPSTR_CODE_ITEM, 0x395),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

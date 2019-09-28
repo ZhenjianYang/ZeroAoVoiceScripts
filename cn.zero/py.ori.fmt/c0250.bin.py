@@ -3499,7 +3499,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精力牛排'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法被教授了。\x02",
         )
@@ -3511,7 +3511,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精力牛排'),
+            scpstr(SCPSTR_CODE_ITEM, 0x19A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法已经学会了。\x02",
         )
@@ -7661,7 +7661,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '铁道爱好者的推荐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

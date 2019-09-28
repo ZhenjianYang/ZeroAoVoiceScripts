@@ -305,7 +305,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '战斗探测器'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了１０个。\x02",
         )
@@ -372,7 +372,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了５个。\x02",
         )
@@ -439,7 +439,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '土人偶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x55),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了２个。\x02",
         )

@@ -2996,7 +2996,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '黑市医生格伦　１卷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2C6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7797,7 +7797,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '溜滑杏仁豆腐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做法写在书里。\x02",
         )
@@ -7809,7 +7809,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '溜滑杏仁豆腐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1C4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "的做饭已经学会了。\x02",
         )
@@ -10029,7 +10029,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '铁道爱好者的推荐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )
@@ -10043,7 +10043,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '玛尔克与森林深处的魔女·上'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )
@@ -10057,7 +10057,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '改变大陆的美人们'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D7),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )
@@ -11186,7 +11186,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '有效利用五分钟的零散时间'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D8),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )
@@ -11200,7 +11200,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '克洛斯贝尔怪谈全集'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D9),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )
@@ -11214,7 +11214,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '彩虹·FanBook'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2DA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "归还了。\x02",
         )

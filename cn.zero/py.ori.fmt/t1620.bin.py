@@ -335,7 +335,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '有效利用五分钟的零散时间'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2D8),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "获得了。\x02",
         )

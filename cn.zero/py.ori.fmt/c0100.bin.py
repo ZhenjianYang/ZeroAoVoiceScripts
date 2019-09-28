@@ -2763,7 +2763,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '克洛斯贝尔市的地图'),
+            scpstr(SCPSTR_CODE_ITEM, 0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

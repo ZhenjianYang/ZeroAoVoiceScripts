@@ -7594,7 +7594,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7815,7 +7815,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -7937,7 +7937,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )
@@ -8018,7 +8018,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "收下了。\x02",
         )

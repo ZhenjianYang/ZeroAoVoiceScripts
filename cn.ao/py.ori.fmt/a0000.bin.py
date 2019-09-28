@@ -4747,7 +4747,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '盾牌'),
+            scpstr(SCPSTR_CODE_ITEM, 0xDD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "を手に入れた。\x02",
         )
@@ -4772,7 +4772,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '法则'),
+            scpstr(SCPSTR_CODE_ITEM, 0xE3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "を手に入れた。\x02",
         )
@@ -4797,7 +4797,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '力量'),
+            scpstr(SCPSTR_CODE_ITEM, 0xDC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "を手に入れた。\x02",
         )
@@ -4822,7 +4822,7 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '妖精'),
+            scpstr(SCPSTR_CODE_ITEM, 0xDE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "を手に入れた。\x02",
         )
