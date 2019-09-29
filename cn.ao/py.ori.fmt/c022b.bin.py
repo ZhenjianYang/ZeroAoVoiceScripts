@@ -287,7 +287,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝４卷', 1)
+    AddItemNumber(0x2F1, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x188, 3)
     TalkEnd(0xFE)

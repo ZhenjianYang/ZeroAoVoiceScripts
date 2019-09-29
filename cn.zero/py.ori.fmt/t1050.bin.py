@@ -4366,7 +4366,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('点唱机', 1)
+    SubItemNumber(0x34F, 1)
 
     #C0249
     ChrTalk(
@@ -4548,7 +4548,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('封技之刃', 1)
+    AddItemNumber(0x9A, 1)
 
     #C0265
     ChrTalk(

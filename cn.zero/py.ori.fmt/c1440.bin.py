@@ -2960,7 +2960,7 @@ def main():
 
     label("loc_3601")
 
-    RunExpression(0x4, (scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑市医生格伦　14卷', 0x0)"), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    RunExpression(0x4, (scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2D3, 0x0)"), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_366B")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE0, 0)), scpexpr(EXPR_END)), "loc_362A")
     OP_AF(0x90)
@@ -3065,7 +3065,7 @@ def main():
     label("loc_372C")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑市医生格伦　14卷', 0x0)"), scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_3748")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2D3, 0x0)"), scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_3748")
     SetScenarioFlags(0x9D, 5)
 
     label("loc_3748")

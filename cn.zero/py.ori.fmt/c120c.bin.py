@@ -2549,7 +2549,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('冰凉甜点『七彩』', 1)
+    AddItemNumber(0x1C6, 1)
 
     #C0102
     ChrTalk(

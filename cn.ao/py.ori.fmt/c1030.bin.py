@@ -1231,7 +1231,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('神仙麻婆『麒麟』', 1)
+    AddItemNumber(0x193, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0020
@@ -10922,7 +10922,7 @@ def main():
 
     label("loc_BE76")
 
-    AddItemNumber('料理手册', 1)
+    AddItemNumber(0x2, 1)
 
     #C0667
     ChrTalk(

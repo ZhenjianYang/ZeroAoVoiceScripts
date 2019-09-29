@@ -3854,7 +3854,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('旧矿山的钥匙', 1)
+    AddItemNumber(0x323, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0231
@@ -6350,7 +6350,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('旧矿山的钥匙', 1)
+    AddItemNumber(0x323, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0398

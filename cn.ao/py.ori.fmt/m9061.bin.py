@@ -449,7 +449,7 @@ def main():
 
     label("loc_C7A")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('恶魔', 1)"), scpexpr(EXPR_END)), "loc_CD1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x468, 1)"), scpexpr(EXPR_END)), "loc_CD1")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -539,7 +539,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('石化之刃２', 1)"), scpexpr(EXPR_END)), "loc_DFE")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xBF, 1)"), scpexpr(EXPR_END)), "loc_DFE")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

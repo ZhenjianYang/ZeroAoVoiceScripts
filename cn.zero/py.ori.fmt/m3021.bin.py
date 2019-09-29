@@ -531,7 +531,7 @@ def main():
 
     label("loc_9F3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('星之脉冲', 1)"), scpexpr(EXPR_END)), "loc_A4A")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x41B, 1)"), scpexpr(EXPR_END)), "loc_A4A")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -620,7 +620,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('云之使者', 1)"), scpexpr(EXPR_END)), "loc_B73")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x47, 1)"), scpexpr(EXPR_END)), "loc_B73")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -789,7 +789,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x18, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('太阳灵摆', 1)"), scpexpr(EXPR_END)), "loc_E0C")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x49, 1)"), scpexpr(EXPR_END)), "loc_E0C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

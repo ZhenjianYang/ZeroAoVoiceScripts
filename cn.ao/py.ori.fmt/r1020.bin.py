@@ -890,7 +890,7 @@ def main():
 
     label("loc_1F72")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('恶戏', 1)"), scpexpr(EXPR_END)), "loc_1FC9")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB2, 1)"), scpexpr(EXPR_END)), "loc_1FC9")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -980,7 +980,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('激辣炸弹蛋包饭', 1)"), scpexpr(EXPR_END)), "loc_20F6")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1AA, 1)"), scpexpr(EXPR_END)), "loc_20F6")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -3501,7 +3501,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    AddItemNumber('战术书·里', 1)
+    AddItemNumber(0x10, 1)
     ClearChrFlags(0x4, 0x80)
     ClearChrBattleFlags(0x4, 0x8000)
     ClearChrFlags(0x5, 0x80)

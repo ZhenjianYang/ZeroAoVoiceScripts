@@ -2774,7 +2774,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('克洛斯贝尔市的地图', 1)
+    AddItemNumber(0x6, 1)
     OP_C7(0x1, 0x1000)
 
     #C0052

@@ -308,7 +308,7 @@ def main():
 
     label("loc_59D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('ＩＢＣ认证卡片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5B3")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x324, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5B3")
     ModifyEventFlags(0, 0, 0x80)
 
     label("loc_5B3")
@@ -1648,7 +1648,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＩＢＣ贵宾卡片', 1)
+    AddItemNumber(0x326, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0092
@@ -1713,7 +1713,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＩＢＣ贵宾卡片', 1)
+    AddItemNumber(0x326, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0097
@@ -3203,7 +3203,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('圣灵药', 1)
+    AddItemNumber(0x1FC, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0200
@@ -5719,7 +5719,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＩＢＣ贵宾卡片', 1)
+    AddItemNumber(0x326, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0358
@@ -5784,7 +5784,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＩＢＣ贵宾卡片', 1)
+    AddItemNumber(0x326, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0363
@@ -6641,7 +6641,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('波波碰！β版', 1)
+    AddItemNumber(0x339, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0435
@@ -8259,7 +8259,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＩＢＣ认证卡片', 1)
+    AddItemNumber(0x324, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     CloseMessageWindow()
     OP_57(0x0)

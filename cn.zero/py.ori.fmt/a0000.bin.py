@@ -307,27 +307,27 @@ def main():
     OP_DE(0x0, 0x0)
     AddMira(2000)
     AddSepith(0xFF, 100)
-    AddItemNumber('强力破坏者·改', 1)
-    AddItemNumber('双钉棍', 1)
-    AddItemNumber('螺纹双棍', 1)
-    AddItemNumber('猛虎棍', 1)
-    AddItemNumber('调查手册', 1)
-    AddItemNumber('料理手册', 1)
-    AddItemNumber('钓鱼手册', 1)
-    AddItemNumber('战斗手册', 1)
-    AddItemNumber('自治州地图', 1)
-    AddItemNumber('克洛斯贝尔市的地图', 1)
-    AddItemNumber('回复药', 10)
-    AddItemNumber('中回复药', 10)
-    AddItemNumber('大回复药', 10)
-    AddItemNumber('ＥＰ填充剂Ⅰ', 10)
-    AddItemNumber('ＥＰ填充剂Ⅱ', 10)
-    AddItemNumber('复苏药', 10)
-    AddItemNumber('圣灵药', 10)
-    AddItemNumber('痊愈之药', 10)
-    AddItemNumber('咪雪缎带', 10)
-    AddItemNumber('鲑鱼卵', 10)
-    AddItemNumber('熬炼丸子', 10)
+    AddItemNumber(0x3E8, 1)
+    AddItemNumber(0x3E9, 1)
+    AddItemNumber(0x3EA, 1)
+    AddItemNumber(0x3ED, 1)
+    AddItemNumber(0x1, 1)
+    AddItemNumber(0x2, 1)
+    AddItemNumber(0x3, 1)
+    AddItemNumber(0x4, 1)
+    AddItemNumber(0x5, 1)
+    AddItemNumber(0x6, 1)
+    AddItemNumber(0x1F4, 10)
+    AddItemNumber(0x1F5, 10)
+    AddItemNumber(0x1F6, 10)
+    AddItemNumber(0x1F8, 10)
+    AddItemNumber(0x1F9, 10)
+    AddItemNumber(0x1FB, 10)
+    AddItemNumber(0x1FC, 10)
+    AddItemNumber(0x20B, 10)
+    AddItemNumber(0x32, 10)
+    AddItemNumber(0x186, 10)
+    AddItemNumber(0x187, 10)
     OP_42(0x0, 0x640, 0xFF)
     OP_42(0x1, 0x640, 0xFF)
     OP_42(0x2, 0x640, 0xFF)
@@ -450,12 +450,12 @@ def main():
     OP_38(0x0, 0x84, 0x2)
     OP_38(0x0, 0x85, 0x2)
     OP_38(0x0, 0x86, 0x2)
-    AddItemNumber('ＥＰ３', 1)
-    AddItemNumber('攻击２', 1)
-    AddItemNumber('防御１', 1)
-    AddItemNumber('琥耀珠', 1)
-    AddItemNumber('精神３', 1)
-    AddItemNumber('魔防２', 1)
+    AddItemNumber(0x6A, 1)
+    AddItemNumber(0x6D, 1)
+    AddItemNumber(0x70, 1)
+    AddItemNumber(0x73, 1)
+    AddItemNumber(0x76, 1)
+    AddItemNumber(0x79, 1)
     RemoveCraft(0x0, 0xA)
     RemoveCraft(0x0, 0xB)
     RemoveCraft(0x0, 0xC)
@@ -2518,23 +2518,23 @@ def main():
 
     label("loc_2AE2")
 
-    AddItemNumber('中回复药', 5)
-    AddItemNumber('中回复药', 30)
-    AddItemNumber('大回复药', 10)
-    AddItemNumber('ＥＰ填充剂Ⅱ', 20)
-    AddItemNumber('复苏药', 5)
-    AddItemNumber('圣灵药', 10)
-    AddItemNumber('还魂粉', 2)
-    AddItemNumber('解毒药', 5)
-    AddItemNumber('软化膏', 30)
-    AddItemNumber('解冻暖炉', 30)
-    AddItemNumber('舒缓凝胶', 30)
-    AddItemNumber('冷却喷雾', 30)
-    AddItemNumber('天上面『日轮』', 20)
-    AddItemNumber('极苦面『断头』', 20)
-    AddItemNumber('炼狱麻婆『阎魔』', 20)
-    AddItemNumber('痊愈冰激凌', 20)
-    AddItemNumber('绝品甜点『瞬动』', 20)
+    AddItemNumber(0x1F5, 5)
+    AddItemNumber(0x1F5, 30)
+    AddItemNumber(0x1F6, 10)
+    AddItemNumber(0x1F9, 20)
+    AddItemNumber(0x1FB, 5)
+    AddItemNumber(0x1FC, 10)
+    AddItemNumber(0x1FE, 2)
+    AddItemNumber(0x200, 5)
+    AddItemNumber(0x201, 30)
+    AddItemNumber(0x203, 30)
+    AddItemNumber(0x204, 30)
+    AddItemNumber(0x205, 30)
+    AddItemNumber(0x190, 20)
+    AddItemNumber(0x192, 20)
+    AddItemNumber(0x195, 20)
+    AddItemNumber(0x1C8, 20)
+    AddItemNumber(0x1C9, 20)
     OP_42(0x0, 0x51, 0x3)
     OP_42(0x0, 0x50, 0x4)
     OP_42(0x1, 0x49, 0x3)
@@ -3377,11 +3377,11 @@ def main():
 
     label("loc_3941")
 
-    AddItemNumber('咪雪缎带', 1)
-    AddItemNumber('进击刻印', 1)
-    AddItemNumber('超·必胜扎头巾', 1)
-    AddItemNumber('超·斗魂腰带', 1)
-    AddItemNumber('幸运刻印', 1)
+    AddItemNumber(0x32, 1)
+    AddItemNumber(0x33, 1)
+    AddItemNumber(0x34, 1)
+    AddItemNumber(0x35, 1)
+    AddItemNumber(0x37, 1)
     SetChrName("")
 
     #A0060
@@ -3399,22 +3399,22 @@ def main():
 
     label("loc_3984")
 
-    AddItemNumber('鲑鱼卵', 10)
-    AddItemNumber('熬炼丸子', 10)
-    AddItemNumber('红虫', 10)
-    AddItemNumber('蚯蚓', 10)
-    AddItemNumber('熬炼丸子ＤＸ', 10)
-    AddItemNumber('虹丸ＥＸ', 10)
-    AddItemNumber('垂钓大礼包', 10)
+    AddItemNumber(0x186, 10)
+    AddItemNumber(0x187, 10)
+    AddItemNumber(0x188, 10)
+    AddItemNumber(0x189, 10)
+    AddItemNumber(0x18A, 10)
+    AddItemNumber(0x18B, 10)
+    AddItemNumber(0x18C, 10)
     AddItemNumber(0x18D, 10)
-    AddItemNumber('斗鱼', 10)
-    AddItemNumber('阿尔摩利卡鲫鱼', 10)
-    AddItemNumber('岩穴鱼', 10)
-    AddItemNumber('食人鱼', 10)
-    AddItemNumber('鲤鱼', 10)
-    AddItemNumber('大口鲈鱼', 10)
-    AddItemNumber('冷水鱼', 10)
-    AddItemNumber('小鲵', 10)
+    AddItemNumber(0x15E, 10)
+    AddItemNumber(0x162, 10)
+    AddItemNumber(0x165, 10)
+    AddItemNumber(0x167, 10)
+    AddItemNumber(0x168, 10)
+    AddItemNumber(0x169, 10)
+    AddItemNumber(0x16C, 10)
+    AddItemNumber(0x16D, 10)
     SetChrName("")
 
     #A0061
@@ -3433,30 +3433,30 @@ def main():
 
     label("loc_3A23")
 
-    AddItemNumber('斗鱼', 10)
-    AddItemNumber('雪花蟹', 10)
-    AddItemNumber('蓝带神仙鱼', 10)
-    AddItemNumber('银伞鱼', 10)
-    AddItemNumber('阿尔摩利卡鲫鱼', 10)
-    AddItemNumber('乌龟', 10)
-    AddItemNumber('橙河鱼', 10)
-    AddItemNumber('岩穴鱼', 10)
-    AddItemNumber('虹鳟鱼', 10)
-    AddItemNumber('食人鱼', 10)
-    AddItemNumber('鲤鱼', 10)
-    AddItemNumber('大口鲈鱼', 10)
-    AddItemNumber('黑鲑', 10)
-    AddItemNumber('角斗鱼', 10)
-    AddItemNumber('冷水鱼', 10)
-    AddItemNumber('小鲵', 10)
-    AddItemNumber('鲑鱼', 10)
-    AddItemNumber('金龙鱼', 10)
-    AddItemNumber('鳗鲡', 10)
-    AddItemNumber('钢壳龟', 10)
-    AddItemNumber('巨血蟹', 10)
-    AddItemNumber('珍珠龙鱼', 10)
-    AddItemNumber('巨鲶', 10)
-    AddItemNumber('金鲑', 10)
+    AddItemNumber(0x15E, 10)
+    AddItemNumber(0x15F, 10)
+    AddItemNumber(0x160, 10)
+    AddItemNumber(0x161, 10)
+    AddItemNumber(0x162, 10)
+    AddItemNumber(0x163, 10)
+    AddItemNumber(0x164, 10)
+    AddItemNumber(0x165, 10)
+    AddItemNumber(0x166, 10)
+    AddItemNumber(0x167, 10)
+    AddItemNumber(0x168, 10)
+    AddItemNumber(0x169, 10)
+    AddItemNumber(0x16A, 10)
+    AddItemNumber(0x16B, 10)
+    AddItemNumber(0x16C, 10)
+    AddItemNumber(0x16D, 10)
+    AddItemNumber(0x16E, 10)
+    AddItemNumber(0x16F, 10)
+    AddItemNumber(0x170, 10)
+    AddItemNumber(0x171, 10)
+    AddItemNumber(0x172, 10)
+    AddItemNumber(0x173, 10)
+    AddItemNumber(0x174, 10)
+    AddItemNumber(0x175, 10)
     SetChrName("")
 
     #A0062
@@ -3520,62 +3520,62 @@ def main():
 
     label("loc_3BB0")
 
-    AddItemNumber('斗鱼', 1)
+    AddItemNumber(0x15E, 1)
     Jump("loc_3DB5")
 
     label("loc_3BBA")
 
-    AddItemNumber('雪花蟹', 1)
+    AddItemNumber(0x15F, 1)
     Jump("loc_3DB5")
 
     label("loc_3BC4")
 
-    AddItemNumber('蓝带神仙鱼', 1)
+    AddItemNumber(0x160, 1)
     Jump("loc_3DB5")
 
     label("loc_3BCE")
 
-    AddItemNumber('银伞鱼', 1)
+    AddItemNumber(0x161, 1)
     Jump("loc_3DB5")
 
     label("loc_3BD8")
 
-    AddItemNumber('阿尔摩利卡鲫鱼', 1)
+    AddItemNumber(0x162, 1)
     Jump("loc_3DB5")
 
     label("loc_3BE2")
 
-    AddItemNumber('乌龟', 1)
+    AddItemNumber(0x163, 1)
     Jump("loc_3DB5")
 
     label("loc_3BEC")
 
-    AddItemNumber('橙河鱼', 1)
+    AddItemNumber(0x164, 1)
     Jump("loc_3DB5")
 
     label("loc_3BF6")
 
-    AddItemNumber('岩穴鱼', 1)
+    AddItemNumber(0x165, 1)
     Jump("loc_3DB5")
 
     label("loc_3C00")
 
-    AddItemNumber('虹鳟鱼', 1)
+    AddItemNumber(0x166, 1)
     Jump("loc_3DB5")
 
     label("loc_3C0A")
 
-    AddItemNumber('食人鱼', 1)
+    AddItemNumber(0x167, 1)
     Jump("loc_3DB5")
 
     label("loc_3C14")
 
-    AddItemNumber('鲤鱼', 1)
+    AddItemNumber(0x168, 1)
     Jump("loc_3DB5")
 
     label("loc_3C1E")
 
-    AddItemNumber('大口鲈鱼', 1)
+    AddItemNumber(0x169, 1)
     Jump("loc_3DB5")
 
     label("loc_3C28")
@@ -3624,62 +3624,62 @@ def main():
 
     label("loc_3D38")
 
-    AddItemNumber('黑鲑', 1)
+    AddItemNumber(0x16A, 1)
     Jump("loc_3DB0")
 
     label("loc_3D42")
 
-    AddItemNumber('角斗鱼', 1)
+    AddItemNumber(0x16B, 1)
     Jump("loc_3DB0")
 
     label("loc_3D4C")
 
-    AddItemNumber('冷水鱼', 1)
+    AddItemNumber(0x16C, 1)
     Jump("loc_3DB0")
 
     label("loc_3D56")
 
-    AddItemNumber('小鲵', 1)
+    AddItemNumber(0x16D, 1)
     Jump("loc_3DB0")
 
     label("loc_3D60")
 
-    AddItemNumber('鲑鱼', 1)
+    AddItemNumber(0x16E, 1)
     Jump("loc_3DB0")
 
     label("loc_3D6A")
 
-    AddItemNumber('金龙鱼', 1)
+    AddItemNumber(0x16F, 1)
     Jump("loc_3DB0")
 
     label("loc_3D74")
 
-    AddItemNumber('鳗鲡', 1)
+    AddItemNumber(0x170, 1)
     Jump("loc_3DB0")
 
     label("loc_3D7E")
 
-    AddItemNumber('钢壳龟', 1)
+    AddItemNumber(0x171, 1)
     Jump("loc_3DB0")
 
     label("loc_3D88")
 
-    AddItemNumber('巨血蟹', 1)
+    AddItemNumber(0x172, 1)
     Jump("loc_3DB0")
 
     label("loc_3D92")
 
-    AddItemNumber('珍珠龙鱼', 1)
+    AddItemNumber(0x173, 1)
     Jump("loc_3DB0")
 
     label("loc_3D9C")
 
-    AddItemNumber('巨鲶', 1)
+    AddItemNumber(0x174, 1)
     Jump("loc_3DB0")
 
     label("loc_3DA6")
 
-    AddItemNumber('金鲑', 1)
+    AddItemNumber(0x175, 1)
     Jump("loc_3DB0")
 
     label("loc_3DB0")
@@ -3739,62 +3739,62 @@ def main():
 
     label("loc_3EB1")
 
-    AddItemNumber('斗鱼', 5)
+    AddItemNumber(0x15E, 5)
     Jump("loc_40B6")
 
     label("loc_3EBB")
 
-    AddItemNumber('雪花蟹', 5)
+    AddItemNumber(0x15F, 5)
     Jump("loc_40B6")
 
     label("loc_3EC5")
 
-    AddItemNumber('蓝带神仙鱼', 5)
+    AddItemNumber(0x160, 5)
     Jump("loc_40B6")
 
     label("loc_3ECF")
 
-    AddItemNumber('银伞鱼', 5)
+    AddItemNumber(0x161, 5)
     Jump("loc_40B6")
 
     label("loc_3ED9")
 
-    AddItemNumber('阿尔摩利卡鲫鱼', 5)
+    AddItemNumber(0x162, 5)
     Jump("loc_40B6")
 
     label("loc_3EE3")
 
-    AddItemNumber('乌龟', 5)
+    AddItemNumber(0x163, 5)
     Jump("loc_40B6")
 
     label("loc_3EED")
 
-    AddItemNumber('橙河鱼', 5)
+    AddItemNumber(0x164, 5)
     Jump("loc_40B6")
 
     label("loc_3EF7")
 
-    AddItemNumber('岩穴鱼', 5)
+    AddItemNumber(0x165, 5)
     Jump("loc_40B6")
 
     label("loc_3F01")
 
-    AddItemNumber('虹鳟鱼', 5)
+    AddItemNumber(0x166, 5)
     Jump("loc_40B6")
 
     label("loc_3F0B")
 
-    AddItemNumber('食人鱼', 5)
+    AddItemNumber(0x167, 5)
     Jump("loc_40B6")
 
     label("loc_3F15")
 
-    AddItemNumber('鲤鱼', 5)
+    AddItemNumber(0x168, 5)
     Jump("loc_40B6")
 
     label("loc_3F1F")
 
-    AddItemNumber('大口鲈鱼', 5)
+    AddItemNumber(0x169, 5)
     Jump("loc_40B6")
 
     label("loc_3F29")
@@ -3843,62 +3843,62 @@ def main():
 
     label("loc_4039")
 
-    AddItemNumber('黑鲑', 5)
+    AddItemNumber(0x16A, 5)
     Jump("loc_40B1")
 
     label("loc_4043")
 
-    AddItemNumber('角斗鱼', 5)
+    AddItemNumber(0x16B, 5)
     Jump("loc_40B1")
 
     label("loc_404D")
 
-    AddItemNumber('冷水鱼', 5)
+    AddItemNumber(0x16C, 5)
     Jump("loc_40B1")
 
     label("loc_4057")
 
-    AddItemNumber('小鲵', 5)
+    AddItemNumber(0x16D, 5)
     Jump("loc_40B1")
 
     label("loc_4061")
 
-    AddItemNumber('鲑鱼', 5)
+    AddItemNumber(0x16E, 5)
     Jump("loc_40B1")
 
     label("loc_406B")
 
-    AddItemNumber('金龙鱼', 5)
+    AddItemNumber(0x16F, 5)
     Jump("loc_40B1")
 
     label("loc_4075")
 
-    AddItemNumber('鳗鲡', 5)
+    AddItemNumber(0x170, 5)
     Jump("loc_40B1")
 
     label("loc_407F")
 
-    AddItemNumber('钢壳龟', 5)
+    AddItemNumber(0x171, 5)
     Jump("loc_40B1")
 
     label("loc_4089")
 
-    AddItemNumber('巨血蟹', 5)
+    AddItemNumber(0x172, 5)
     Jump("loc_40B1")
 
     label("loc_4093")
 
-    AddItemNumber('珍珠龙鱼', 5)
+    AddItemNumber(0x173, 5)
     Jump("loc_40B1")
 
     label("loc_409D")
 
-    AddItemNumber('巨鲶', 5)
+    AddItemNumber(0x174, 5)
     Jump("loc_40B1")
 
     label("loc_40A7")
 
-    AddItemNumber('金鲑', 5)
+    AddItemNumber(0x175, 5)
     Jump("loc_40B1")
 
     label("loc_40B1")
@@ -3912,30 +3912,30 @@ def main():
 
     label("loc_40C5")
 
-    SubItemNumber('斗鱼', 1)
-    SubItemNumber('雪花蟹', 1)
-    SubItemNumber('蓝带神仙鱼', 1)
-    SubItemNumber('银伞鱼', 1)
-    SubItemNumber('阿尔摩利卡鲫鱼', 1)
-    SubItemNumber('乌龟', 1)
-    SubItemNumber('橙河鱼', 1)
-    SubItemNumber('岩穴鱼', 1)
-    SubItemNumber('虹鳟鱼', 1)
-    SubItemNumber('食人鱼', 1)
-    SubItemNumber('鲤鱼', 1)
-    SubItemNumber('大口鲈鱼', 1)
-    SubItemNumber('黑鲑', 1)
-    SubItemNumber('角斗鱼', 1)
-    SubItemNumber('冷水鱼', 1)
-    SubItemNumber('小鲵', 1)
-    SubItemNumber('鲑鱼', 1)
-    SubItemNumber('金龙鱼', 1)
-    SubItemNumber('鳗鲡', 1)
-    SubItemNumber('钢壳龟', 1)
-    SubItemNumber('巨血蟹', 1)
-    SubItemNumber('珍珠龙鱼', 1)
-    SubItemNumber('巨鲶', 1)
-    SubItemNumber('金鲑', 1)
+    SubItemNumber(0x15E, 1)
+    SubItemNumber(0x15F, 1)
+    SubItemNumber(0x160, 1)
+    SubItemNumber(0x161, 1)
+    SubItemNumber(0x162, 1)
+    SubItemNumber(0x163, 1)
+    SubItemNumber(0x164, 1)
+    SubItemNumber(0x165, 1)
+    SubItemNumber(0x166, 1)
+    SubItemNumber(0x167, 1)
+    SubItemNumber(0x168, 1)
+    SubItemNumber(0x169, 1)
+    SubItemNumber(0x16A, 1)
+    SubItemNumber(0x16B, 1)
+    SubItemNumber(0x16C, 1)
+    SubItemNumber(0x16D, 1)
+    SubItemNumber(0x16E, 1)
+    SubItemNumber(0x16F, 1)
+    SubItemNumber(0x170, 1)
+    SubItemNumber(0x171, 1)
+    SubItemNumber(0x172, 1)
+    SubItemNumber(0x173, 1)
+    SubItemNumber(0x174, 1)
+    SubItemNumber(0x175, 1)
     Jump("loc_41CF")
 
     label("loc_4142")
@@ -4029,17 +4029,17 @@ def main():
 
     label("loc_4270")
 
-    AddItemNumber('Ｕ材料', 10)
+    AddItemNumber(0x38E, 10)
     Jump("loc_42A2")
 
     label("loc_427A")
 
-    AddItemNumber('神圣布料', 10)
+    AddItemNumber(0x395, 10)
     Jump("loc_42A2")
 
     label("loc_4284")
 
-    AddItemNumber('塞姆里亚石', 10)
+    AddItemNumber(0x396, 10)
     Jump("loc_42A2")
 
     label("loc_428E")
@@ -4110,60 +4110,60 @@ def main():
 
     label("loc_43AB")
 
-    AddItemNumber('罗赞贝尔克人偶·Ｃ', 1)
+    AddItemNumber(0x335, 1)
     Jump("loc_44D2")
 
     label("loc_43B5")
 
-    AddItemNumber('竞赛旗', 1)
-    AddItemNumber('小径自行车', 1)
-    AddItemNumber('安乐椅', 1)
-    AddItemNumber('迷你水族馆', 1)
-    AddItemNumber('古怪靠垫', 1)
-    AddItemNumber('波波靠垫', 1)
-    AddItemNumber('黑泰迪熊', 1)
-    AddItemNumber('苦番茄人玩偶', 1)
+    AddItemNumber(0x350, 1)
+    AddItemNumber(0x351, 1)
+    AddItemNumber(0x352, 1)
+    AddItemNumber(0x353, 1)
+    AddItemNumber(0x354, 1)
+    AddItemNumber(0x355, 1)
+    AddItemNumber(0x356, 1)
+    AddItemNumber(0x357, 1)
     Jump("loc_44D2")
 
     label("loc_43E2")
 
-    AddItemNumber('黑市医生格伦　１卷', 1)
-    AddItemNumber('黑市医生格伦　２卷', 1)
-    AddItemNumber('黑市医生格伦　３卷', 1)
-    AddItemNumber('黑市医生格伦　４卷', 1)
-    AddItemNumber('黑市医生格伦　５卷', 1)
-    AddItemNumber('黑市医生格伦　６卷', 1)
-    AddItemNumber('黑市医生格伦　７卷', 1)
-    AddItemNumber('黑市医生格伦　８卷', 1)
-    AddItemNumber('黑市医生格伦　９卷', 1)
-    AddItemNumber('黑市医生格伦　10卷', 1)
-    AddItemNumber('黑市医生格伦　11卷', 1)
-    AddItemNumber('黑市医生格伦　12卷', 1)
-    AddItemNumber('黑市医生格伦　13卷', 1)
-    AddItemNumber('黑市医生格伦　14卷', 1)
+    AddItemNumber(0x2C6, 1)
+    AddItemNumber(0x2C7, 1)
+    AddItemNumber(0x2C8, 1)
+    AddItemNumber(0x2C9, 1)
+    AddItemNumber(0x2CA, 1)
+    AddItemNumber(0x2CB, 1)
+    AddItemNumber(0x2CC, 1)
+    AddItemNumber(0x2CD, 1)
+    AddItemNumber(0x2CE, 1)
+    AddItemNumber(0x2CF, 1)
+    AddItemNumber(0x2D0, 1)
+    AddItemNumber(0x2D1, 1)
+    AddItemNumber(0x2D2, 1)
+    AddItemNumber(0x2D3, 1)
     Jump("loc_44D2")
 
     label("loc_442D")
 
-    SubItemNumber('黑市医生格伦　１卷', 99)
-    AddItemNumber('黑市医生格伦　２卷', 1)
-    AddItemNumber('黑市医生格伦　３卷', 1)
-    AddItemNumber('黑市医生格伦　４卷', 1)
-    AddItemNumber('黑市医生格伦　５卷', 1)
-    AddItemNumber('黑市医生格伦　６卷', 1)
-    AddItemNumber('黑市医生格伦　７卷', 1)
-    AddItemNumber('黑市医生格伦　８卷', 1)
-    AddItemNumber('黑市医生格伦　９卷', 1)
-    AddItemNumber('黑市医生格伦　10卷', 1)
-    AddItemNumber('黑市医生格伦　11卷', 1)
-    AddItemNumber('黑市医生格伦　12卷', 1)
-    AddItemNumber('黑市医生格伦　13卷', 1)
-    AddItemNumber('黑市医生格伦　14卷', 1)
+    SubItemNumber(0x2C6, 99)
+    AddItemNumber(0x2C7, 1)
+    AddItemNumber(0x2C8, 1)
+    AddItemNumber(0x2C9, 1)
+    AddItemNumber(0x2CA, 1)
+    AddItemNumber(0x2CB, 1)
+    AddItemNumber(0x2CC, 1)
+    AddItemNumber(0x2CD, 1)
+    AddItemNumber(0x2CE, 1)
+    AddItemNumber(0x2CF, 1)
+    AddItemNumber(0x2D0, 1)
+    AddItemNumber(0x2D1, 1)
+    AddItemNumber(0x2D2, 1)
+    AddItemNumber(0x2D3, 1)
     Jump("loc_44D2")
 
     label("loc_4478")
 
-    AddItemNumber('自治州地图', 1)
+    AddItemNumber(0x5, 1)
     Jump("loc_44D2")
 
     label("loc_4482")
@@ -4449,22 +4449,22 @@ def main():
 
     label("loc_48C6")
 
-    AddItemNumber('调查手册', 1)
-    AddItemNumber('料理手册', 1)
-    AddItemNumber('钓鱼手册', 1)
-    AddItemNumber('战斗手册', 1)
-    AddItemNumber('自治州地图', 1)
-    AddItemNumber('回复药', 10)
-    AddItemNumber('中回复药', 10)
-    AddItemNumber('大回复药', 10)
-    AddItemNumber('ＥＰ填充剂Ⅰ', 10)
-    AddItemNumber('ＥＰ填充剂Ⅱ', 10)
-    AddItemNumber('复苏药', 10)
-    AddItemNumber('圣灵药', 10)
-    AddItemNumber('痊愈之药', 10)
-    AddItemNumber('咪雪缎带', 10)
-    AddItemNumber('鲑鱼卵', 10)
-    AddItemNumber('熬炼丸子', 10)
+    AddItemNumber(0x1, 1)
+    AddItemNumber(0x2, 1)
+    AddItemNumber(0x3, 1)
+    AddItemNumber(0x4, 1)
+    AddItemNumber(0x5, 1)
+    AddItemNumber(0x1F4, 10)
+    AddItemNumber(0x1F5, 10)
+    AddItemNumber(0x1F6, 10)
+    AddItemNumber(0x1F8, 10)
+    AddItemNumber(0x1F9, 10)
+    AddItemNumber(0x1FB, 10)
+    AddItemNumber(0x1FC, 10)
+    AddItemNumber(0x20B, 10)
+    AddItemNumber(0x32, 10)
+    AddItemNumber(0x186, 10)
+    AddItemNumber(0x187, 10)
     SetChrName("")
 
     #A0068

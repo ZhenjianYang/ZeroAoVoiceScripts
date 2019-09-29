@@ -802,7 +802,7 @@ def main():
 
     label("loc_19C5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('绝耀珠', 1)"), scpexpr(EXPR_END)), "loc_1A1C")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x8E, 1)"), scpexpr(EXPR_END)), "loc_1A1C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -892,7 +892,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('大回复药', 1)"), scpexpr(EXPR_END)), "loc_1B49")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F6, 1)"), scpexpr(EXPR_END)), "loc_1B49")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1049,7 +1049,7 @@ def main():
 
     label("loc_1CFE")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('光耀珠', 1)"), scpexpr(EXPR_END)), "loc_1D55")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x7F, 1)"), scpexpr(EXPR_END)), "loc_1D55")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

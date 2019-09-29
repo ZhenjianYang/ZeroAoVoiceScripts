@@ -9102,7 +9102,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('改变大陆的美人们', 1)
+    AddItemNumber(0x2D7, 1)
 
     #C0570
     ChrTalk(
@@ -14014,7 +14014,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     Jump("loc_108EA")
 
     label("loc_105F1")
@@ -14045,7 +14045,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 2)
+    AddItemNumber(0x38E, 2)
     Jump("loc_108EA")
 
     label("loc_10646")
@@ -14076,7 +14076,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 3)
+    AddItemNumber(0x38E, 3)
     Jump("loc_108EA")
 
     label("loc_1069B")
@@ -14107,7 +14107,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 4)
+    AddItemNumber(0x38E, 4)
     Jump("loc_108EA")
 
     label("loc_106F0")
@@ -14138,7 +14138,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 5)
+    AddItemNumber(0x38E, 5)
     Jump("loc_108EA")
 
     label("loc_10745")
@@ -14169,7 +14169,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 6)
+    AddItemNumber(0x38E, 6)
     Jump("loc_108EA")
 
     label("loc_1079A")
@@ -14200,7 +14200,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 7)
+    AddItemNumber(0x38E, 7)
     Jump("loc_108EA")
 
     label("loc_107EF")
@@ -14231,7 +14231,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 8)
+    AddItemNumber(0x38E, 8)
     Jump("loc_108EA")
 
     label("loc_10844")
@@ -14262,7 +14262,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 9)
+    AddItemNumber(0x38E, 9)
     Jump("loc_108EA")
 
     label("loc_10899")
@@ -14293,7 +14293,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 10)
+    AddItemNumber(0x38E, 10)
 
     label("loc_108EA")
 
@@ -14311,7 +14311,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 2)
+    AddItemNumber(0x395, 2)
     CloseMessageWindow()
     Jump("loc_10949")
 
@@ -14330,7 +14330,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 1)
+    AddItemNumber(0x395, 1)
     CloseMessageWindow()
 
     label("loc_10949")

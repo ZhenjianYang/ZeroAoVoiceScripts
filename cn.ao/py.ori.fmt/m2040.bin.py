@@ -412,7 +412,7 @@ def main():
 
     label("loc_DBF")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('苍耀珠', 1)"), scpexpr(EXPR_END)), "loc_E16")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x7B, 1)"), scpexpr(EXPR_END)), "loc_E16")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -502,7 +502,7 @@ def main():
     OP_74(0x6, 0x1E)
     OP_71(0x6, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('结晶碎片', 1)"), scpexpr(EXPR_END)), "loc_F43")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x334, 1)"), scpexpr(EXPR_END)), "loc_F43")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -968,7 +968,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('枫糖蛋糕', 0x0)"), scpexpr(EXPR_END)), "loc_1E43")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x20F, 0x0)"), scpexpr(EXPR_END)), "loc_1E43")
     OP_63(0x18D, 0x0, 2000, 0x18, 0x1B, 0xFA, 0x0)
     Sleep(2000)
     OP_64(0x18D)
@@ -1175,7 +1175,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('枫糖蛋糕', 1)
+    SubItemNumber(0x20F, 1)
 
     #C0036
     ChrTalk(
@@ -1231,7 +1231,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('爆灵宝玉', 1)
+    AddItemNumber(0x20C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0040

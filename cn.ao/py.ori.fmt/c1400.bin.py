@@ -734,7 +734,7 @@ def main():
     OP_74(0x7, 0x1E)
     OP_71(0x7, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('珊瑚戒指', 1)"), scpexpr(EXPR_END)), "loc_13CE")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x3D, 1)"), scpexpr(EXPR_END)), "loc_13CE")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -7860,7 +7860,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('迪诺的问诊表', 1)
+    AddItemNumber(0x32E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0379
@@ -10080,7 +10080,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('伊梅尔达馆的钥匙', 0x0)"), scpexpr(EXPR_END)), "loc_CB89")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x321, 0x0)"), scpexpr(EXPR_END)), "loc_CB89")
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
 

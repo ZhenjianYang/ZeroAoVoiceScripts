@@ -301,7 +301,7 @@ def main():
 
     label("loc_710")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('暗之刃', 1)"), scpexpr(EXPR_END)), "loc_767")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x9C, 1)"), scpexpr(EXPR_END)), "loc_767")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

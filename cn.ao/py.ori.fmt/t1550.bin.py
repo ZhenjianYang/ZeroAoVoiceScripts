@@ -5330,7 +5330,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝13卷', 1)
+    AddItemNumber(0x2FA, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x189, 4)
     Jump("loc_6697")
@@ -12169,7 +12169,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('舞姬的发饰', 1)
+    AddItemNumber(0x39F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0602

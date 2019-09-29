@@ -482,7 +482,7 @@ def main():
     label("loc_962")
 
     TalkBegin(0x8)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x1, 0x0)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('魔兽鱼肉', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('魔兽之卵', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_A62")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x1, 0x0)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x12D, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x12D, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_A62")
 
     #C0001
     ChrTalk(
@@ -702,7 +702,7 @@ def main():
 
     label("loc_D4E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('魔兽鱼肉', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_EXEC_OP, "GetItemNumber('魔兽之卵', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_E3E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x12D, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x12D, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_E3E")
 
     #C0009
     ChrTalk(
@@ -4747,7 +4747,7 @@ def main():
 
     TalkBegin(0xFE)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x1, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x1, 0x3)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x80, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_50B4")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('魔兽之卵', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5048")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x12F, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5048")
 
     #C0300
     ChrTalk(
@@ -10450,7 +10450,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('料理手册', 1)
+    AddItemNumber(0x2, 1)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B0(0xD)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_A4A7")
 
     #C0707
@@ -11131,8 +11131,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('魔兽鱼肉', 4)
-    SubItemNumber('魔兽之卵', 3)
+    SubItemNumber(0x12D, 4)
+    SubItemNumber(0x12F, 3)
 
     #C0744
     ChrTalk(
@@ -11559,7 +11559,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('魔兽之卵', 2)
+    SubItemNumber(0x12F, 2)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x6, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_BA25")
 
     #C0774

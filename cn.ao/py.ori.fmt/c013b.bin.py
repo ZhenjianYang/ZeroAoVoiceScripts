@@ -323,7 +323,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('优雅衣镜', 1)
+    SubItemNumber(0x34A, 1)
     SetScenarioFlags(0x13C, 6)
     OP_66(0x2, 0x1)
     Call(0, 15)
@@ -438,7 +438,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('八音盒', 1)
+    SubItemNumber(0x34B, 1)
     SetScenarioFlags(0x13C, 7)
     OP_66(0x3, 0x1)
     Call(0, 15)
@@ -550,7 +550,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('影丸储蓄罐', 1)
+    SubItemNumber(0x34C, 1)
     SetScenarioFlags(0x13D, 0)
     OP_66(0x4, 0x1)
     Call(0, 15)
@@ -662,7 +662,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('咪雪玩偶', 1)
+    SubItemNumber(0x34D, 1)
     SetScenarioFlags(0x13D, 1)
     OP_66(0x5, 0x1)
     Call(0, 15)
@@ -774,7 +774,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('竞赛旗', 1)
+    SubItemNumber(0x350, 1)
     SetScenarioFlags(0x13D, 2)
     OP_66(0x6, 0x1)
     Call(0, 15)
@@ -886,7 +886,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('小径自行车', 1)
+    SubItemNumber(0x351, 1)
     SetScenarioFlags(0x13D, 3)
     OP_66(0x7, 0x1)
     Call(0, 15)
@@ -1027,7 +1027,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('波波靠垫', 1)
+    SubItemNumber(0x355, 1)
     SetScenarioFlags(0x13D, 4)
     OP_66(0x8, 0x1)
     Call(0, 15)
@@ -1169,7 +1169,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('古怪靠垫', 1)
+    SubItemNumber(0x354, 1)
     SetScenarioFlags(0x13D, 5)
     OP_66(0x9, 0x1)
     Call(0, 15)
@@ -1311,7 +1311,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('黑泰迪熊', 1)
+    SubItemNumber(0x356, 1)
     SetScenarioFlags(0x13D, 6)
     OP_66(0xA, 0x1)
     Call(0, 15)
@@ -1453,7 +1453,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('苦番茄人玩偶', 1)
+    SubItemNumber(0x357, 1)
     SetScenarioFlags(0x13D, 7)
     OP_66(0xB, 0x1)
     Call(0, 15)
@@ -1595,7 +1595,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('ＺＷＥＩ２企鹅', 1)
+    SubItemNumber(0x358, 1)
     SetScenarioFlags(0x13E, 0)
     OP_66(0xC, 0x1)
     Call(0, 15)

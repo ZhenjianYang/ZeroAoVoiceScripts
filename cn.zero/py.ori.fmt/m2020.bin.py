@@ -467,7 +467,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('圣灵药', 1)"), scpexpr(EXPR_END)), "loc_1000")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FC, 1)"), scpexpr(EXPR_END)), "loc_1000")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -623,7 +623,7 @@ def main():
 
     label("loc_11B0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('骑士护腿', 1)"), scpexpr(EXPR_END)), "loc_1207")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x64E, 1)"), scpexpr(EXPR_END)), "loc_1207")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

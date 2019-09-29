@@ -3386,7 +3386,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('ＺＷＥＩ２企鹅', 1)
+    AddItemNumber(0x358, 1)
     OP_63(0x101, 0x0, 2000, 0x10, 0x13, 0xFA, 0x1)
     Sound(23, 0, 100, 0)
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_3859")
@@ -5277,7 +5277,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('伊梅尔达馆的钥匙', 1)
+    AddItemNumber(0x321, 1)
 
     #C0266
     ChrTalk(
@@ -5379,8 +5379,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('调查手册', 1)
-    AddItemNumber('战斗手册', 1)
+    AddItemNumber(0x1, 1)
+    AddItemNumber(0x4, 1)
     OP_68(-19500, -3900, 17500, 3000)
 
     def lambda_5F2B():
@@ -6585,10 +6585,10 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('ＨＰ１', 1)
-    AddItemNumber('ＥＰ３', 1)
-    AddItemNumber('攻击２', 1)
-    AddItemNumber('魔防２', 1)
+    AddItemNumber(0x64, 1)
+    AddItemNumber(0x6A, 1)
+    AddItemNumber(0x6D, 1)
+    AddItemNumber(0x79, 1)
     FadeToDark(300, 0, 100)
     Sleep(300)
     Sound(828, 0, 100, 0)

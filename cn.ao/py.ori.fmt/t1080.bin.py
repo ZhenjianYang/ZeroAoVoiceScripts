@@ -3291,9 +3291,9 @@ def main():
     SetChrPos(0x0, -100000, 0, -80000, 0)
     SetScenarioFlags(0x145, 1)
     OP_29(0xA5, 0x1, 0x4)
-    SubItemNumber('纯白之石', 10)
-    SubItemNumber('纯白之石', 10)
-    SubItemNumber('纯白之石', 10)
+    SubItemNumber(0x329, 10)
+    SubItemNumber(0x32B, 10)
+    SubItemNumber(0x32C, 10)
     EventEnd(0x5)
     Return()
 

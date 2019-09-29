@@ -713,7 +713,7 @@ def main():
 
     label("loc_1A53")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('风耀珠', 1)"), scpexpr(EXPR_END)), "loc_1AAA")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x86, 1)"), scpexpr(EXPR_END)), "loc_1AAA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

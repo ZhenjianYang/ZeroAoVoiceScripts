@@ -6700,8 +6700,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('选秀活动特别奖纪念盾', 1)
-    SubItemNumber('选秀活动特别奖纪念盾', 1)
+    SubItemNumber(0x342, 1)
+    SubItemNumber(0x343, 1)
     OP_63(0x8, 0x0, 1700, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)
 
@@ -6760,8 +6760,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('绀碧竿', 1)
-    SubItemNumber('琥珀轴', 1)
+    SubItemNumber(0x344, 1)
+    SubItemNumber(0x345, 1)
 
     #C0396
     ChrTalk(
@@ -7414,7 +7414,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('琥珀轴', 1)
+    AddItemNumber(0x345, 1)
 
     #C0444
     ChrTalk(

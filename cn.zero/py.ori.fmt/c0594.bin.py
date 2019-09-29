@@ -353,7 +353,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('魔防１', 1)"), scpexpr(EXPR_END)), "loc_B25")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x78, 1)"), scpexpr(EXPR_END)), "loc_B25")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -573,7 +573,7 @@ def main():
 
     label("loc_DC4")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('驱动２', 1)"), scpexpr(EXPR_END)), "loc_E1B")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x90, 1)"), scpexpr(EXPR_END)), "loc_E1B")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

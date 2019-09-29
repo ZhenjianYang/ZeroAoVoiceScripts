@@ -2734,7 +2734,7 @@ def main():
 
     label("loc_376D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('猫食', 0x0)"), scpexpr(EXPR_END)), "loc_395A")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D9, 0x0)"), scpexpr(EXPR_END)), "loc_395A")
 
     #C0090
     ChrTalk(
@@ -2846,7 +2846,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝６卷', 1)
+    AddItemNumber(0x2F3, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0098
@@ -2861,7 +2861,7 @@ def main():
 
     CloseMessageWindow()
     SetScenarioFlags(0x188, 5)
-    SubItemNumber('猫食', 1)
+    SubItemNumber(0x1D9, 1)
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     Jump("loc_3955")
 
@@ -8733,7 +8733,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x32B, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0443
@@ -8777,7 +8777,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x32B, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0445
@@ -8821,7 +8821,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x329, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0447
@@ -8867,7 +8867,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x329, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0449
@@ -8912,7 +8912,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x32C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0451
@@ -9026,7 +9026,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x32C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0459
@@ -9362,7 +9362,7 @@ def main():
     CloseMessageWindow()
     SetScenarioFlags(0x14E, 2)
     SetScenarioFlags(0x1C1, 0)
-    SubItemNumber('纯白之石', 2)
+    SubItemNumber(0x32C, 2)
     Jump("loc_C50D")
 
     label("loc_C0AA")
@@ -9509,7 +9509,7 @@ def main():
 
     CloseMessageWindow()
     SetScenarioFlags(0x1C1, 0)
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x32C, 1)
     Jump("loc_C50D")
 
     label("loc_C350")
@@ -9610,7 +9610,7 @@ def main():
 
     CloseMessageWindow()
     SetScenarioFlags(0x14E, 2)
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x32C, 1)
 
     label("loc_C50D")
 
@@ -10203,22 +10203,22 @@ def main():
     SetScenarioFlags(0x15E, 4)
     ModifyEventFlags(0, 0, 0x80)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x15C, 1)), scpexpr(EXPR_END)), "loc_D0C3")
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x32B, 1)
 
     label("loc_D0C3")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x15C, 2)), scpexpr(EXPR_END)), "loc_D0D1")
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x32B, 1)
 
     label("loc_D0D1")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x15C, 3)), scpexpr(EXPR_END)), "loc_D0DF")
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x329, 1)
 
     label("loc_D0DF")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x15C, 4)), scpexpr(EXPR_END)), "loc_D0ED")
-    SubItemNumber('纯白之石', 1)
+    SubItemNumber(0x329, 1)
 
     label("loc_D0ED")
 

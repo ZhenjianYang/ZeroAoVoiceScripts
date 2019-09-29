@@ -146,7 +146,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('解毒药', 1)
+    AddItemNumber(0x200, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -170,7 +170,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('软化膏', 1)
+    AddItemNumber(0x201, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -194,7 +194,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('绝缘胶带', 1)
+    AddItemNumber(0x202, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -218,7 +218,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('解冻暖炉', 1)
+    AddItemNumber(0x203, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -242,7 +242,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('舒缓凝胶', 1)
+    AddItemNumber(0x204, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -266,7 +266,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('冷却喷雾', 1)
+    AddItemNumber(0x205, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -290,7 +290,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('眼药', 1)
+    AddItemNumber(0x206, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -314,7 +314,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('提神薄荷', 1)
+    AddItemNumber(0x207, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -338,7 +338,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('苏醒药', 1)
+    AddItemNumber(0x208, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -362,7 +362,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('镇静剂', 1)
+    AddItemNumber(0x209, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -386,7 +386,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回复药', 1)
+    AddItemNumber(0x1F4, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_5EB")
 
@@ -622,7 +622,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('鲑鱼卵', 2)
+    AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -646,7 +646,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子', 2)
+    AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -670,7 +670,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('红虫', 2)
+    AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -694,7 +694,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蚯蚓', 2)
+    AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -718,7 +718,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 2)
+    AddItemNumber(0x12C, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -742,7 +742,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽鱼肉', 2)
+    AddItemNumber(0x12D, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -766,7 +766,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之壳', 2)
+    AddItemNumber(0x12E, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -790,7 +790,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之卵', 2)
+    AddItemNumber(0x12F, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -814,7 +814,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽羽翼', 2)
+    AddItemNumber(0x130, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -838,7 +838,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之种', 2)
+    AddItemNumber(0x131, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -862,7 +862,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽明胶', 2)
+    AddItemNumber(0x132, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -886,7 +886,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回复药', 1)
+    AddItemNumber(0x1F4, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_CF5")
 
@@ -949,7 +949,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ１', 1)
+    AddItemNumber(0x64, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -973,7 +973,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ１', 1)
+    AddItemNumber(0x68, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -997,7 +997,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击１', 1)
+    AddItemNumber(0x6C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1021,7 +1021,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御１', 1)
+    AddItemNumber(0x70, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1045,7 +1045,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神１', 1)
+    AddItemNumber(0x74, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1069,7 +1069,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防１', 1)
+    AddItemNumber(0x78, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1093,7 +1093,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中１', 1)
+    AddItemNumber(0x7C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1117,7 +1117,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避１', 1)
+    AddItemNumber(0x80, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1141,7 +1141,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('移动１', 1)
+    AddItemNumber(0x84, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1165,7 +1165,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('行动力１', 1)
+    AddItemNumber(0x88, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1189,7 +1189,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('妨害１', 1)
+    AddItemNumber(0x8C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1213,7 +1213,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ１', 1)
+    AddItemNumber(0x92, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1237,7 +1237,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('银胸针', 1)
+    AddItemNumber(0x3C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1261,7 +1261,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('珊瑚戒指', 1)
+    AddItemNumber(0x3D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1285,7 +1285,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('英雄戒指', 1)
+    AddItemNumber(0x3E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1309,7 +1309,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('夜光眼镜', 1)
+    AddItemNumber(0x3F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1333,7 +1333,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('凉爽项链', 1)
+    AddItemNumber(0x40, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1357,7 +1357,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('打火机', 1)
+    AddItemNumber(0x41, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1381,7 +1381,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('幻彩围巾', 1)
+    AddItemNumber(0x42, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1405,7 +1405,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('叮当耳环', 1)
+    AddItemNumber(0x43, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1429,7 +1429,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('钢手镯', 1)
+    AddItemNumber(0x44, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1453,7 +1453,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('花之瓶', 1)
+    AddItemNumber(0x45, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1477,7 +1477,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('神圣之链', 1)
+    AddItemNumber(0x46, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1464")
 
@@ -1529,7 +1529,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ２', 1)
+    AddItemNumber(0x65, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1553,7 +1553,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ２', 1)
+    AddItemNumber(0x69, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1577,7 +1577,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击２', 1)
+    AddItemNumber(0x6D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1601,7 +1601,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御２', 1)
+    AddItemNumber(0x71, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1625,7 +1625,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神２', 1)
+    AddItemNumber(0x75, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1649,7 +1649,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防２', 1)
+    AddItemNumber(0x79, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1673,7 +1673,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中２', 1)
+    AddItemNumber(0x7D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1697,7 +1697,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避２', 1)
+    AddItemNumber(0x81, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1721,7 +1721,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('移动２', 1)
+    AddItemNumber(0x85, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1745,7 +1745,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('行动力２', 1)
+    AddItemNumber(0x89, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1769,7 +1769,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('妨害２', 1)
+    AddItemNumber(0x8D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1793,7 +1793,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ２', 1)
+    AddItemNumber(0x93, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_184D")
 
@@ -1843,7 +1843,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ３', 1)
+    AddItemNumber(0x66, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1867,7 +1867,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ３', 1)
+    AddItemNumber(0x6A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1891,7 +1891,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击３', 1)
+    AddItemNumber(0x6E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1915,7 +1915,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御３', 1)
+    AddItemNumber(0x72, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1939,7 +1939,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神３', 1)
+    AddItemNumber(0x76, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1963,7 +1963,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防３', 1)
+    AddItemNumber(0x7A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -1987,7 +1987,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中３', 1)
+    AddItemNumber(0x7E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -2011,7 +2011,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避３', 1)
+    AddItemNumber(0x82, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -2035,7 +2035,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('行动力３', 1)
+    AddItemNumber(0x8A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -2059,7 +2059,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ３', 1)
+    AddItemNumber(0x94, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_1B92")
 
@@ -2142,7 +2142,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('鲑鱼卵', 2)
+    AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2166,7 +2166,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子', 2)
+    AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2190,7 +2190,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('红虫', 2)
+    AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2214,7 +2214,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蚯蚓', 2)
+    AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2238,7 +2238,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子ＤＸ', 2)
+    AddItemNumber(0x18A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2262,7 +2262,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 1)
+    AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2286,7 +2286,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽鱼肉', 1)
+    AddItemNumber(0x12D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2310,7 +2310,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之壳', 1)
+    AddItemNumber(0x12E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2334,7 +2334,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之卵', 1)
+    AddItemNumber(0x12F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2358,7 +2358,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽羽翼', 1)
+    AddItemNumber(0x130, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2382,7 +2382,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之种', 1)
+    AddItemNumber(0x131, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2406,7 +2406,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽明胶', 1)
+    AddItemNumber(0x132, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2430,7 +2430,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 1)
+    AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_2026")
 
@@ -2489,7 +2489,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('发芽糙米', 2)
+    AddItemNumber(0x134, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2513,7 +2513,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('五谷味噌', 2)
+    AddItemNumber(0x135, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2537,7 +2537,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('百药精酒', 2)
+    AddItemNumber(0x136, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2561,7 +2561,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('朝摘香叶', 5)
+    AddItemNumber(0x137, 5)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2585,7 +2585,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('清绿香草', 5)
+    AddItemNumber(0x138, 5)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2609,7 +2609,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('胡椒粒', 8)
+    AddItemNumber(0x139, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2633,7 +2633,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('热辣椒', 8)
+    AddItemNumber(0x13A, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2657,7 +2657,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('香油', 8)
+    AddItemNumber(0x13B, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2681,7 +2681,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蜂蜜糖浆', 8)
+    AddItemNumber(0x13C, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2705,7 +2705,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('粗碎岩盐', 8)
+    AddItemNumber(0x13D, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2729,7 +2729,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新磨小麦粉', 8)
+    AddItemNumber(0x13E, 8)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2753,7 +2753,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜牛奶', 4)
+    AddItemNumber(0x13F, 4)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2777,7 +2777,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜奶酪', 4)
+    AddItemNumber(0x140, 4)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2801,7 +2801,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜鸡蛋', 4)
+    AddItemNumber(0x141, 4)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2825,7 +2825,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('铃铛草莓', 3)
+    AddItemNumber(0x142, 3)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2849,7 +2849,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('黑暗菇', 3)
+    AddItemNumber(0x143, 3)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2873,7 +2873,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('七彩豆', 3)
+    AddItemNumber(0x144, 3)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2897,7 +2897,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('国王马铃薯', 5)
+    AddItemNumber(0x145, 5)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2921,7 +2921,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('万能青葱', 5)
+    AddItemNumber(0x146, 5)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2945,7 +2945,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('迷你胡萝卜', 5)
+    AddItemNumber(0x147, 5)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2969,7 +2969,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('苦西红柿', 2)
+    AddItemNumber(0x148, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -2993,7 +2993,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('雪花里脊肉', 2)
+    AddItemNumber(0x149, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -3017,7 +3017,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜白肉鱼', 2)
+    AddItemNumber(0x14A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 
@@ -3041,7 +3041,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜白肉鱼', 2)
+    AddItemNumber(0x14A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_282D")
 

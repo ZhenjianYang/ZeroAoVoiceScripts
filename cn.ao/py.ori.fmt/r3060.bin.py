@@ -692,7 +692,7 @@ def main():
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＥＰ填充剂Ⅲ', 1)"), scpexpr(EXPR_END)), "loc_19B8")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FA, 1)"), scpexpr(EXPR_END)), "loc_19B8")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -849,7 +849,7 @@ def main():
 
     label("loc_1B6D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＥＰ３', 1)"), scpexpr(EXPR_END)), "loc_1BC4")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x6A, 1)"), scpexpr(EXPR_END)), "loc_1BC4")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -939,7 +939,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('骑士护腿', 1)"), scpexpr(EXPR_END)), "loc_1CF1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x64E, 1)"), scpexpr(EXPR_END)), "loc_1CF1")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

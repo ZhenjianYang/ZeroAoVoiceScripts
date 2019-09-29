@@ -3044,7 +3044,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('粉红液体', 1)
+    AddItemNumber(0x1D7, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x17C, 5)
     Jump("loc_3575")
@@ -3145,7 +3145,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('褐色液体', 1)
+    AddItemNumber(0x1D4, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x17C, 4)
     Jump("loc_373D")
@@ -3244,7 +3244,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('紫色液体', 1)
+    AddItemNumber(0x1D1, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0181
@@ -3798,7 +3798,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('甘露『紫绀』', 6)
+    AddItemNumber(0x1CF, 6)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0213

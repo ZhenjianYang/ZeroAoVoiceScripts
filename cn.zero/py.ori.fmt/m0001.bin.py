@@ -545,7 +545,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x10, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('打火机', 1)"), scpexpr(EXPR_END)), "loc_F84")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x41, 1)"), scpexpr(EXPR_END)), "loc_F84")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -638,7 +638,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x11, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('回复药', 1)"), scpexpr(EXPR_END)), "loc_10BA")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F4, 1)"), scpexpr(EXPR_END)), "loc_10BA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -735,7 +735,7 @@ def main():
     OP_70(0x12, 0x1E)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
-    AddItemNumber('战斗探测器', 5)
+    AddItemNumber(0x20E, 5)
 
     #A0009
     AnonymousTalk(

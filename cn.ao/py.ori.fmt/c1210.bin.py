@@ -3353,7 +3353,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('月灵玉', 1)
+    AddItemNumber(0x53, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_3F04")
 
@@ -3378,7 +3378,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('云之使者', 1)
+    AddItemNumber(0x47, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_3F04")

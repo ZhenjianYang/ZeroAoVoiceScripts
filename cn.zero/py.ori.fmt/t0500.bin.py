@@ -3521,7 +3521,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('黑市医生格伦　３卷', 1)
+    AddItemNumber(0x2C8, 1)
     SetScenarioFlags(0x9C, 2)
     Return()
 

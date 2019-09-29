@@ -426,7 +426,7 @@ def main():
 
     label("loc_D51")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('龙华树之服', 1)"), scpexpr(EXPR_END)), "loc_DA8")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EA, 1)"), scpexpr(EXPR_END)), "loc_DA8")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -515,7 +515,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x6, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＥＰ填充剂Ⅱ', 1)"), scpexpr(EXPR_END)), "loc_ED1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F9, 1)"), scpexpr(EXPR_END)), "loc_ED1")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

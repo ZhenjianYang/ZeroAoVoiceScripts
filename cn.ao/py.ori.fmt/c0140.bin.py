@@ -1704,7 +1704,7 @@ def main():
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2C13")
     MenuCmd(0, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('白金', 0x4)"), scpexpr(EXPR_END)), "loc_24C9")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE0, 0x4)"), scpexpr(EXPR_END)), "loc_24C9")
     MenuCmd(1, 0, "白金　　　　　　已购买")
     MenuCmd(3, 0, 0x0)
     Jump("loc_24E5")
@@ -1715,7 +1715,7 @@ def main():
 
     label("loc_24E5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('幻象', 0x4)"), scpexpr(EXPR_END)), "loc_2513")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE1, 0x4)"), scpexpr(EXPR_END)), "loc_2513")
     MenuCmd(1, 0, "幻象　　　　　　已购买")
     MenuCmd(3, 0, 0x1)
     Jump("loc_252F")
@@ -1727,7 +1727,7 @@ def main():
     label("loc_252F")
 
     Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_25D3")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('神佑', 0x4)"), scpexpr(EXPR_END)), "loc_256B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE5, 0x4)"), scpexpr(EXPR_END)), "loc_256B")
     MenuCmd(1, 0, "神佑　　　　　　已购买")
     MenuCmd(3, 0, 0x2)
     Jump("loc_2588")
@@ -1738,7 +1738,7 @@ def main():
 
     label("loc_2588")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('王权', 0x4)"), scpexpr(EXPR_END)), "loc_25B6")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE6, 0x4)"), scpexpr(EXPR_END)), "loc_25B6")
     MenuCmd(1, 0, "王权　　　　　　已购买")
     MenuCmd(3, 0, 0x3)
     Jump("loc_25D3")
@@ -1950,7 +1950,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('白金', 1)
+    AddItemNumber(0xE0, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x3E8), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2BC7")
@@ -1976,7 +1976,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('幻象', 1)
+    AddItemNumber(0xE1, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x1388), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2BC7")
@@ -2002,7 +2002,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('神佑', 1)
+    AddItemNumber(0xE5, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x4E20), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2BC7")
@@ -2028,7 +2028,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('王权', 1)
+    AddItemNumber(0xE6, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0xC350), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
 
@@ -3005,7 +3005,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ填充剂Ⅲ', 3)
+    AddItemNumber(0x1FA, 3)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0098
@@ -7595,7 +7595,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('妖精', 1)
+    AddItemNumber(0xDE, 1)
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -7618,7 +7618,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('利爪', 1)
+    AddItemNumber(0xDF, 1)
 
     #C0434
     ChrTalk(
@@ -8036,7 +8036,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神１', 1)
+    AddItemNumber(0x74, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0467
@@ -8906,7 +8906,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('鹰目', 1)
+    AddItemNumber(0xB7, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0532

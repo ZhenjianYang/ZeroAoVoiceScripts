@@ -12201,7 +12201,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('罗赞贝尔克人偶·Ｍ', 1)
+    AddItemNumber(0x337, 1)
 
     #C0828
     ChrTalk(
@@ -12224,7 +12224,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('罗赞贝尔克人偶·Ｍ', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('罗赞贝尔克人偶·Ｓ', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('波波碰！β版', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_D1A8")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_D1A8")
 
     #C0830
     ChrTalk(

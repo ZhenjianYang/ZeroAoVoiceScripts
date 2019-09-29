@@ -2616,7 +2616,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('易碎品的小包裹', 1)
+    AddItemNumber(0x331, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2636,7 +2636,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('发往住宅街的送货单', 1)
+    AddItemNumber(0x332, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0130
@@ -3037,7 +3037,7 @@ def main():
     OP_29(0x85, 0x1, 0x5)
     OP_29(0x85, 0x1, 0x6)
     OP_29(0x85, 0x4, 0x10)
-    SubItemNumber('发往住宅街的送货单', 1)
+    SubItemNumber(0x332, 1)
     OP_4C(0x11, 0xFF)
     ClearMapFlags(0x10000000)
     SetChrFlags(0x4, 0x80)

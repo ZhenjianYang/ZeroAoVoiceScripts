@@ -599,7 +599,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('贤者', 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_C33")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xF0, 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_C33")
 
     #C0011
     ChrTalk(
@@ -632,7 +632,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('贤者', 1)
+    AddItemNumber(0xF0, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0013
@@ -697,7 +697,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('水耀珠', 1)
+    AddItemNumber(0x67, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Sleep(500)
 

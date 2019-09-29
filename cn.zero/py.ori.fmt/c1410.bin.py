@@ -4296,7 +4296,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('秘水『桃源乡』', 1)
+    AddItemNumber(0x1D5, 1)
 
     #C0223
     ChrTalk(

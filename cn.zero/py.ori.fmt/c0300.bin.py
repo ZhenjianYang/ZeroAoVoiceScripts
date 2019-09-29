@@ -3277,7 +3277,7 @@ def main():
 
     EventBegin(0x2)
     ClearMapFlags(0x20)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('地下空间Ｂ区域的钥匙', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_39DF")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x322, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_39DF")
     Sound(810, 0, 100, 0)
     SetChrName("")
 

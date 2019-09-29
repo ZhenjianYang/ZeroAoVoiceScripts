@@ -1116,7 +1116,7 @@ def main():
 
     label("loc_1BF9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('幸运', 1)"), scpexpr(EXPR_END)), "loc_1C50")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB6, 1)"), scpexpr(EXPR_END)), "loc_1C50")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1206,7 +1206,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('圣灵药', 1)"), scpexpr(EXPR_END)), "loc_1D7D")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FC, 1)"), scpexpr(EXPR_END)), "loc_1D7D")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -3403,7 +3403,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('海刃奖牌', 1)
+    AddItemNumber(0x28, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0088

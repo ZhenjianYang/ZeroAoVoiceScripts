@@ -3575,7 +3575,7 @@ def main():
 
     label("Function_13_3AB6")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x1, 0x0)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('罗赞贝尔克人偶·Ｍ', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('罗赞贝尔克人偶·Ｓ', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('波波碰！β版', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_3AF5")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x1, 0x0)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x337, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x2, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_3AF5")
     TurnDirection(0x0, 0xF, 0)
     Call(0, 25)
     Return()
@@ -4761,7 +4761,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('纯白之石', 1)
+    AddItemNumber(0x32B, 1)
 
     #A0294
     AnonymousTalk(
@@ -6063,9 +6063,9 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('罗赞贝尔克人偶·Ｍ', 1)
-    SubItemNumber('罗赞贝尔克人偶·Ｓ', 1)
-    SubItemNumber('波波碰！β版', 1)
+    SubItemNumber(0x337, 1)
+    SubItemNumber(0x338, 1)
+    SubItemNumber(0x339, 1)
     OP_96(0x102, 0x1BEA4, 0x0, 0xE83A, 0x3E8, 0x0)
     OP_63(0xF, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(500)

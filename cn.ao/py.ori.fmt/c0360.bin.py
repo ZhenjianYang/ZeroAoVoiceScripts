@@ -206,7 +206,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber('深暗色彩', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_3F0")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x374, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_3F0")
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -226,7 +226,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    AddItemNumber('深暗色彩', 1)
+    AddItemNumber(0x374, 1)
 
     label("loc_3F0")
 
@@ -780,7 +780,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('小箱子', 1)
+    SubItemNumber(0x33A, 1)
 
     #C0029
     ChrTalk(

@@ -6409,193 +6409,193 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7AA6")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     MenuCmd(0, 1)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_672C")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15E, 0x0)"), scpexpr(EXPR_END)), "loc_672C")
     MenuCmd(1, 1, "斗鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_672C")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('雪花蟹', 0x0)"), scpexpr(EXPR_END)), "loc_674B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15F, 0x0)"), scpexpr(EXPR_END)), "loc_674B")
     MenuCmd(1, 1, "雪花蟹")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_674B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('蓝带神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_676E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x160, 0x0)"), scpexpr(EXPR_END)), "loc_676E")
     MenuCmd(1, 1, "蓝带神仙鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_676E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('银伞鱼', 0x0)"), scpexpr(EXPR_END)), "loc_678D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x161, 0x0)"), scpexpr(EXPR_END)), "loc_678D")
     MenuCmd(1, 1, "银伞鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_678D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('阿尔摩利卡鲫鱼', 0x0)"), scpexpr(EXPR_END)), "loc_67B4")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x162, 0x0)"), scpexpr(EXPR_END)), "loc_67B4")
     MenuCmd(1, 1, "阿尔摩利卡鲫鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_67B4")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('乌龟', 0x0)"), scpexpr(EXPR_END)), "loc_67D1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x163, 0x0)"), scpexpr(EXPR_END)), "loc_67D1")
     MenuCmd(1, 1, "乌龟")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_67D1")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('橙河鱼', 0x0)"), scpexpr(EXPR_END)), "loc_67F0")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x164, 0x0)"), scpexpr(EXPR_END)), "loc_67F0")
     MenuCmd(1, 1, "橙河鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_67F0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_680F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x165, 0x0)"), scpexpr(EXPR_END)), "loc_680F")
     MenuCmd(1, 1, "岩穴鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_680F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('虹鳟鱼', 0x0)"), scpexpr(EXPR_END)), "loc_682E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x166, 0x0)"), scpexpr(EXPR_END)), "loc_682E")
     MenuCmd(1, 1, "虹鳟鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_682E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_684D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x167, 0x0)"), scpexpr(EXPR_END)), "loc_684D")
     MenuCmd(1, 1, "食人鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_684D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲤鱼', 0x0)"), scpexpr(EXPR_END)), "loc_686A")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x168, 0x0)"), scpexpr(EXPR_END)), "loc_686A")
     MenuCmd(1, 1, "鲤鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_686A")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大口鲈鱼', 0x0)"), scpexpr(EXPR_END)), "loc_688B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x169, 0x0)"), scpexpr(EXPR_END)), "loc_688B")
     MenuCmd(1, 1, "大口鲈鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_688B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑鲑', 0x0)"), scpexpr(EXPR_END)), "loc_68A8")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16A, 0x0)"), scpexpr(EXPR_END)), "loc_68A8")
     MenuCmd(1, 1, "黑鲑")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_68A8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('角斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_68C7")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16B, 0x0)"), scpexpr(EXPR_END)), "loc_68C7")
     MenuCmd(1, 1, "角斗鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_68C7")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('冷水鱼', 0x0)"), scpexpr(EXPR_END)), "loc_68E6")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16C, 0x0)"), scpexpr(EXPR_END)), "loc_68E6")
     MenuCmd(1, 1, "冷水鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_68E6")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('小鲵', 0x0)"), scpexpr(EXPR_END)), "loc_6903")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16D, 0x0)"), scpexpr(EXPR_END)), "loc_6903")
     MenuCmd(1, 1, "小鲵")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6903")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲑鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6920")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16E, 0x0)"), scpexpr(EXPR_END)), "loc_6920")
     MenuCmd(1, 1, "鲑鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6920")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_693F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16F, 0x0)"), scpexpr(EXPR_END)), "loc_693F")
     MenuCmd(1, 1, "金龙鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_693F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鳗鲡', 0x0)"), scpexpr(EXPR_END)), "loc_695C")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x170, 0x0)"), scpexpr(EXPR_END)), "loc_695C")
     MenuCmd(1, 1, "鳗鲡")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_695C")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('钢壳龟', 0x0)"), scpexpr(EXPR_END)), "loc_697B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x171, 0x0)"), scpexpr(EXPR_END)), "loc_697B")
     MenuCmd(1, 1, "钢壳龟")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_697B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨血蟹', 0x0)"), scpexpr(EXPR_END)), "loc_699A")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x172, 0x0)"), scpexpr(EXPR_END)), "loc_699A")
     MenuCmd(1, 1, "巨血蟹")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_699A")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('珍珠龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_69BB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x173, 0x0)"), scpexpr(EXPR_END)), "loc_69BB")
     MenuCmd(1, 1, "珍珠龙鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_69BB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨鲶', 0x0)"), scpexpr(EXPR_END)), "loc_69D8")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x174, 0x0)"), scpexpr(EXPR_END)), "loc_69D8")
     MenuCmd(1, 1, "巨鲶")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_69D8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金鲑', 0x0)"), scpexpr(EXPR_END)), "loc_69F5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x175, 0x0)"), scpexpr(EXPR_END)), "loc_69F5")
     MenuCmd(1, 1, "金鲑")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_69F5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大鲵', 0x0)"), scpexpr(EXPR_END)), "loc_6A12")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x176, 0x0)"), scpexpr(EXPR_END)), "loc_6A12")
     MenuCmd(1, 1, "大鲵")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6A12")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('锦鲤', 0x0)"), scpexpr(EXPR_END)), "loc_6A2F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x177, 0x0)"), scpexpr(EXPR_END)), "loc_6A2F")
     MenuCmd(1, 1, "锦鲤")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6A2F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('翠耀神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6A52")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x178, 0x0)"), scpexpr(EXPR_END)), "loc_6A52")
     MenuCmd(1, 1, "翠耀神仙鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6A52")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥耀岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6A75")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x179, 0x0)"), scpexpr(EXPR_END)), "loc_6A75")
     MenuCmd(1, 1, "琥耀岩穴鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6A75")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('红耀食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6A98")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17A, 0x0)"), scpexpr(EXPR_END)), "loc_6A98")
     MenuCmd(1, 1, "红耀食人鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6A98")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('苍耀巨龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6ABB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17B, 0x0)"), scpexpr(EXPR_END)), "loc_6ABB")
     MenuCmd(1, 1, "苍耀巨龙鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6ABB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨骨龙皇鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6ADE")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17C, 0x0)"), scpexpr(EXPR_END)), "loc_6ADE")
     MenuCmd(1, 1, "巨骨龙皇鱼")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_6ADE")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('猫食', 0x0)"), scpexpr(EXPR_END)), "loc_6AFB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D9, 0x0)"), scpexpr(EXPR_END)), "loc_6AFB")
     MenuCmd(1, 1, "猫食")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
@@ -6775,10 +6775,10 @@ def main():
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
     Sound(17, 0, 100, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6E25")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15E, 0x0)"), scpexpr(EXPR_END)), "loc_6E25")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6E1B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('斗鱼', 1)
+    SubItemNumber(0x15E, 1)
 
     #A0447
     AnonymousTalk(
@@ -6790,7 +6790,7 @@ def main():
         )
     )
 
-    AddItemNumber('ＥＰ１', 1)
+    AddItemNumber(0x68, 1)
 
     label("loc_6E1B")
 
@@ -6798,10 +6798,10 @@ def main():
 
     label("loc_6E25")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('雪花蟹', 0x0)"), scpexpr(EXPR_END)), "loc_6E6D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15F, 0x0)"), scpexpr(EXPR_END)), "loc_6E6D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6E63")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('雪花蟹', 1)
+    SubItemNumber(0x15F, 1)
 
     #A0448
     AnonymousTalk(
@@ -6813,7 +6813,7 @@ def main():
         )
     )
 
-    AddItemNumber('精神１', 1)
+    AddItemNumber(0x74, 1)
 
     label("loc_6E63")
 
@@ -6821,10 +6821,10 @@ def main():
 
     label("loc_6E6D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('蓝带神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6EB5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x160, 0x0)"), scpexpr(EXPR_END)), "loc_6EB5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6EAB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('蓝带神仙鱼', 1)
+    SubItemNumber(0x160, 1)
 
     #A0449
     AnonymousTalk(
@@ -6836,7 +6836,7 @@ def main():
         )
     )
 
-    AddItemNumber('魔防２', 1)
+    AddItemNumber(0x79, 1)
 
     label("loc_6EAB")
 
@@ -6844,10 +6844,10 @@ def main():
 
     label("loc_6EB5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('银伞鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6EFD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x161, 0x0)"), scpexpr(EXPR_END)), "loc_6EFD")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6EF3")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('银伞鱼', 1)
+    SubItemNumber(0x161, 1)
 
     #A0450
     AnonymousTalk(
@@ -6859,7 +6859,7 @@ def main():
         )
     )
 
-    AddItemNumber('省ＥＰ１', 1)
+    AddItemNumber(0x92, 1)
 
     label("loc_6EF3")
 
@@ -6867,10 +6867,10 @@ def main():
 
     label("loc_6EFD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('阿尔摩利卡鲫鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6F45")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x162, 0x0)"), scpexpr(EXPR_END)), "loc_6F45")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6F3B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('阿尔摩利卡鲫鱼', 1)
+    SubItemNumber(0x162, 1)
 
     #A0451
     AnonymousTalk(
@@ -6882,7 +6882,7 @@ def main():
         )
     )
 
-    AddItemNumber('移动１', 1)
+    AddItemNumber(0x84, 1)
 
     label("loc_6F3B")
 
@@ -6890,10 +6890,10 @@ def main():
 
     label("loc_6F45")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('乌龟', 0x0)"), scpexpr(EXPR_END)), "loc_6F8D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x163, 0x0)"), scpexpr(EXPR_END)), "loc_6F8D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6F83")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('乌龟', 1)
+    SubItemNumber(0x163, 1)
 
     #A0452
     AnonymousTalk(
@@ -6905,7 +6905,7 @@ def main():
         )
     )
 
-    AddItemNumber('命中１', 1)
+    AddItemNumber(0x7C, 1)
 
     label("loc_6F83")
 
@@ -6913,10 +6913,10 @@ def main():
 
     label("loc_6F8D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('橙河鱼', 0x0)"), scpexpr(EXPR_END)), "loc_6FD5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x164, 0x0)"), scpexpr(EXPR_END)), "loc_6FD5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6FCB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x6), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('橙河鱼', 1)
+    SubItemNumber(0x164, 1)
 
     #A0453
     AnonymousTalk(
@@ -6928,7 +6928,7 @@ def main():
         )
     )
 
-    AddItemNumber('恶戏', 1)
+    AddItemNumber(0xB2, 1)
 
     label("loc_6FCB")
 
@@ -6936,10 +6936,10 @@ def main():
 
     label("loc_6FD5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_701D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x165, 0x0)"), scpexpr(EXPR_END)), "loc_701D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7013")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('岩穴鱼', 1)
+    SubItemNumber(0x165, 1)
 
     #A0454
     AnonymousTalk(
@@ -6951,7 +6951,7 @@ def main():
         )
     )
 
-    AddItemNumber('防御２', 1)
+    AddItemNumber(0x71, 1)
 
     label("loc_7013")
 
@@ -6959,10 +6959,10 @@ def main():
 
     label("loc_701D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('虹鳟鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7065")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x166, 0x0)"), scpexpr(EXPR_END)), "loc_7065")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_705B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('虹鳟鱼', 1)
+    SubItemNumber(0x166, 1)
 
     #A0455
     AnonymousTalk(
@@ -6974,7 +6974,7 @@ def main():
         )
     )
 
-    AddItemNumber('情报', 1)
+    AddItemNumber(0xBA, 1)
 
     label("loc_705B")
 
@@ -6982,10 +6982,10 @@ def main():
 
     label("loc_7065")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_70AD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x167, 0x0)"), scpexpr(EXPR_END)), "loc_70AD")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_70A3")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('食人鱼', 1)
+    SubItemNumber(0x167, 1)
 
     #A0456
     AnonymousTalk(
@@ -6997,7 +6997,7 @@ def main():
         )
     )
 
-    AddItemNumber('暗之刃', 1)
+    AddItemNumber(0x9C, 1)
 
     label("loc_70A3")
 
@@ -7005,10 +7005,10 @@ def main():
 
     label("loc_70AD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲤鱼', 0x0)"), scpexpr(EXPR_END)), "loc_70F5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x168, 0x0)"), scpexpr(EXPR_END)), "loc_70F5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_70EB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('鲤鱼', 1)
+    SubItemNumber(0x168, 1)
 
     #A0457
     AnonymousTalk(
@@ -7020,7 +7020,7 @@ def main():
         )
     )
 
-    AddItemNumber('ＨＰ１', 1)
+    AddItemNumber(0x64, 1)
 
     label("loc_70EB")
 
@@ -7028,10 +7028,10 @@ def main():
 
     label("loc_70F5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大口鲈鱼', 0x0)"), scpexpr(EXPR_END)), "loc_713D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x169, 0x0)"), scpexpr(EXPR_END)), "loc_713D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7133")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xB), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('大口鲈鱼', 1)
+    SubItemNumber(0x169, 1)
 
     #A0458
     AnonymousTalk(
@@ -7043,7 +7043,7 @@ def main():
         )
     )
 
-    AddItemNumber('攻击１', 1)
+    AddItemNumber(0x6C, 1)
 
     label("loc_7133")
 
@@ -7051,10 +7051,10 @@ def main():
 
     label("loc_713D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑鲑', 0x0)"), scpexpr(EXPR_END)), "loc_7185")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16A, 0x0)"), scpexpr(EXPR_END)), "loc_7185")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_717B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('黑鲑', 1)
+    SubItemNumber(0x16A, 1)
 
     #A0459
     AnonymousTalk(
@@ -7066,7 +7066,7 @@ def main():
         )
     )
 
-    AddItemNumber('混乱之刃', 1)
+    AddItemNumber(0x9E, 1)
 
     label("loc_717B")
 
@@ -7074,10 +7074,10 @@ def main():
 
     label("loc_7185")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('角斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_71CD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16B, 0x0)"), scpexpr(EXPR_END)), "loc_71CD")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_71C3")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('角斗鱼', 1)
+    SubItemNumber(0x16B, 1)
 
     #A0460
     AnonymousTalk(
@@ -7089,7 +7089,7 @@ def main():
         )
     )
 
-    AddItemNumber('妨害１', 1)
+    AddItemNumber(0x8C, 1)
 
     label("loc_71C3")
 
@@ -7097,10 +7097,10 @@ def main():
 
     label("loc_71CD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('冷水鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7215")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16C, 0x0)"), scpexpr(EXPR_END)), "loc_7215")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_720B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xE), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('冷水鱼', 1)
+    SubItemNumber(0x16C, 1)
 
     #A0461
     AnonymousTalk(
@@ -7112,7 +7112,7 @@ def main():
         )
     )
 
-    AddItemNumber('丹精', 1)
+    AddItemNumber(0xAF, 1)
 
     label("loc_720B")
 
@@ -7120,10 +7120,10 @@ def main():
 
     label("loc_7215")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('小鲵', 0x0)"), scpexpr(EXPR_END)), "loc_725D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16D, 0x0)"), scpexpr(EXPR_END)), "loc_725D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7253")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0xF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('小鲵', 1)
+    SubItemNumber(0x16D, 1)
 
     #A0462
     AnonymousTalk(
@@ -7135,7 +7135,7 @@ def main():
         )
     )
 
-    AddItemNumber('回避１', 1)
+    AddItemNumber(0x80, 1)
 
     label("loc_7253")
 
@@ -7143,10 +7143,10 @@ def main():
 
     label("loc_725D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲑鱼', 0x0)"), scpexpr(EXPR_END)), "loc_72A5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16E, 0x0)"), scpexpr(EXPR_END)), "loc_72A5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_729B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x10), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('鲑鱼', 1)
+    SubItemNumber(0x16E, 1)
 
     #A0463
     AnonymousTalk(
@@ -7158,7 +7158,7 @@ def main():
         )
     )
 
-    AddItemNumber('驱动１', 1)
+    AddItemNumber(0x8F, 1)
 
     label("loc_729B")
 
@@ -7166,10 +7166,10 @@ def main():
 
     label("loc_72A5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_72ED")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16F, 0x0)"), scpexpr(EXPR_END)), "loc_72ED")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_72E3")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x11), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('金龙鱼', 1)
+    SubItemNumber(0x16F, 1)
 
     #A0464
     AnonymousTalk(
@@ -7181,7 +7181,7 @@ def main():
         )
     )
 
-    AddItemNumber('炎伤之刃', 1)
+    AddItemNumber(0x9B, 1)
 
     label("loc_72E3")
 
@@ -7189,10 +7189,10 @@ def main():
 
     label("loc_72ED")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鳗鲡', 0x0)"), scpexpr(EXPR_END)), "loc_7335")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x170, 0x0)"), scpexpr(EXPR_END)), "loc_7335")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_732B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x12), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('鳗鲡', 1)
+    SubItemNumber(0x170, 1)
 
     #A0465
     AnonymousTalk(
@@ -7204,7 +7204,7 @@ def main():
         )
     )
 
-    AddItemNumber('行动力１', 1)
+    AddItemNumber(0x88, 1)
 
     label("loc_732B")
 
@@ -7212,10 +7212,10 @@ def main():
 
     label("loc_7335")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('钢壳龟', 0x0)"), scpexpr(EXPR_END)), "loc_737D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x171, 0x0)"), scpexpr(EXPR_END)), "loc_737D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7373")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x13), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('钢壳龟', 1)
+    SubItemNumber(0x171, 1)
 
     #A0466
     AnonymousTalk(
@@ -7227,7 +7227,7 @@ def main():
         )
     )
 
-    AddItemNumber('石化之刃', 1)
+    AddItemNumber(0x97, 1)
 
     label("loc_7373")
 
@@ -7235,10 +7235,10 @@ def main():
 
     label("loc_737D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨血蟹', 0x0)"), scpexpr(EXPR_END)), "loc_73C5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x172, 0x0)"), scpexpr(EXPR_END)), "loc_73C5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_73BB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x14), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('巨血蟹', 1)
+    SubItemNumber(0x172, 1)
 
     #A0467
     AnonymousTalk(
@@ -7250,7 +7250,7 @@ def main():
         )
     )
 
-    AddItemNumber('攻击３', 1)
+    AddItemNumber(0x6E, 1)
 
     label("loc_73BB")
 
@@ -7258,10 +7258,10 @@ def main():
 
     label("loc_73C5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('珍珠龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_740D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x173, 0x0)"), scpexpr(EXPR_END)), "loc_740D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7403")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x15), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('珍珠龙鱼', 1)
+    SubItemNumber(0x173, 1)
 
     #A0468
     AnonymousTalk(
@@ -7273,7 +7273,7 @@ def main():
         )
     )
 
-    AddItemNumber('命中３', 1)
+    AddItemNumber(0x7E, 1)
 
     label("loc_7403")
 
@@ -7281,10 +7281,10 @@ def main():
 
     label("loc_740D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨鲶', 0x0)"), scpexpr(EXPR_END)), "loc_7455")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x174, 0x0)"), scpexpr(EXPR_END)), "loc_7455")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_744B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x16), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('巨鲶', 1)
+    SubItemNumber(0x174, 1)
 
     #A0469
     AnonymousTalk(
@@ -7296,7 +7296,7 @@ def main():
         )
     )
 
-    AddItemNumber('防御３', 1)
+    AddItemNumber(0x72, 1)
 
     label("loc_744B")
 
@@ -7304,10 +7304,10 @@ def main():
 
     label("loc_7455")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金鲑', 0x0)"), scpexpr(EXPR_END)), "loc_749D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x175, 0x0)"), scpexpr(EXPR_END)), "loc_749D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7493")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x17), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('金鲑', 1)
+    SubItemNumber(0x175, 1)
 
     #A0470
     AnonymousTalk(
@@ -7319,7 +7319,7 @@ def main():
         )
     )
 
-    AddItemNumber('天眼', 1)
+    AddItemNumber(0xB8, 1)
 
     label("loc_7493")
 
@@ -7327,10 +7327,10 @@ def main():
 
     label("loc_749D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大鲵', 0x0)"), scpexpr(EXPR_END)), "loc_74E5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x176, 0x0)"), scpexpr(EXPR_END)), "loc_74E5")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_74DB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x18), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('大鲵', 1)
+    SubItemNumber(0x176, 1)
 
     #A0471
     AnonymousTalk(
@@ -7342,7 +7342,7 @@ def main():
         )
     )
 
-    AddItemNumber('ＨＰ３', 1)
+    AddItemNumber(0x66, 1)
 
     label("loc_74DB")
 
@@ -7350,10 +7350,10 @@ def main():
 
     label("loc_74E5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('锦鲤', 0x0)"), scpexpr(EXPR_END)), "loc_752D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x177, 0x0)"), scpexpr(EXPR_END)), "loc_752D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7523")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x19), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('锦鲤', 1)
+    SubItemNumber(0x177, 1)
 
     #A0472
     AnonymousTalk(
@@ -7365,7 +7365,7 @@ def main():
         )
     )
 
-    AddItemNumber('幸运', 1)
+    AddItemNumber(0xB6, 1)
 
     label("loc_7523")
 
@@ -7373,10 +7373,10 @@ def main():
 
     label("loc_752D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('翠耀神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7575")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x178, 0x0)"), scpexpr(EXPR_END)), "loc_7575")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_756B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1A), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('翠耀神仙鱼', 1)
+    SubItemNumber(0x178, 1)
 
     #A0473
     AnonymousTalk(
@@ -7388,7 +7388,7 @@ def main():
         )
     )
 
-    AddItemNumber('美臭', 1)
+    AddItemNumber(0xB5, 1)
 
     label("loc_756B")
 
@@ -7396,10 +7396,10 @@ def main():
 
     label("loc_7575")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥耀岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_75BD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x179, 0x0)"), scpexpr(EXPR_END)), "loc_75BD")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_75B3")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1B), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('琥耀岩穴鱼', 1)
+    SubItemNumber(0x179, 1)
 
     #A0474
     AnonymousTalk(
@@ -7411,7 +7411,7 @@ def main():
         )
     )
 
-    AddItemNumber('虎威', 1)
+    AddItemNumber(0xB4, 1)
 
     label("loc_75B3")
 
@@ -7419,10 +7419,10 @@ def main():
 
     label("loc_75BD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('红耀食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7605")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17A, 0x0)"), scpexpr(EXPR_END)), "loc_7605")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_75FB")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1C), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('红耀食人鱼', 1)
+    SubItemNumber(0x17A, 1)
 
     #A0475
     AnonymousTalk(
@@ -7434,7 +7434,7 @@ def main():
         )
     )
 
-    AddItemNumber('龙眼', 1)
+    AddItemNumber(0xB1, 1)
 
     label("loc_75FB")
 
@@ -7442,10 +7442,10 @@ def main():
 
     label("loc_7605")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('苍耀巨龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_764D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17B, 0x0)"), scpexpr(EXPR_END)), "loc_764D")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_7643")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1D), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('苍耀巨龙鱼', 1)
+    SubItemNumber(0x17B, 1)
 
     #A0476
     AnonymousTalk(
@@ -7457,7 +7457,7 @@ def main():
         )
     )
 
-    AddItemNumber('治愈', 1)
+    AddItemNumber(0xAE, 1)
 
     label("loc_7643")
 
@@ -7465,10 +7465,10 @@ def main():
 
     label("loc_764D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨骨龙皇鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7695")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17C, 0x0)"), scpexpr(EXPR_END)), "loc_7695")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_768B")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1E), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('巨骨龙皇鱼', 1)
+    SubItemNumber(0x17C, 1)
 
     #A0477
     AnonymousTalk(
@@ -7480,7 +7480,7 @@ def main():
         )
     )
 
-    AddItemNumber('混乱之刃２', 1)
+    AddItemNumber(0xC6, 1)
 
     label("loc_768B")
 
@@ -7488,10 +7488,10 @@ def main():
 
     label("loc_7695")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('猫食', 0x0)"), scpexpr(EXPR_END)), "loc_76E1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D9, 0x0)"), scpexpr(EXPR_END)), "loc_76E1")
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_76D7")
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x18), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    SubItemNumber('猫食', 1)
+    SubItemNumber(0x1D9, 1)
 
     #A0478
     AnonymousTalk(
@@ -7503,7 +7503,7 @@ def main():
         )
     )
 
-    AddItemNumber('魔兽鱼肉', 3)
+    AddItemNumber(0x12D, 3)
 
     label("loc_76D7")
 
@@ -7624,7 +7624,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('灵猫', 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_78BD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEE, 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_78BD")
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -7643,7 +7643,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('灵猫', 1)
+    AddItemNumber(0xEE, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_7904")
 
@@ -7667,7 +7667,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('银耀珠', 1)
+    AddItemNumber(0x6B, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_7904")
@@ -8220,162 +8220,162 @@ def main():
 
     label("Function_22_7F6D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7F7B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15E, 0x0)"), scpexpr(EXPR_END)), "loc_7F7B")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7F7B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('雪花蟹', 0x0)"), scpexpr(EXPR_END)), "loc_7F89")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x15F, 0x0)"), scpexpr(EXPR_END)), "loc_7F89")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7F89")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('蓝带神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7F97")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x160, 0x0)"), scpexpr(EXPR_END)), "loc_7F97")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7F97")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('银伞鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FA5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x161, 0x0)"), scpexpr(EXPR_END)), "loc_7FA5")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FA5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('阿尔摩利卡鲫鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FB3")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x162, 0x0)"), scpexpr(EXPR_END)), "loc_7FB3")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FB3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('乌龟', 0x0)"), scpexpr(EXPR_END)), "loc_7FC1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x163, 0x0)"), scpexpr(EXPR_END)), "loc_7FC1")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FC1")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('橙河鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FCF")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x164, 0x0)"), scpexpr(EXPR_END)), "loc_7FCF")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FCF")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FDD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x165, 0x0)"), scpexpr(EXPR_END)), "loc_7FDD")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FDD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('虹鳟鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FEB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x166, 0x0)"), scpexpr(EXPR_END)), "loc_7FEB")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FEB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7FF9")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x167, 0x0)"), scpexpr(EXPR_END)), "loc_7FF9")
     SetScenarioFlags(0x1, 3)
 
     label("loc_7FF9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲤鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8007")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x168, 0x0)"), scpexpr(EXPR_END)), "loc_8007")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8007")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大口鲈鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8015")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x169, 0x0)"), scpexpr(EXPR_END)), "loc_8015")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8015")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑鲑', 0x0)"), scpexpr(EXPR_END)), "loc_8023")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16A, 0x0)"), scpexpr(EXPR_END)), "loc_8023")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8023")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('角斗鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8031")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16B, 0x0)"), scpexpr(EXPR_END)), "loc_8031")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8031")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('冷水鱼', 0x0)"), scpexpr(EXPR_END)), "loc_803F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16C, 0x0)"), scpexpr(EXPR_END)), "loc_803F")
     SetScenarioFlags(0x1, 3)
 
     label("loc_803F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('小鲵', 0x0)"), scpexpr(EXPR_END)), "loc_804D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16D, 0x0)"), scpexpr(EXPR_END)), "loc_804D")
     SetScenarioFlags(0x1, 3)
 
     label("loc_804D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鲑鱼', 0x0)"), scpexpr(EXPR_END)), "loc_805B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16E, 0x0)"), scpexpr(EXPR_END)), "loc_805B")
     SetScenarioFlags(0x1, 3)
 
     label("loc_805B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8069")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x16F, 0x0)"), scpexpr(EXPR_END)), "loc_8069")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8069")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('鳗鲡', 0x0)"), scpexpr(EXPR_END)), "loc_8077")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x170, 0x0)"), scpexpr(EXPR_END)), "loc_8077")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8077")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('钢壳龟', 0x0)"), scpexpr(EXPR_END)), "loc_8085")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x171, 0x0)"), scpexpr(EXPR_END)), "loc_8085")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8085")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨血蟹', 0x0)"), scpexpr(EXPR_END)), "loc_8093")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x172, 0x0)"), scpexpr(EXPR_END)), "loc_8093")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8093")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('珍珠龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_80A1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x173, 0x0)"), scpexpr(EXPR_END)), "loc_80A1")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80A1")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨鲶', 0x0)"), scpexpr(EXPR_END)), "loc_80AF")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x174, 0x0)"), scpexpr(EXPR_END)), "loc_80AF")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80AF")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金鲑', 0x0)"), scpexpr(EXPR_END)), "loc_80BD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x175, 0x0)"), scpexpr(EXPR_END)), "loc_80BD")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80BD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('大鲵', 0x0)"), scpexpr(EXPR_END)), "loc_80CB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x176, 0x0)"), scpexpr(EXPR_END)), "loc_80CB")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80CB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('锦鲤', 0x0)"), scpexpr(EXPR_END)), "loc_80D9")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x177, 0x0)"), scpexpr(EXPR_END)), "loc_80D9")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80D9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('翠耀神仙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_80E7")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x178, 0x0)"), scpexpr(EXPR_END)), "loc_80E7")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80E7")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥耀岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_80F5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x179, 0x0)"), scpexpr(EXPR_END)), "loc_80F5")
     SetScenarioFlags(0x1, 3)
 
     label("loc_80F5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('红耀食人鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8103")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17A, 0x0)"), scpexpr(EXPR_END)), "loc_8103")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8103")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('苍耀巨龙鱼', 0x0)"), scpexpr(EXPR_END)), "loc_8111")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17B, 0x0)"), scpexpr(EXPR_END)), "loc_8111")
     SetScenarioFlags(0x1, 3)
 
     label("loc_8111")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('巨骨龙皇鱼', 0x0)"), scpexpr(EXPR_END)), "loc_811F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x17C, 0x0)"), scpexpr(EXPR_END)), "loc_811F")
     SetScenarioFlags(0x1, 3)
 
     label("loc_811F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('猫食', 0x0)"), scpexpr(EXPR_END)), "loc_812D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D9, 0x0)"), scpexpr(EXPR_END)), "loc_812D")
     SetScenarioFlags(0x1, 3)
 
     label("loc_812D")

@@ -739,7 +739,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x9, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('加长枪管', 1)"), scpexpr(EXPR_END)), "loc_FCD")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x4B, 1)"), scpexpr(EXPR_END)), "loc_FCD")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -832,7 +832,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0xA, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('珐琅凉鞋', 1)"), scpexpr(EXPR_END)), "loc_1103")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x644, 1)"), scpexpr(EXPR_END)), "loc_1103")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -988,7 +988,7 @@ def main():
 
     label("loc_12B3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('机动战斗服', 1)"), scpexpr(EXPR_END)), "loc_130A")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5E1, 1)"), scpexpr(EXPR_END)), "loc_130A")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

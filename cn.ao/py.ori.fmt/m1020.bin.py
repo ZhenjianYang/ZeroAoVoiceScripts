@@ -224,7 +224,7 @@ def main():
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('缭乱七彩靴', 1)"), scpexpr(EXPR_END)), "loc_6E9")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x654, 1)"), scpexpr(EXPR_END)), "loc_6E9")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

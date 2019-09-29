@@ -445,7 +445,7 @@ def main():
     OP_65(0xB, 0x1)
     OP_65(0xC, 0x1)
     OP_65(0xD, 0x1)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金属探测器', 0x0)"), scpexpr(EXPR_END)), "loc_DDF")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x375, 0x0)"), scpexpr(EXPR_END)), "loc_DDF")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x8E, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x8E, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x8E, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x196, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x198, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_DDF")
     LoadEffect(0x7, "event/ev10016.eff")
 
@@ -519,7 +519,7 @@ def main():
     OP_74(0x5, 0x1E)
     OP_71(0x5, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('珊瑚戒指', 1)"), scpexpr(EXPR_END)), "loc_FD3")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x3D, 1)"), scpexpr(EXPR_END)), "loc_FD3")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -621,7 +621,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_1132")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_1132")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1132")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -1224,7 +1224,7 @@ def main():
 
     label("loc_19BA")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x198, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1A43")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x198, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1A43")
     FadeToDark(300, 0, 100)
     OP_0D()
     SetMessageWindowPos(-1, 30, -1, -1)
@@ -1959,7 +1959,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('强壮苦番茄猪骨汤', 6)
+    AddItemNumber(0x21A, 6)
     SetMessageWindowPos(14, 280, 60, 3)
     CloseMessageWindow()
     Jump("loc_241E")
@@ -1984,7 +1984,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('暖心猪骨汤', 6)
+    AddItemNumber(0x21B, 6)
     SetMessageWindowPos(14, 280, 60, 3)
     CloseMessageWindow()
 
@@ -3878,7 +3878,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x0, 0x1)
     SetScenarioFlags(0x196, 6)
@@ -3910,7 +3910,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x1, 0x1)
     SetScenarioFlags(0x196, 7)
@@ -3942,7 +3942,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x2, 0x1)
     SetScenarioFlags(0x197, 0)
@@ -3974,7 +3974,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x3, 0x1)
     SetScenarioFlags(0x197, 1)
@@ -4006,7 +4006,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x4, 0x1)
     SetScenarioFlags(0x197, 2)
@@ -4038,7 +4038,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x5, 0x1)
     SetScenarioFlags(0x197, 3)
@@ -4070,7 +4070,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x6, 0x1)
     SetScenarioFlags(0x197, 4)
@@ -4102,7 +4102,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0xA, 0x1)
     SetScenarioFlags(0x19C, 0)
@@ -4134,7 +4134,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0xB, 0x1)
     SetScenarioFlags(0x19C, 1)
@@ -4166,7 +4166,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0xC, 0x1)
     SetScenarioFlags(0x19C, 2)
@@ -4198,7 +4198,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0xD, 0x1)
     SetScenarioFlags(0x19C, 3)
@@ -4230,7 +4230,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x7, 0x1)
     SetScenarioFlags(0x197, 5)
@@ -4262,7 +4262,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x8, 0x1)
     SetScenarioFlags(0x197, 6)
@@ -4294,7 +4294,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_65(0x9, 0x1)
     SetScenarioFlags(0x197, 7)
@@ -4307,7 +4307,7 @@ def main():
 
     label("Function_43_50E4")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_5182")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_5182")
 
     #C0191
     ChrTalk(
@@ -4346,7 +4346,7 @@ def main():
 
     label("loc_5182")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5209")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5209")
 
     #C0194
     ChrTalk(
@@ -4384,7 +4384,7 @@ def main():
 
     label("loc_5209")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5282")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5282")
 
     #C0197
     ChrTalk(
@@ -4412,7 +4412,7 @@ def main():
 
     label("loc_5282")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5316")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5316")
 
     #C0199
     ChrTalk(
@@ -4575,42 +4575,42 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_5525")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_5525")
     OP_2C(0x8E, 0x3)
     OP_29(0x8E, 0x1, 0x8)
     Jump("loc_557E")
 
     label("loc_5525")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5546")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5546")
     OP_2C(0x8E, 0x2)
     OP_29(0x8E, 0x1, 0x9)
     Jump("loc_557E")
 
     label("loc_5546")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5567")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_5567")
     OP_2C(0x8E, 0x1)
     OP_29(0x8E, 0x1, 0xA)
     Jump("loc_557E")
 
     label("loc_5567")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('废弃材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_557E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x328, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_557E")
     OP_29(0x8E, 0x1, 0xB)
 
     label("loc_557E")
 
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
-    SubItemNumber('废弃材料', 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
+    SubItemNumber(0x328, 1)
 
     #C0207
     ChrTalk(
@@ -5113,8 +5113,8 @@ def main():
     )
 
     CloseMessageWindow()
-    SubItemNumber('苦西红柿酱', 1)
-    SubItemNumber('金属探测器', 1)
+    SubItemNumber(0x340, 1)
+    SubItemNumber(0x375, 1)
     Sound(9, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")

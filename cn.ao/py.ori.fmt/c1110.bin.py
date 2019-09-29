@@ -5641,7 +5641,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神３', 1)
+    AddItemNumber(0x76, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_6508")
 
@@ -5666,7 +5666,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御３', 1)
+    AddItemNumber(0x72, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_6508")
 
@@ -5691,7 +5691,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击３', 1)
+    AddItemNumber(0x6E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_6508")
 
@@ -5716,7 +5716,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避３', 1)
+    AddItemNumber(0x82, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_6508")
 
@@ -5741,7 +5741,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ３', 1)
+    AddItemNumber(0x66, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_6508")

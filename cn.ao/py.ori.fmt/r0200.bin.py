@@ -919,7 +919,7 @@ def main():
     label("Function_4_1324")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x180, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x191, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x190, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_135D")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_135D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_135D")
     Call(0, 23)
     Return()
 
@@ -927,12 +927,12 @@ def main():
 
     TalkBegin(0xFE)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1698")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1391")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1391")
     Jump("loc_1698")
 
     label("loc_1391")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_1698")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_1698")
     OP_63(0x8, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)
     TurnDirection(0x8, 0x101, 500)
@@ -1122,7 +1122,7 @@ def main():
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x180, 2)), scpexpr(EXPR_END)), "loc_18BC")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x191, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1839")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x190, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_17E9")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1754")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1754")
     Jump("loc_17E4")
 
     label("loc_1754")
@@ -4322,7 +4322,7 @@ def main():
     SetChrBattleFlags(0x4, 0x8000)
     SetChrFlags(0x5, 0x80)
     SetChrBattleFlags(0x5, 0x8000)
-    AddItemNumber('蓝花', 1)
+    AddItemNumber(0x333, 1)
     SetScenarioFlags(0x161, 3)
     OP_29(0xA6, 0x1, 0x5)
     OP_65(0x0, 0x1)
@@ -5069,7 +5069,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('钢竿侵略者', 1)
+    AddItemNumber(0x17, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0207
@@ -5297,7 +5297,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('钢竿侵略者', 1)
+    AddItemNumber(0x17, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0227
@@ -5703,12 +5703,12 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('水中支配者', 1)
+    AddItemNumber(0x18, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    SubItemNumber('绀碧竿', 1)
-    SubItemNumber('琥珀轴', 1)
-    SubItemNumber('翡翠线', 1)
-    SubItemNumber('红莲钩', 1)
+    SubItemNumber(0x344, 1)
+    SubItemNumber(0x345, 1)
+    SubItemNumber(0x346, 1)
+    SubItemNumber(0x347, 1)
 
     #C0257
     ChrTalk(

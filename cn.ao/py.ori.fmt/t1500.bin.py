@@ -9938,7 +9938,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('勇士之心', 1)
+    AddItemNumber(0x3A0, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x1DE, 2)
 

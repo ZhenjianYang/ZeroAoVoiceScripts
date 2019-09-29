@@ -15654,7 +15654,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('零·破坏者', 1)
+    AddItemNumber(0x3F2, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     def lambda_13A8C():

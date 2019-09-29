@@ -10629,7 +10629,7 @@ def main():
     SetChrBattleFlags(0xA, 0x8000)
     SetChrFlags(0xB, 0x80)
     SetChrBattleFlags(0xB, 0x8000)
-    SubItemNumber('ＩＢＣ认证卡片', 1)
+    SubItemNumber(0x324, 1)
     OP_68(-2000, 2800, 26800, 4000)
     FadeToBright(2000, 0)
     OP_0D()
@@ -11466,7 +11466,7 @@ def main():
     OP_29(0x43, 0x4, 0x10)
     OP_29(0x41, 0x4, 0x20)
     OP_29(0x43, 0x4, 0x20)
-    SubItemNumber('梅琳的伞', 1)
+    SubItemNumber(0x325, 1)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0xE, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0xE, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_CCC2")
     OP_29(0xE, 0x4, 0x40)
     Jump("loc_CCD4")
@@ -11538,7 +11538,7 @@ def main():
 
     label("loc_CDD6")
 
-    SubItemNumber('选秀活动特别奖纪念盾', 1)
+    SubItemNumber(0x341, 1)
     SubItemNumber(0x33D, 1)
     OP_E3(0xA)
     Sleep(1000)

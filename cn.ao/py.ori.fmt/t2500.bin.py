@@ -788,7 +788,7 @@ def main():
     OP_74(0x5, 0x1E)
     OP_71(0x5, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('弹簧跑鞋', 1)"), scpexpr(EXPR_END)), "loc_10F0")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x646, 1)"), scpexpr(EXPR_END)), "loc_10F0")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

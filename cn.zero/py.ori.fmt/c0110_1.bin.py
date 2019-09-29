@@ -4680,7 +4680,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('竞赛旗', 1)
+    SubItemNumber(0x350, 1)
     SetScenarioFlags(0x50, 6)
     OP_66(0x7, 0x1)
     Call(1, 30)
@@ -4791,7 +4791,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('小径自行车', 1)
+    SubItemNumber(0x351, 1)
     SetScenarioFlags(0x50, 7)
     OP_66(0x8, 0x1)
     Call(1, 30)
@@ -4902,7 +4902,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('安乐椅', 1)
+    SubItemNumber(0x352, 1)
     SetScenarioFlags(0x51, 0)
     OP_66(0x9, 0x1)
     Call(1, 30)
@@ -5014,7 +5014,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('迷你水族馆', 1)
+    SubItemNumber(0x353, 1)
     SetScenarioFlags(0x51, 1)
     OP_66(0xA, 0x1)
     Call(1, 30)
@@ -5125,7 +5125,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('古怪靠垫', 1)
+    SubItemNumber(0x354, 1)
     SetScenarioFlags(0x51, 2)
     OP_66(0xB, 0x1)
     Call(1, 30)
@@ -5236,7 +5236,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('波波靠垫', 1)
+    SubItemNumber(0x355, 1)
     SetScenarioFlags(0x51, 3)
     OP_66(0xC, 0x1)
     Call(1, 30)
@@ -5347,7 +5347,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('黑泰迪熊', 1)
+    SubItemNumber(0x356, 1)
     SetScenarioFlags(0x51, 4)
     OP_66(0xD, 0x1)
     Call(1, 30)
@@ -5459,7 +5459,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('苦番茄人玩偶', 1)
+    SubItemNumber(0x357, 1)
     SetScenarioFlags(0x51, 5)
     OP_66(0xE, 0x1)
     Call(1, 30)

@@ -691,7 +691,7 @@ def main():
 
     label("loc_16D6")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('风耀珠', 1)"), scpexpr(EXPR_END)), "loc_172D")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x86, 1)"), scpexpr(EXPR_END)), "loc_172D")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -780,7 +780,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x15, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('痊愈之药', 1)"), scpexpr(EXPR_END)), "loc_1856")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x20B, 1)"), scpexpr(EXPR_END)), "loc_1856")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -873,7 +873,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x16, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_198C")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_198C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1029,7 +1029,7 @@ def main():
 
     label("loc_1B3C")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('符文长袍', 1)"), scpexpr(EXPR_END)), "loc_1B93")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5E2, 1)"), scpexpr(EXPR_END)), "loc_1B93")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -5019,7 +5019,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('梅琳的伞', 1)
+    AddItemNumber(0x325, 1)
     OP_C9(0x0, 0x3, 0xFFFFFFFF, 0x1F4, 0x0)
     OP_C9(0x0, 0x0, 0x0, 0xFFFFD8F0, 0x1F4)
     OP_CA(0x0, 0x0, 0x3)
@@ -7516,7 +7516,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('沉重货物', 1)
+    AddItemNumber(0x330, 1)
     Sleep(300)
 
     #C0352

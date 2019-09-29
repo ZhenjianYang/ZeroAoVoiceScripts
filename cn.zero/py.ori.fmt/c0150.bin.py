@@ -12272,7 +12272,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('七色棉花糖', 1)
+    AddItemNumber(0x1BE, 1)
 
     #C0770
     ChrTalk(
@@ -12418,7 +12418,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('中回复药', 1)
+    AddItemNumber(0x1F5, 1)
 
     #C0782
     ChrTalk(
@@ -12518,122 +12518,122 @@ def main():
     label("Function_40_E15B")
 
     RunExpression(0x4, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('极苦面『断头』', 0x0)"), scpexpr(EXPR_END)), "loc_E17E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x192, 0x0)"), scpexpr(EXPR_END)), "loc_E17E")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E17E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('炼狱麻婆『阎魔』', 0x0)"), scpexpr(EXPR_END)), "loc_E197")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x195, 0x0)"), scpexpr(EXPR_END)), "loc_E197")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E197")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('杂色锅巴饭', 0x0)"), scpexpr(EXPR_END)), "loc_E1B0")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x198, 0x0)"), scpexpr(EXPR_END)), "loc_E1B0")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E1B0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('顽固肉排『岩』', 0x0)"), scpexpr(EXPR_END)), "loc_E1C9")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x19B, 0x0)"), scpexpr(EXPR_END)), "loc_E1C9")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E1C9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('混沌久煮『浊』', 0x0)"), scpexpr(EXPR_END)), "loc_E1E2")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x19E, 0x0)"), scpexpr(EXPR_END)), "loc_E1E2")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E1E2")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('男人料理『山』', 0x0)"), scpexpr(EXPR_END)), "loc_E1FB")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A1, 0x0)"), scpexpr(EXPR_END)), "loc_E1FB")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E1FB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('男人料理『川』', 0x0)"), scpexpr(EXPR_END)), "loc_E214")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A4, 0x0)"), scpexpr(EXPR_END)), "loc_E214")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E214")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('箭之鱼', 0x0)"), scpexpr(EXPR_END)), "loc_E22D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A7, 0x0)"), scpexpr(EXPR_END)), "loc_E22D")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E22D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('激辣炸弹蛋包饭', 0x0)"), scpexpr(EXPR_END)), "loc_E246")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1AA, 0x0)"), scpexpr(EXPR_END)), "loc_E246")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E246")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('细针面', 0x0)"), scpexpr(EXPR_END)), "loc_E25F")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1AD, 0x0)"), scpexpr(EXPR_END)), "loc_E25F")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E25F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('苦味汉堡', 0x0)"), scpexpr(EXPR_END)), "loc_E278")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B0, 0x0)"), scpexpr(EXPR_END)), "loc_E278")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E278")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('四重番茄比萨', 0x0)"), scpexpr(EXPR_END)), "loc_E291")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B3, 0x0)"), scpexpr(EXPR_END)), "loc_E291")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E291")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('守护三明治', 0x0)"), scpexpr(EXPR_END)), "loc_E2AA")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B6, 0x0)"), scpexpr(EXPR_END)), "loc_E2AA")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E2AA")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('不可思议盒饭『仰天』', 0x0)"), scpexpr(EXPR_END)), "loc_E2C3")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B9, 0x0)"), scpexpr(EXPR_END)), "loc_E2C3")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E2C3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('奇妙汤', 0x0)"), scpexpr(EXPR_END)), "loc_E2DC")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1BC, 0x0)"), scpexpr(EXPR_END)), "loc_E2DC")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E2DC")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('秘密棉花糖', 0x0)"), scpexpr(EXPR_END)), "loc_E2F5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1BF, 0x0)"), scpexpr(EXPR_END)), "loc_E2F5")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E2F5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('反射巧克力蛋糕', 0x0)"), scpexpr(EXPR_END)), "loc_E30E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C2, 0x0)"), scpexpr(EXPR_END)), "loc_E30E")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E30E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('爽弹布丁', 0x0)"), scpexpr(EXPR_END)), "loc_E327")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C5, 0x0)"), scpexpr(EXPR_END)), "loc_E327")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E327")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('痊愈冰激凌', 0x0)"), scpexpr(EXPR_END)), "loc_E340")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C8, 0x0)"), scpexpr(EXPR_END)), "loc_E340")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E340")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('隐秘爆米花', 0x0)"), scpexpr(EXPR_END)), "loc_E359")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1CB, 0x0)"), scpexpr(EXPR_END)), "loc_E359")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E359")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('良药『熊竹』', 0x0)"), scpexpr(EXPR_END)), "loc_E372")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1CE, 0x0)"), scpexpr(EXPR_END)), "loc_E372")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E372")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('紫色液体', 0x0)"), scpexpr(EXPR_END)), "loc_E38B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D1, 0x0)"), scpexpr(EXPR_END)), "loc_E38B")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E38B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('褐色液体', 0x0)"), scpexpr(EXPR_END)), "loc_E3A4")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D4, 0x0)"), scpexpr(EXPR_END)), "loc_E3A4")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E3A4")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('粉红液体', 0x0)"), scpexpr(EXPR_END)), "loc_E3BD")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D7, 0x0)"), scpexpr(EXPR_END)), "loc_E3BD")
     RunExpression(0x4, (scpexpr(EXPR_GET_RESULT, 0x4), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_E3BD")
@@ -13067,124 +13067,124 @@ def main():
     label("Function_42_EA52")
 
     ClearScenarioFlags(0x2, 1)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('极苦面『断头』', 0x0)"), scpexpr(EXPR_END)), "loc_EA65")
-    SubItemNumber('极苦面『断头』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x192, 0x0)"), scpexpr(EXPR_END)), "loc_EA65")
+    SubItemNumber(0x192, 1)
 
     label("loc_EA65")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('炼狱麻婆『阎魔』', 0x0)"), scpexpr(EXPR_END)), "loc_EA75")
-    SubItemNumber('炼狱麻婆『阎魔』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x195, 0x0)"), scpexpr(EXPR_END)), "loc_EA75")
+    SubItemNumber(0x195, 1)
 
     label("loc_EA75")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('杂色锅巴饭', 0x0)"), scpexpr(EXPR_END)), "loc_EA85")
-    SubItemNumber('杂色锅巴饭', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x198, 0x0)"), scpexpr(EXPR_END)), "loc_EA85")
+    SubItemNumber(0x198, 1)
 
     label("loc_EA85")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('顽固肉排『岩』', 0x0)"), scpexpr(EXPR_END)), "loc_EA95")
-    SubItemNumber('顽固肉排『岩』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x19B, 0x0)"), scpexpr(EXPR_END)), "loc_EA95")
+    SubItemNumber(0x19B, 1)
 
     label("loc_EA95")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('混沌久煮『浊』', 0x0)"), scpexpr(EXPR_END)), "loc_EAA5")
-    SubItemNumber('混沌久煮『浊』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x19E, 0x0)"), scpexpr(EXPR_END)), "loc_EAA5")
+    SubItemNumber(0x19E, 1)
 
     label("loc_EAA5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('男人料理『山』', 0x0)"), scpexpr(EXPR_END)), "loc_EAB5")
-    SubItemNumber('男人料理『山』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A1, 0x0)"), scpexpr(EXPR_END)), "loc_EAB5")
+    SubItemNumber(0x1A1, 1)
 
     label("loc_EAB5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('男人料理『川』', 0x0)"), scpexpr(EXPR_END)), "loc_EAC5")
-    SubItemNumber('男人料理『川』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A4, 0x0)"), scpexpr(EXPR_END)), "loc_EAC5")
+    SubItemNumber(0x1A4, 1)
 
     label("loc_EAC5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('箭之鱼', 0x0)"), scpexpr(EXPR_END)), "loc_EAD5")
-    SubItemNumber('箭之鱼', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1A7, 0x0)"), scpexpr(EXPR_END)), "loc_EAD5")
+    SubItemNumber(0x1A7, 1)
 
     label("loc_EAD5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('激辣炸弹蛋包饭', 0x0)"), scpexpr(EXPR_END)), "loc_EAE5")
-    SubItemNumber('激辣炸弹蛋包饭', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1AA, 0x0)"), scpexpr(EXPR_END)), "loc_EAE5")
+    SubItemNumber(0x1AA, 1)
 
     label("loc_EAE5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('细针面', 0x0)"), scpexpr(EXPR_END)), "loc_EAF5")
-    SubItemNumber('细针面', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1AD, 0x0)"), scpexpr(EXPR_END)), "loc_EAF5")
+    SubItemNumber(0x1AD, 1)
 
     label("loc_EAF5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('苦味汉堡', 0x0)"), scpexpr(EXPR_END)), "loc_EB05")
-    SubItemNumber('苦味汉堡', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B0, 0x0)"), scpexpr(EXPR_END)), "loc_EB05")
+    SubItemNumber(0x1B0, 1)
 
     label("loc_EB05")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('四重番茄比萨', 0x0)"), scpexpr(EXPR_END)), "loc_EB15")
-    SubItemNumber('四重番茄比萨', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B3, 0x0)"), scpexpr(EXPR_END)), "loc_EB15")
+    SubItemNumber(0x1B3, 1)
 
     label("loc_EB15")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('守护三明治', 0x0)"), scpexpr(EXPR_END)), "loc_EB25")
-    SubItemNumber('守护三明治', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B6, 0x0)"), scpexpr(EXPR_END)), "loc_EB25")
+    SubItemNumber(0x1B6, 1)
 
     label("loc_EB25")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('不可思议盒饭『仰天』', 0x0)"), scpexpr(EXPR_END)), "loc_EB35")
-    SubItemNumber('不可思议盒饭『仰天』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1B9, 0x0)"), scpexpr(EXPR_END)), "loc_EB35")
+    SubItemNumber(0x1B9, 1)
 
     label("loc_EB35")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('奇妙汤', 0x0)"), scpexpr(EXPR_END)), "loc_EB48")
-    SubItemNumber('奇妙汤', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1BC, 0x0)"), scpexpr(EXPR_END)), "loc_EB48")
+    SubItemNumber(0x1BC, 1)
     SetScenarioFlags(0x2, 1)
 
     label("loc_EB48")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('秘密棉花糖', 0x0)"), scpexpr(EXPR_END)), "loc_EB58")
-    SubItemNumber('秘密棉花糖', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1BF, 0x0)"), scpexpr(EXPR_END)), "loc_EB58")
+    SubItemNumber(0x1BF, 1)
 
     label("loc_EB58")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('反射巧克力蛋糕', 0x0)"), scpexpr(EXPR_END)), "loc_EB68")
-    SubItemNumber('反射巧克力蛋糕', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C2, 0x0)"), scpexpr(EXPR_END)), "loc_EB68")
+    SubItemNumber(0x1C2, 1)
 
     label("loc_EB68")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('爽弹布丁', 0x0)"), scpexpr(EXPR_END)), "loc_EB78")
-    SubItemNumber('爽弹布丁', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C5, 0x0)"), scpexpr(EXPR_END)), "loc_EB78")
+    SubItemNumber(0x1C5, 1)
 
     label("loc_EB78")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('痊愈冰激凌', 0x0)"), scpexpr(EXPR_END)), "loc_EB88")
-    SubItemNumber('痊愈冰激凌', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1C8, 0x0)"), scpexpr(EXPR_END)), "loc_EB88")
+    SubItemNumber(0x1C8, 1)
 
     label("loc_EB88")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('隐秘爆米花', 0x0)"), scpexpr(EXPR_END)), "loc_EB98")
-    SubItemNumber('隐秘爆米花', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1CB, 0x0)"), scpexpr(EXPR_END)), "loc_EB98")
+    SubItemNumber(0x1CB, 1)
 
     label("loc_EB98")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('良药『熊竹』', 0x0)"), scpexpr(EXPR_END)), "loc_EBA8")
-    SubItemNumber('良药『熊竹』', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1CE, 0x0)"), scpexpr(EXPR_END)), "loc_EBA8")
+    SubItemNumber(0x1CE, 1)
 
     label("loc_EBA8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('紫色液体', 0x0)"), scpexpr(EXPR_END)), "loc_EBB8")
-    SubItemNumber('紫色液体', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D1, 0x0)"), scpexpr(EXPR_END)), "loc_EBB8")
+    SubItemNumber(0x1D1, 1)
 
     label("loc_EBB8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('褐色液体', 0x0)"), scpexpr(EXPR_END)), "loc_EBC8")
-    SubItemNumber('褐色液体', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D4, 0x0)"), scpexpr(EXPR_END)), "loc_EBC8")
+    SubItemNumber(0x1D4, 1)
 
     label("loc_EBC8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('粉红液体', 0x0)"), scpexpr(EXPR_END)), "loc_EBD8")
-    SubItemNumber('粉红液体', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x1D7, 0x0)"), scpexpr(EXPR_END)), "loc_EBD8")
+    SubItemNumber(0x1D7, 1)
 
     label("loc_EBD8")
 

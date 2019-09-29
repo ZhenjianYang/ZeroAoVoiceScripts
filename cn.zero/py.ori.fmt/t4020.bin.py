@@ -1469,9 +1469,9 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('特里斯坦号', 1)
-    SubItemNumber('优雅衣镜', 1)
-    SubItemNumber('八音盒', 1)
+    SubItemNumber(0x349, 1)
+    SubItemNumber(0x34A, 1)
+    SubItemNumber(0x34B, 1)
 
     #C0086
     ChrTalk(

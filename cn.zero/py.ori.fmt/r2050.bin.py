@@ -662,7 +662,7 @@ def main():
 
     label("loc_1598")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('军用靴', 1)"), scpexpr(EXPR_END)), "loc_15EF")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x645, 1)"), scpexpr(EXPR_END)), "loc_15EF")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

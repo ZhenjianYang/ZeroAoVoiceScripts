@@ -1102,7 +1102,7 @@ def main():
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('神圣之链', 1)"), scpexpr(EXPR_END)), "loc_205B")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x46, 1)"), scpexpr(EXPR_END)), "loc_205B")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1259,7 +1259,7 @@ def main():
 
     label("loc_2210")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('妨害１', 1)"), scpexpr(EXPR_END)), "loc_2267")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x8C, 1)"), scpexpr(EXPR_END)), "loc_2267")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -2297,7 +2297,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    AddItemNumber('水耀珠', 1)
+    AddItemNumber(0x67, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x21D, 4)
     OP_29(0x98, 0x4, 0x2)

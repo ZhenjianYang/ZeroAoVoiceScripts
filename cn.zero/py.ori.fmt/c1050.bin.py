@@ -2203,7 +2203,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('甘露『紫绀』', 1)
+    AddItemNumber(0x1CF, 1)
 
     #C0142
     ChrTalk(
@@ -3102,7 +3102,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('罗赞贝尔克人偶·Ｒ', 1)
+    AddItemNumber(0x336, 1)
 
     #C0208
     ChrTalk(

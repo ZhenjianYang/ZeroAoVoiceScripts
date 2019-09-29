@@ -378,7 +378,7 @@ def main():
 
     label("loc_9A5")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('破盾之牙', 1)"), scpexpr(EXPR_END)), "loc_9FC")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xA0, 1)"), scpexpr(EXPR_END)), "loc_9FC")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -468,7 +468,7 @@ def main():
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('大回复药', 1)"), scpexpr(EXPR_END)), "loc_B29")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F6, 1)"), scpexpr(EXPR_END)), "loc_B29")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

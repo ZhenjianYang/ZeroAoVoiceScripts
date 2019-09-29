@@ -481,7 +481,7 @@ def main():
 
     label("loc_D19")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('月之宝珠', 0x0)"), scpexpr(EXPR_END)), "loc_E82")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x33E, 0x0)"), scpexpr(EXPR_END)), "loc_E82")
     EventBegin(0x1)
 
     #A0003
@@ -547,7 +547,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SubItemNumber('月之宝珠', 1)
+    SubItemNumber(0x33E, 1)
     SetScenarioFlags(0x1B7, 0)
     Call(0, 5)
     OP_E2(0x2)
@@ -611,7 +611,7 @@ def main():
 
     label("loc_EE2")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('月之宝珠', 0x0)"), scpexpr(EXPR_END)), "loc_104B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x33E, 0x0)"), scpexpr(EXPR_END)), "loc_104B")
     EventBegin(0x1)
 
     #A0007
@@ -677,7 +677,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SubItemNumber('月之宝珠', 1)
+    SubItemNumber(0x33E, 1)
     SetScenarioFlags(0x1B7, 1)
     Call(0, 5)
     OP_E2(0x2)

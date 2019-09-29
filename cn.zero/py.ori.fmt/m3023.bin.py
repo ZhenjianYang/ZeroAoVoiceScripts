@@ -487,7 +487,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('痊愈之药', 1)"), scpexpr(EXPR_END)), "loc_CDA")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x20B, 1)"), scpexpr(EXPR_END)), "loc_CDA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -580,7 +580,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('痊愈之药', 1)"), scpexpr(EXPR_END)), "loc_E10")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x20B, 1)"), scpexpr(EXPR_END)), "loc_E10")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -736,7 +736,7 @@ def main():
 
     label("loc_FC0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('邪恶胸甲', 1)"), scpexpr(EXPR_END)), "loc_1017")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EE, 1)"), scpexpr(EXPR_END)), "loc_1017")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -964,7 +964,7 @@ def main():
 
     label("loc_131D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('灵光护手', 1)"), scpexpr(EXPR_END)), "loc_1374")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x443, 1)"), scpexpr(EXPR_END)), "loc_1374")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

@@ -3917,7 +3917,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('草帽', 1)
+    AddItemNumber(0x5A, 1)
     OP_D0(0x3, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     #C0243
@@ -4127,7 +4127,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('混乱之刃', 1)
+    AddItemNumber(0x9E, 1)
     OP_D0(0x3, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     #C0259
@@ -4394,8 +4394,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('月之宝珠', 1)
-    AddItemNumber('破脚之牙', 1)
+    AddItemNumber(0x33E, 1)
+    AddItemNumber(0xA4, 1)
     OP_D0(0x3, (scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     #C0279
@@ -4621,7 +4621,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('星之光玉', 1)
+    AddItemNumber(0x33F, 1)
     OP_D0(0x3, (scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     #C0296
@@ -4908,8 +4908,8 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('苦西红柿酱', 1)
-    AddItemNumber('幸运刻印', 1)
+    AddItemNumber(0x340, 1)
+    AddItemNumber(0x37, 1)
     OP_D0(0x3, (scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     #C0318

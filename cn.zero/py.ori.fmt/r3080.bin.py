@@ -493,7 +493,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_F11")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_F11")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -649,7 +649,7 @@ def main():
 
     label("loc_10C1")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('破盾之牙', 1)"), scpexpr(EXPR_END)), "loc_1118")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xA0, 1)"), scpexpr(EXPR_END)), "loc_1118")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -869,7 +869,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    AddItemNumber('战术书·苍', 1)
+    AddItemNumber(0xC, 1)
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_14BA")
     ClearChrFlags(0x4, 0x80)
     ClearChrBattleFlags(0x4, 0x8000)

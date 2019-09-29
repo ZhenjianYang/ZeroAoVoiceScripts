@@ -7281,7 +7281,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SubItemNumber('ＺＷＥＩ２企鹅', 1)
+    SubItemNumber(0x358, 1)
     OP_98(0x153, 0x0, 0x0, 0xFFFFFC18, 0x3E8, 0x0)
 
     #C0404
@@ -7522,7 +7522,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('还魂粉', 1)
+    AddItemNumber(0x1FE, 1)
 
     #C0419
     ChrTalk(
@@ -7846,7 +7846,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('地下空间Ｂ区域的钥匙', 1)
+    AddItemNumber(0x322, 1)
 
     #C0441
     ChrTalk(
@@ -10446,7 +10446,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('破言之牙', 1)
+    AddItemNumber(0xA1, 1)
 
     #C0588
     ChrTalk(

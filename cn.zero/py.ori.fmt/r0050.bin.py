@@ -589,7 +589,7 @@ def main():
 
     label("loc_FF8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('冥王铃', 1)"), scpexpr(EXPR_END)), "loc_104F")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xA9, 1)"), scpexpr(EXPR_END)), "loc_104F")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -856,7 +856,7 @@ def main():
 
     label("loc_13D6")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('省ＥＰ２', 1)"), scpexpr(EXPR_END)), "loc_142D")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x93, 1)"), scpexpr(EXPR_END)), "loc_142D")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

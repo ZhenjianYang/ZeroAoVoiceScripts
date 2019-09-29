@@ -695,7 +695,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber('凉爽色彩', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_EBE")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x370, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_EBE")
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -715,7 +715,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    AddItemNumber('凉爽色彩', 1)
+    AddItemNumber(0x370, 1)
 
     label("loc_EBE")
 
@@ -7525,7 +7525,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('临时认证卡片', 1)
+    AddItemNumber(0x35E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0379

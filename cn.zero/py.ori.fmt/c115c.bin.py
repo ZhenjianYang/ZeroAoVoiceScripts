@@ -2715,7 +2715,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('黑市医生格伦　８卷', 1)
+    AddItemNumber(0x2CD, 1)
     SetScenarioFlags(0x9C, 7)
     Return()
 
@@ -3512,7 +3512,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('迷你沙袋', 1)
+    AddItemNumber(0x348, 1)
 
     #C0185
     ChrTalk(
@@ -6261,7 +6261,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     Jump("loc_7F4E")
 
     label("loc_7C55")
@@ -6292,7 +6292,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 2)
+    AddItemNumber(0x38E, 2)
     Jump("loc_7F4E")
 
     label("loc_7CAA")
@@ -6323,7 +6323,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 3)
+    AddItemNumber(0x38E, 3)
     Jump("loc_7F4E")
 
     label("loc_7CFF")
@@ -6354,7 +6354,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 4)
+    AddItemNumber(0x38E, 4)
     Jump("loc_7F4E")
 
     label("loc_7D54")
@@ -6385,7 +6385,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 5)
+    AddItemNumber(0x38E, 5)
     Jump("loc_7F4E")
 
     label("loc_7DA9")
@@ -6416,7 +6416,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 6)
+    AddItemNumber(0x38E, 6)
     Jump("loc_7F4E")
 
     label("loc_7DFE")
@@ -6447,7 +6447,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 7)
+    AddItemNumber(0x38E, 7)
     Jump("loc_7F4E")
 
     label("loc_7E53")
@@ -6478,7 +6478,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 8)
+    AddItemNumber(0x38E, 8)
     Jump("loc_7F4E")
 
     label("loc_7EA8")
@@ -6509,7 +6509,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 9)
+    AddItemNumber(0x38E, 9)
     Jump("loc_7F4E")
 
     label("loc_7EFD")
@@ -6540,7 +6540,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 10)
+    AddItemNumber(0x38E, 10)
 
     label("loc_7F4E")
 
@@ -6558,7 +6558,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 2)
+    AddItemNumber(0x395, 2)
     CloseMessageWindow()
     Jump("loc_7FAD")
 
@@ -6577,7 +6577,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 1)
+    AddItemNumber(0x395, 1)
     CloseMessageWindow()
 
     label("loc_7FAD")

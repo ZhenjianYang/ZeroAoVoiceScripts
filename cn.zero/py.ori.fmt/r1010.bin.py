@@ -421,7 +421,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('命中２', 1)"), scpexpr(EXPR_END)), "loc_1050")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x7D, 1)"), scpexpr(EXPR_END)), "loc_1050")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -514,7 +514,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('回复药', 1)"), scpexpr(EXPR_END)), "loc_1186")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F4, 1)"), scpexpr(EXPR_END)), "loc_1186")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -773,7 +773,7 @@ def main():
 
     label("loc_14AE")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('石化之刃', 1)"), scpexpr(EXPR_END)), "loc_1505")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x97, 1)"), scpexpr(EXPR_END)), "loc_1505")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

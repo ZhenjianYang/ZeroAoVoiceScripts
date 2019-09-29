@@ -509,7 +509,7 @@ def main():
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('复苏药', 1)"), scpexpr(EXPR_END)), "loc_E60")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FB, 1)"), scpexpr(EXPR_END)), "loc_E60")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -666,7 +666,7 @@ def main():
 
     label("loc_1015")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＨＰ１', 1)"), scpexpr(EXPR_END)), "loc_106C")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x64, 1)"), scpexpr(EXPR_END)), "loc_106C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -833,7 +833,7 @@ def main():
     OP_74(0x3, 0x1E)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('打火机', 1)"), scpexpr(EXPR_END)), "loc_12F2")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x41, 1)"), scpexpr(EXPR_END)), "loc_12F2")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -927,7 +927,7 @@ def main():
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('痊愈之药', 1)"), scpexpr(EXPR_END)), "loc_142D")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x20B, 1)"), scpexpr(EXPR_END)), "loc_142D")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1675,7 +1675,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('力量', 1)
+    AddItemNumber(0xDC, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0046
@@ -1728,7 +1728,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('盾牌', 1)
+    AddItemNumber(0xDD, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     def lambda_2665():

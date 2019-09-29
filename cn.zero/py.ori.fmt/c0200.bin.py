@@ -951,7 +951,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x8, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('焰星铃', 1)"), scpexpr(EXPR_END)), "loc_15C2")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xA7, 1)"), scpexpr(EXPR_END)), "loc_15C2")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -5935,7 +5935,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    AddItemNumber('料理手册', 1)
+    AddItemNumber(0x2, 1)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B0(0xD)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_67A9")
     Sound(17, 0, 100, 0)
     SetChrName("")

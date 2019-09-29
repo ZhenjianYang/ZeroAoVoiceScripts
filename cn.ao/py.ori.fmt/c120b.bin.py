@@ -485,7 +485,7 @@ def main():
     OP_74(0x11, 0x1E)
     OP_71(0x11, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('粉红液体', 1)"), scpexpr(EXPR_END)), "loc_DCA")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1D7, 1)"), scpexpr(EXPR_END)), "loc_DCA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -835,7 +835,7 @@ def main():
         )
     )
 
-    AddItemNumber('中回复药', 5)
+    AddItemNumber(0x1F5, 5)
     CloseMessageWindow()
     Sound(17, 0, 100, 0)
 
@@ -849,7 +849,7 @@ def main():
         )
     )
 
-    AddItemNumber('圣灵药', 2)
+    AddItemNumber(0x1FC, 2)
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)

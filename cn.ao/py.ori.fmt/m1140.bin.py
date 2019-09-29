@@ -368,7 +368,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('星之光玉', 1)
+    AddItemNumber(0x33F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_ABB")
@@ -473,7 +473,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('星之光玉', 1)
+    AddItemNumber(0x33F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_C43")
@@ -548,7 +548,7 @@ def main():
 
     label("loc_D25")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('星之光玉', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EB6")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x33F, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EB6")
     EventBegin(0x1)
 
     #A0008
@@ -611,7 +611,7 @@ def main():
     label("loc_E69")
 
     SetScenarioFlags(0x1B8, 5)
-    SubItemNumber('星之光玉', 1)
+    SubItemNumber(0x33F, 1)
     Sleep(1000)
     OP_E2(0x2)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B8, 6)), scpexpr(EXPR_END)), "loc_EAA")
@@ -683,7 +683,7 @@ def main():
 
     label("loc_F18")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('星之光玉', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_109B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x33F, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_109B")
     EventBegin(0x1)
 
     #A0011
@@ -745,7 +745,7 @@ def main():
     label("loc_1059")
 
     SetScenarioFlags(0x1B8, 6)
-    SubItemNumber('星之光玉', 1)
+    SubItemNumber(0x33F, 1)
     Sleep(1000)
     OP_E2(0x2)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B8, 5)), scpexpr(EXPR_END)), "loc_108F")

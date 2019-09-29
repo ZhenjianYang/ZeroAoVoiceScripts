@@ -581,7 +581,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber('轻快色彩', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_C4C")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x372, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_C4C")
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -601,7 +601,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    AddItemNumber('轻快色彩', 1)
+    AddItemNumber(0x372, 1)
 
     label("loc_C4C")
 
@@ -642,7 +642,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_D2E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_D2E")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x9)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_D2E")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -5317,7 +5317,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝５卷', 1)
+    AddItemNumber(0x2F2, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x188, 4)
     TalkEnd(0xFE)
@@ -7101,7 +7101,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蜂蜜糖浆', 10)
+    AddItemNumber(0x13C, 10)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0429
@@ -7680,7 +7680,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('塞姆里亚石碎片', 1)
+    AddItemNumber(0x394, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x18A, 2)
 

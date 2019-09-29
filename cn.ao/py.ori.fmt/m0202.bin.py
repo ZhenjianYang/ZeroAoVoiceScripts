@@ -410,7 +410,7 @@ def main():
 
     label("loc_B4D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('美臭', 1)"), scpexpr(EXPR_END)), "loc_BA4")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB5, 1)"), scpexpr(EXPR_END)), "loc_BA4")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -500,7 +500,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('月亮灵摆', 1)"), scpexpr(EXPR_END)), "loc_CD1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x48, 1)"), scpexpr(EXPR_END)), "loc_CD1")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -587,7 +587,7 @@ def main():
 
     label("Function_6_D89")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('小丑', 0x4)"), scpexpr(EXPR_END)), "loc_F96")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEA, 0x4)"), scpexpr(EXPR_END)), "loc_F96")
     SetMapFlags(0x8000000)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FC, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_F54")
     Sound(14, 0, 100, 0)
@@ -658,7 +658,7 @@ def main():
 
     label("loc_E91")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('琥耀珠', 1)"), scpexpr(EXPR_END)), "loc_EE8")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x73, 1)"), scpexpr(EXPR_END)), "loc_EE8")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -807,7 +807,7 @@ def main():
 
     label("loc_1093")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('小丑', 1)"), scpexpr(EXPR_END)), "loc_10EA")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xEA, 1)"), scpexpr(EXPR_END)), "loc_10EA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

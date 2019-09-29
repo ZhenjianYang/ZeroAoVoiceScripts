@@ -278,7 +278,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_48C")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_48C")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x12)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_48C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -763,7 +763,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('虹丸ＥＸ', 1)
+    AddItemNumber(0x18B, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0033
@@ -1216,12 +1216,12 @@ def main():
 
     TalkBegin(0xFE)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_17A4")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1496")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1496")
     Jump("loc_17A4")
 
     label("loc_1496")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('绀碧竿', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥珀轴', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber('翡翠线', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber('红莲钩', 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_17A4")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x344, 0x0)"), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_17A4")
     OP_63(0xFE, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)
     TurnDirection(0xFE, 0x101, 500)
@@ -1954,7 +1954,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('鲤鱼', 10)
+    AddItemNumber(0x168, 10)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0111
@@ -1985,7 +1985,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('还魂粉', 1)
+    AddItemNumber(0x1FE, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0113

@@ -1037,7 +1037,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('睡眠之刃２', 1)"), scpexpr(EXPR_END)), "loc_22C1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xC5, 1)"), scpexpr(EXPR_END)), "loc_22C1")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1194,7 +1194,7 @@ def main():
 
     label("loc_2476")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('刻耀珠', 1)"), scpexpr(EXPR_END)), "loc_24CD")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x91, 1)"), scpexpr(EXPR_END)), "loc_24CD")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1347,7 +1347,7 @@ def main():
 
     label("loc_2674")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('雷神之佑', 1)"), scpexpr(EXPR_END)), "loc_26CB")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x3F4, 1)"), scpexpr(EXPR_END)), "loc_26CB")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1437,7 +1437,7 @@ def main():
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('常青之绿', 1)"), scpexpr(EXPR_END)), "loc_27F8")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x58, 1)"), scpexpr(EXPR_END)), "loc_27F8")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1594,7 +1594,7 @@ def main():
 
     label("loc_29AD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('银耀石钥匙', 1)"), scpexpr(EXPR_END)), "loc_2A04")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x376, 1)"), scpexpr(EXPR_END)), "loc_2A04")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1747,7 +1747,7 @@ def main():
 
     label("loc_2BAB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('金耀石钥匙', 1)"), scpexpr(EXPR_END)), "loc_2C02")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x377, 1)"), scpexpr(EXPR_END)), "loc_2C02")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1900,7 +1900,7 @@ def main():
 
     label("loc_2DA9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('黑耀石钥匙', 1)"), scpexpr(EXPR_END)), "loc_2E00")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x378, 1)"), scpexpr(EXPR_END)), "loc_2E00")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -2122,7 +2122,7 @@ def main():
 
     label("Function_14_3285")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('银耀石钥匙', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_32C7")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x376, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_32C7")
     TalkBegin(0xFF)
     Sound(807, 0, 100, 0)
     Sleep(500)
@@ -2213,7 +2213,7 @@ def main():
 
     label("Function_15_33AF")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金耀石钥匙', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_33F1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x377, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_33F1")
     TalkBegin(0xFF)
     Sound(807, 0, 100, 0)
     Sleep(500)
@@ -2304,7 +2304,7 @@ def main():
 
     label("Function_16_34D9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('黑耀石钥匙', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_351B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x378, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_351B")
     TalkBegin(0xFF)
     Sound(807, 0, 100, 0)
     Sleep(500)

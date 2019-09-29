@@ -3312,7 +3312,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    AddItemNumber('战术书·爆', 1)
+    AddItemNumber(0xF, 1)
     ClearChrFlags(0x4, 0x80)
     ClearChrBattleFlags(0x4, 0x8000)
     ClearChrFlags(0x5, 0x80)

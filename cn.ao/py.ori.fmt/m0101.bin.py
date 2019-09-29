@@ -645,7 +645,7 @@ def main():
 
     label("loc_158B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('斗魂腰带', 1)"), scpexpr(EXPR_END)), "loc_15E2")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x50, 1)"), scpexpr(EXPR_END)), "loc_15E2")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -812,7 +812,7 @@ def main():
     OP_74(0x16, 0x1E)
     OP_71(0x16, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('结晶碎片', 1)"), scpexpr(EXPR_END)), "loc_1868")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x334, 1)"), scpexpr(EXPR_END)), "loc_1868")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -969,7 +969,7 @@ def main():
 
     label("loc_1A1D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('丹精', 1)"), scpexpr(EXPR_END)), "loc_1A74")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xAF, 1)"), scpexpr(EXPR_END)), "loc_1A74")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

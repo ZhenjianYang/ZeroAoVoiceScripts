@@ -2737,13 +2737,13 @@ def main():
 
     label("Function_8_2F1B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('垂钓大礼包', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2F4F")
-    SubItemNumber('垂钓大礼包', 1)
-    AddItemNumber('鲑鱼卵', 1)
-    AddItemNumber('熬炼丸子', 1)
-    AddItemNumber('红虫', 1)
-    AddItemNumber('蚯蚓', 1)
-    AddItemNumber('熬炼丸子ＤＸ', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x18C, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2F4F")
+    SubItemNumber(0x18C, 1)
+    AddItemNumber(0x186, 1)
+    AddItemNumber(0x187, 1)
+    AddItemNumber(0x188, 1)
+    AddItemNumber(0x189, 1)
+    AddItemNumber(0x18A, 1)
     Jump("Function_8_2F1B")
 
     label("loc_2F4F")

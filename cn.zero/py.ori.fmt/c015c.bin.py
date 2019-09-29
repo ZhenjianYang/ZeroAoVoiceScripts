@@ -4382,7 +4382,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('黑市医生格伦　７卷', 1)
+    AddItemNumber(0x2CC, 1)
     SetScenarioFlags(0x9C, 6)
     Return()
 

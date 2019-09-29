@@ -641,7 +641,7 @@ def main():
     label("Function_6_F51")
 
     TalkBegin(0x8)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_END)), "loc_123A")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_END)), "loc_123A")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x12B, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A7, 1)), scpexpr(EXPR_OR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_123A")
     OP_63(0x8, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)
@@ -1858,7 +1858,7 @@ def main():
 
     label("Function_8_2520")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_END)), "loc_252E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_END)), "loc_252E")
     SetScenarioFlags(0x1, 3)
 
     label("loc_252E")
@@ -1920,10 +1920,10 @@ def main():
 
     label("loc_25DE")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_3F67")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_END)), "loc_3F62")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_3F67")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_END)), "loc_3F62")
     OP_D2(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
-    SubItemNumber('结晶碎片', 1)
+    SubItemNumber(0x334, 1)
     SetChrName("")
     Jc((scpexpr(EXPR_23, 0x2), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2662")
     Sound(9, 0, 100, 0)
@@ -2267,7 +2267,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2DFA")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2DFA")
 
     #C0105
     ChrTalk(
@@ -2626,7 +2626,7 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('结晶碎片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_3660")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x334, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_3660")
 
     #C0129
     ChrTalk(
@@ -4092,7 +4092,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 1)
+    AddItemNumber(0x38E, 1)
     Jump("loc_6635")
 
     label("loc_633C")
@@ -4123,7 +4123,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 2)
+    AddItemNumber(0x38E, 2)
     Jump("loc_6635")
 
     label("loc_6391")
@@ -4154,7 +4154,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 3)
+    AddItemNumber(0x38E, 3)
     Jump("loc_6635")
 
     label("loc_63E6")
@@ -4185,7 +4185,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 4)
+    AddItemNumber(0x38E, 4)
     Jump("loc_6635")
 
     label("loc_643B")
@@ -4216,7 +4216,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 5)
+    AddItemNumber(0x38E, 5)
     Jump("loc_6635")
 
     label("loc_6490")
@@ -4247,7 +4247,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 6)
+    AddItemNumber(0x38E, 6)
     Jump("loc_6635")
 
     label("loc_64E5")
@@ -4278,7 +4278,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 7)
+    AddItemNumber(0x38E, 7)
     Jump("loc_6635")
 
     label("loc_653A")
@@ -4309,7 +4309,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 8)
+    AddItemNumber(0x38E, 8)
     Jump("loc_6635")
 
     label("loc_658F")
@@ -4340,7 +4340,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 9)
+    AddItemNumber(0x38E, 9)
     Jump("loc_6635")
 
     label("loc_65E4")
@@ -4371,7 +4371,7 @@ def main():
         )
     )
 
-    AddItemNumber('Ｕ材料', 10)
+    AddItemNumber(0x38E, 10)
 
     label("loc_6635")
 
@@ -4389,7 +4389,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 2)
+    AddItemNumber(0x395, 2)
     CloseMessageWindow()
     Jump("loc_6694")
 
@@ -4408,7 +4408,7 @@ def main():
         )
     )
 
-    AddItemNumber('神圣布料', 1)
+    AddItemNumber(0x395, 1)
     CloseMessageWindow()
 
     label("loc_6694")

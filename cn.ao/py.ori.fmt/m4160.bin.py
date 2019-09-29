@@ -535,7 +535,7 @@ def main():
 
     label("loc_E24")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('岁星铃', 1)"), scpexpr(EXPR_END)), "loc_E7B")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xA8, 1)"), scpexpr(EXPR_END)), "loc_E7B")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -618,7 +618,7 @@ def main():
 
     label("Function_5_F25")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('无限', 0x4)"), scpexpr(EXPR_END)), "loc_1132")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE9, 0x4)"), scpexpr(EXPR_END)), "loc_1132")
     SetMapFlags(0x8000000)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F1, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_10F0")
     Sound(14, 0, 100, 0)
@@ -689,7 +689,7 @@ def main():
 
     label("loc_102D")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('光耀珠', 1)"), scpexpr(EXPR_END)), "loc_1084")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x7F, 1)"), scpexpr(EXPR_END)), "loc_1084")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -838,7 +838,7 @@ def main():
 
     label("loc_122F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('无限', 1)"), scpexpr(EXPR_END)), "loc_1286")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xE9, 1)"), scpexpr(EXPR_END)), "loc_1286")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -931,7 +931,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('全回复药', 1)"), scpexpr(EXPR_END)), "loc_13B3")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F7, 1)"), scpexpr(EXPR_END)), "loc_13B3")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

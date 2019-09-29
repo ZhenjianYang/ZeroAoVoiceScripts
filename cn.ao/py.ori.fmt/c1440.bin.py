@@ -338,7 +338,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_65C")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_65C")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0xE)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_65C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -2078,9 +2078,9 @@ def main():
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2631")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A7, 1)), scpexpr(EXPR_END)), "loc_25E0")
-    RunExpression(0x3, (scpexpr(EXPR_EXEC_OP, "GetItemNumber('沐浴阳光的阿尼艾丝14卷', 0x0)"), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    RunExpression(0x3, (scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2FB, 0x0)"), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_AF(0xA3)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_EXEC_OP, "GetItemNumber('沐浴阳光的阿尼艾丝14卷', 0x0)"), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_25DB")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2FB, 0x0)"), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_25DB")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x189, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A7, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_25D8")
     ClearScenarioFlags(0x0, 1)
 

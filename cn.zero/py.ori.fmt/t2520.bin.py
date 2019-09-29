@@ -2623,7 +2623,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('黑市医生格伦　12卷', 1)
+    AddItemNumber(0x2D1, 1)
     SetScenarioFlags(0x9D, 3)
     Return()
 

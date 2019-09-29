@@ -1535,7 +1535,7 @@ def main():
 
     label("loc_2300")
 
-    SubItemNumber('ＺＷＥＩ２企鹅', 1)
+    SubItemNumber(0x358, 1)
     Sleep(1000)
     StopBGM(0x1388)
     WaitBGM()
@@ -2766,7 +2766,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('库雷斯队员的问诊表', 1)
+    AddItemNumber(0x32F, 1)
 
     #C0104
     ChrTalk(
@@ -2841,7 +2841,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('易碎品的小包裹', 1)
+    AddItemNumber(0x331, 1)
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -2862,7 +2862,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('发往住宅街的送货单', 1)
+    AddItemNumber(0x332, 1)
 
     #A0108
     AnonymousTalk(
@@ -2925,7 +2925,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('蓝花', 1)
+    AddItemNumber(0x333, 1)
 
     #A0111
     AnonymousTalk(
@@ -3768,7 +3768,7 @@ def main():
     OP_CA(0x1, 0x0, 0x0)
     CreatePortrait(0, 0, 8, 480, 264, 0, 0, 512, 256, 0, 0, 480, 256, 0xFFFFFF, 0x1, "c_vis161.itp")
     OP_29(0x4C, 0x4, 0x10)
-    SubItemNumber('库雷斯队员的问诊表', 1)
+    SubItemNumber(0x32F, 1)
     Sleep(1000)
     OP_C9(0x0, 0x3, 0xFFFFFFFF, 0x320, 0x0)
     OP_CA(0x0, 0x0, 0x3)

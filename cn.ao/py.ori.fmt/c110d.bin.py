@@ -1008,7 +1008,7 @@ def main():
     Sleep(1000)
     Sound(18, 0, 100, 0)
     UseItem(0x2E7, 0xFF)
-    AddItemNumber('克洛斯贝尔时代周刊⑦', 1)
+    AddItemNumber(0x2E7, 1)
     Sleep(500)
     Sleep(1000)
     OP_C9(0x0, 0x800)
@@ -1352,7 +1352,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('苦西红柿酱', 1)
+    AddItemNumber(0x340, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0049

@@ -7331,7 +7331,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('沉重货物', 1)
+    SubItemNumber(0x330, 1)
 
     #C0423
     ChrTalk(
@@ -7540,7 +7540,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('小箱子', 1)
+    AddItemNumber(0x33A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0437

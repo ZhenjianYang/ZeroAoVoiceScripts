@@ -5104,7 +5104,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('玛尔克与森林深处的魔女·上', 1)
+    AddItemNumber(0x2D6, 1)
     TurnDirection(0x102, 0x101, 500)
     OP_63(0x102, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)

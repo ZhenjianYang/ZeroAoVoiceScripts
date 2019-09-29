@@ -346,7 +346,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('有效利用五分钟的零散时间', 1)
+    AddItemNumber(0x2D8, 1)
     EventBegin(0x0)
     Fade(500)
     OP_68(4520, 1000, 62040, 0)

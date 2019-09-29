@@ -354,7 +354,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_5D7")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_5D7")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x7)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_5D7")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -1803,7 +1803,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝９卷', 1)
+    AddItemNumber(0x2F6, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x189, 0)
 

@@ -467,7 +467,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_8CC")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_8CC")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x8)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_8CC")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -1662,7 +1662,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝12卷', 1)
+    AddItemNumber(0x2F9, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x189, 3)
     Jump("loc_1D4B")
@@ -3700,7 +3700,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('塞姆里亚石碎片', 1)
+    AddItemNumber(0x394, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x18A, 3)
 
@@ -6169,7 +6169,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('易碎品的小包裹', 1)
+    SubItemNumber(0x331, 1)
 
     #C0345
     ChrTalk(
@@ -6270,7 +6270,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沉重货物', 1)
+    AddItemNumber(0x330, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0353

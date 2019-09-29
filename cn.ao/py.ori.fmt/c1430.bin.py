@@ -335,7 +335,7 @@ def main():
 
     label("loc_4E0")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A7, 1)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x18A, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石碎片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_50A")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A7, 1)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x18A, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_50A")
     Call(0, 9)
     Return()
 
@@ -435,7 +435,7 @@ def main():
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_824")
     FadeToDark(300, 0, 100)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x18A, 7)), scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石碎片', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_OR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_714")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x18A, 7)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_OR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_714")
 
     Menu(
         0,
@@ -2227,8 +2227,8 @@ def main():
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_END)), "loc_27B7")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石碎片', 0x0)"), scpexpr(EXPR_END)), "loc_2740")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_END)), "loc_27B7")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x394, 0x0)"), scpexpr(EXPR_END)), "loc_2740")
 
     #C0130
     ChrTalk(
@@ -2376,7 +2376,7 @@ def main():
     ClearChrBattleFlags(0x5, 0x8000)
     Sleep(500)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_2B92")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_END)), "loc_2A78")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_END)), "loc_2A78")
 
     #C0138
     ChrTalk(
@@ -2516,8 +2516,8 @@ def main():
 
     CloseMessageWindow()
     SetMessageWindowPos(-1, -1, -1, -1)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_END)), "loc_2D43")
-    SubItemNumber('塞姆里亚石', 1)
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_END)), "loc_2D43")
+    SubItemNumber(0x396, 1)
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -2542,7 +2542,7 @@ def main():
 
     label("loc_2D43")
 
-    SubItemNumber('塞姆里亚石碎片', 5)
+    SubItemNumber(0x394, 5)
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -2623,7 +2623,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('无限之光', 1)
+    AddItemNumber(0x3F5, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2648,7 +2648,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('能天使威光', 1)
+    AddItemNumber(0x409, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2673,7 +2673,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('宇宙崩坏', 1)
+    AddItemNumber(0x41D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2698,7 +2698,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('屠龙深渊', 1)
+    AddItemNumber(0x431, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2723,7 +2723,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('日耀弧光', 1)
+    AddItemNumber(0x459, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2748,7 +2748,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('七耀圣腕', 1)
+    AddItemNumber(0x445, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2773,7 +2773,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('曳影之剑', 1)
+    AddItemNumber(0x464, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     Jump("loc_30EE")
 
@@ -2798,7 +2798,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('制裁', 1)
+    AddItemNumber(0x469, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     label("loc_30EE")
@@ -4116,7 +4116,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('金属探测器', 1)
+    AddItemNumber(0x375, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0245
@@ -5002,7 +5002,7 @@ def main():
 
     label("Function_21_5AED")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('Ｕ材料', 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_5B61")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x38E, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_5B61")
 
     #C0304
     ChrTalk(
@@ -5181,7 +5181,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('Ｕ材料', 10)
+    SubItemNumber(0x38E, 10)
 
     #C0313
     ChrTalk(

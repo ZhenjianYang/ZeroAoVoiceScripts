@@ -2252,7 +2252,7 @@ def main():
     SetChrBattleFlags(0x4, 0x8000)
     SetChrFlags(0x5, 0x80)
     SetChrBattleFlags(0x5, 0x8000)
-    AddItemNumber('蓝花', 1)
+    AddItemNumber(0x333, 1)
     SetScenarioFlags(0x160, 6)
     OP_29(0xA6, 0x1, 0x5)
     OP_65(0x0, 0x1)

@@ -7595,7 +7595,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('受损的警察徽章', 1)
+    AddItemNumber(0x320, 1)
     OP_93(0x102, 0xB4, 0x1F4)
 
     #C0508
@@ -8552,9 +8552,9 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('中回复药', 3)
-    AddItemNumber('复苏药', 2)
-    AddItemNumber('ＥＰ填充剂Ⅰ', 2)
+    AddItemNumber(0x1F5, 3)
+    AddItemNumber(0x1FB, 2)
+    AddItemNumber(0x1F8, 2)
 
     #C0578
     ChrTalk(

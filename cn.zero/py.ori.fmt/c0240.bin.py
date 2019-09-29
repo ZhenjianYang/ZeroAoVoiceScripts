@@ -9106,7 +9106,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('红莲钩', 1)
+    SubItemNumber(0x347, 1)
     OP_96(0x101, 0xFFFFFD6C, 0x2710, 0x44FC, 0x4B0, 0x0)
 
     #C0564

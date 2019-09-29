@@ -1116,7 +1116,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('甘露『紫绀』', 1)
+    AddItemNumber(0x1CF, 1)
 
     #C0036
     ChrTalk(
@@ -5269,7 +5269,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('废弃材料', 1)
+    AddItemNumber(0x328, 1)
     OP_C9(0x1, 0x3, 0xFFFFFF, 0x1F4, 0x0)
     OP_C9(0x1, 0x0, 0x0, 0x0, 0x1F4)
     OP_CA(0x0, 0x1, 0x3)

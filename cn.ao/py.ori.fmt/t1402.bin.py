@@ -485,7 +485,7 @@ def main():
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('魔防３', 1)"), scpexpr(EXPR_END)), "loc_120B")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x7A, 1)"), scpexpr(EXPR_END)), "loc_120B")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -642,7 +642,7 @@ def main():
 
     label("loc_13C0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('龙眼', 1)"), scpexpr(EXPR_END)), "loc_1417")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB1, 1)"), scpexpr(EXPR_END)), "loc_1417")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -732,7 +732,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('秘水『桃源乡』', 1)"), scpexpr(EXPR_END)), "loc_1544")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1D5, 1)"), scpexpr(EXPR_END)), "loc_1544")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -826,7 +826,7 @@ def main():
     OP_74(0x3, 0x1E)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＥＰ填充剂Ⅲ', 1)"), scpexpr(EXPR_END)), "loc_167F")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FA, 1)"), scpexpr(EXPR_END)), "loc_167F")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -913,7 +913,7 @@ def main():
 
     label("Function_8_1737")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('罪恶', 0x4)"), scpexpr(EXPR_END)), "loc_1944")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEB, 0x4)"), scpexpr(EXPR_END)), "loc_1944")
     SetMapFlags(0x8000000)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1902")
     Sound(14, 0, 100, 0)
@@ -984,7 +984,7 @@ def main():
 
     label("loc_183F")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('黑耀珠', 1)"), scpexpr(EXPR_END)), "loc_1896")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x8B, 1)"), scpexpr(EXPR_END)), "loc_1896")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1133,7 +1133,7 @@ def main():
 
     label("loc_1A41")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('罪恶', 1)"), scpexpr(EXPR_END)), "loc_1A98")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xEB, 1)"), scpexpr(EXPR_END)), "loc_1A98")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1226,7 +1226,7 @@ def main():
     OP_74(0x5, 0x1E)
     OP_71(0x5, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('钛金铠甲', 1)"), scpexpr(EXPR_END)), "loc_1BC5")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EB, 1)"), scpexpr(EXPR_END)), "loc_1BC5")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

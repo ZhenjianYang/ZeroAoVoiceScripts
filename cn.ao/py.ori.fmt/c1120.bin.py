@@ -446,7 +446,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_B62")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_B62")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x11)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_B62")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -6108,7 +6108,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x341, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0336
@@ -6142,7 +6142,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x342, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0338
@@ -6176,7 +6176,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x343, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0340

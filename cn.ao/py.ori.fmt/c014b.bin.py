@@ -1459,7 +1459,7 @@ def main():
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2795")
     MenuCmd(0, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('白金', 0x4)"), scpexpr(EXPR_END)), "loc_204B")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE0, 0x4)"), scpexpr(EXPR_END)), "loc_204B")
     MenuCmd(1, 0, "白金　　　　　　已购买")
     MenuCmd(3, 0, 0x0)
     Jump("loc_2067")
@@ -1470,7 +1470,7 @@ def main():
 
     label("loc_2067")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('幻象', 0x4)"), scpexpr(EXPR_END)), "loc_2095")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE1, 0x4)"), scpexpr(EXPR_END)), "loc_2095")
     MenuCmd(1, 0, "幻象　　　　　　已购买")
     MenuCmd(3, 0, 0x1)
     Jump("loc_20B1")
@@ -1482,7 +1482,7 @@ def main():
     label("loc_20B1")
 
     Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2155")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('神佑', 0x4)"), scpexpr(EXPR_END)), "loc_20ED")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE5, 0x4)"), scpexpr(EXPR_END)), "loc_20ED")
     MenuCmd(1, 0, "神佑　　　　　　已购买")
     MenuCmd(3, 0, 0x2)
     Jump("loc_210A")
@@ -1493,7 +1493,7 @@ def main():
 
     label("loc_210A")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('王权', 0x4)"), scpexpr(EXPR_END)), "loc_2138")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xE6, 0x4)"), scpexpr(EXPR_END)), "loc_2138")
     MenuCmd(1, 0, "王权　　　　　　已购买")
     MenuCmd(3, 0, 0x3)
     Jump("loc_2155")
@@ -1705,7 +1705,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('白金', 1)
+    AddItemNumber(0xE0, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x3E8), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2749")
@@ -1731,7 +1731,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('幻象', 1)
+    AddItemNumber(0xE1, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x1388), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2749")
@@ -1757,7 +1757,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('神佑', 1)
+    AddItemNumber(0xE5, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0x4E20), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
     Jump("loc_2749")
@@ -1783,7 +1783,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('王权', 1)
+    AddItemNumber(0xE6, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_50(0x12, (scpexpr(EXPR_PUSH_LONG, 0xC350), scpexpr(EXPR_SUB_SAVE), scpexpr(EXPR_END)))
 

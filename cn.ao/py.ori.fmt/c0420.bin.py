@@ -8880,7 +8880,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('修利的帽子', 1)
+    AddItemNumber(0x39D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x1DE, 1)
     OP_9B(0x1, 0xA, 0xB4, 0x1F4, 0x5DC, 0x0)
@@ -9135,7 +9135,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('尼克鲁的问诊表', 1)
+    AddItemNumber(0x32D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0495

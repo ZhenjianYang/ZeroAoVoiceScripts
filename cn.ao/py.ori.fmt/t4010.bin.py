@@ -14628,7 +14628,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('罗赞贝尔克人偶·Ｍ', 1)
+    AddItemNumber(0x337, 1)
     SetMapObjFlags(0x5, 0x4)
     SetChrFlags(0x23, 0x80)
     OP_D7(0x1E)

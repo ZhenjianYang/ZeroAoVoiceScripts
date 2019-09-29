@@ -9936,7 +9936,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x341, 1)
 
     #C0614
     ChrTalk(
@@ -15005,7 +15005,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('神圣挂坠', 1)
+    AddItemNumber(0x61, 1)
 
     #C0929
     ChrTalk(

@@ -365,7 +365,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('料理手册', 0x0)"), scpexpr(EXPR_END)), "loc_764")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x2, 0x0)"), scpexpr(EXPR_END)), "loc_764")
     Jc((scpexpr(EXPR_EXEC_OP, "OP_B2(0x13)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_764")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
@@ -613,7 +613,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('最终旅途', 1)
+    AddItemNumber(0x214, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0008
@@ -1850,7 +1850,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('赏月面包', 1)
+    AddItemNumber(0x210, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0097
@@ -1958,7 +1958,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('奶油菠萝包', 1)
+    AddItemNumber(0x211, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0106
@@ -2018,7 +2018,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('贝奈特绝品', 1)
+    AddItemNumber(0x212, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0110
@@ -2077,7 +2077,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('极厚猪排三明治', 1)
+    AddItemNumber(0x213, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0114
@@ -3047,7 +3047,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('极厚猪排三明治', 1)
+    AddItemNumber(0x213, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0177
@@ -7634,7 +7634,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('梅琳的伞', 1)
+    AddItemNumber(0x325, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_9B(0x1, 0xA, 0xB4, 0x3E8, 0x5DC, 0x0)
 
@@ -7862,7 +7862,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('梅琳的伞', 1)
+    SubItemNumber(0x325, 1)
     OP_9B(0x1, 0x101, 0xB4, 0x3E8, 0x5DC, 0x0)
 
     #C0492
@@ -8107,7 +8107,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('贝奈特绝品', 1)
+    AddItemNumber(0x212, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0507

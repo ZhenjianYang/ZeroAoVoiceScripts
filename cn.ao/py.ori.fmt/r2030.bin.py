@@ -1158,7 +1158,7 @@ def main():
 
     label("loc_1EC3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('攻击２', 1)"), scpexpr(EXPR_END)), "loc_1F1A")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x6D, 1)"), scpexpr(EXPR_END)), "loc_1F1A")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

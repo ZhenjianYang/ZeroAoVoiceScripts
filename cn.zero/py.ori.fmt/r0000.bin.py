@@ -752,7 +752,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_1301")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_1301")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -845,7 +845,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('荆棘夹克', 1)"), scpexpr(EXPR_END)), "loc_1437")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5DF, 1)"), scpexpr(EXPR_END)), "loc_1437")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -6360,7 +6360,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('八音盒', 1)
+    AddItemNumber(0x34B, 1)
 
     #C0257
     ChrTalk(

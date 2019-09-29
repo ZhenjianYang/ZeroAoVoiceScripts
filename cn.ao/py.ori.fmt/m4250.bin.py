@@ -485,7 +485,7 @@ def main():
         )
     )
 
-    AddItemNumber('盘古之冠', 1)
+    AddItemNumber(0x39, 1)
     Jump("loc_991")
 
     label("loc_97A")
@@ -501,7 +501,7 @@ def main():
         )
     )
 
-    AddItemNumber('光晓之冠', 1)
+    AddItemNumber(0x38, 1)
 
     label("loc_991")
 

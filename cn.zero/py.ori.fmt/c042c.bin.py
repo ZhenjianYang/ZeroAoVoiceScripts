@@ -2305,7 +2305,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('红莲钩', 1)
+    AddItemNumber(0x347, 1)
 
     #C0140
     ChrTalk(

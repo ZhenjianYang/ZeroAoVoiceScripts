@@ -342,7 +342,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('移动２', 1)"), scpexpr(EXPR_END)), "loc_5BF")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x85, 1)"), scpexpr(EXPR_END)), "loc_5BF")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -4097,7 +4097,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('小箱子', 1)
+    AddItemNumber(0x33A, 1)
 
     #C0250
     ChrTalk(
@@ -6429,7 +6429,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('彩虹·FanBook', 1)
+    AddItemNumber(0x2DA, 1)
     EventBegin(0x0)
     Fade(500)
     OP_68(76390, 1500, -1840, 0)

@@ -977,7 +977,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_1B6C")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_1B6C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1071,7 +1071,7 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('石化之刃', 1)"), scpexpr(EXPR_END)), "loc_1CA7")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x97, 1)"), scpexpr(EXPR_END)), "loc_1CA7")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1165,7 +1165,7 @@ def main():
     OP_74(0x3, 0x1E)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('ＥＰ填充剂Ⅱ', 1)"), scpexpr(EXPR_END)), "loc_1DE2")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F9, 1)"), scpexpr(EXPR_END)), "loc_1DE2")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -2065,7 +2065,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('虹丸ＥＸ', 5)
+    AddItemNumber(0x18B, 5)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0026
@@ -3331,7 +3331,7 @@ def main():
 
     CloseMessageWindow()
     Sound(17, 0, 100, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('骑士', 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_40E2")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEF, 0x4)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_40E2")
 
     #A0074
     AnonymousTalk(
@@ -3343,7 +3343,7 @@ def main():
         )
     )
 
-    AddItemNumber('骑士', 1)
+    AddItemNumber(0xEF, 1)
     Jump("loc_40F9")
 
     label("loc_40E2")
@@ -3359,7 +3359,7 @@ def main():
         )
     )
 
-    AddItemNumber('红耀珠', 1)
+    AddItemNumber(0x6F, 1)
 
     label("loc_40F9")
 
@@ -3435,7 +3435,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('钓皇奖牌', 1)
+    AddItemNumber(0x2C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0080

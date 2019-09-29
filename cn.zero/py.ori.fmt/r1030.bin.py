@@ -755,7 +755,7 @@ def main():
 
     label("loc_1A55")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('影丸雪踏', 1)"), scpexpr(EXPR_END)), "loc_1AAC")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x647, 1)"), scpexpr(EXPR_END)), "loc_1AAC")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -908,7 +908,7 @@ def main():
     Sound(14, 0, 100, 0)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_1CBE")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_1CBE")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -3582,7 +3582,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('特里斯坦号', 1)
+    AddItemNumber(0x349, 1)
 
     #C0082
     ChrTalk(

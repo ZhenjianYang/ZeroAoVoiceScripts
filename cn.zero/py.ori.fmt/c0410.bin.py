@@ -10060,7 +10060,7 @@ def main():
     SetCameraDistance(21960, 1000)
     FadeToDark(1000, 0, -1)
     OP_0D()
-    AddItemNumber('ＩＢＣ认证卡片', 1)
+    AddItemNumber(0x324, 1)
     StopBGM(0xBB8)
     OP_50(0x4C, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     WaitBGM()

@@ -828,7 +828,7 @@ def main():
 
     label("loc_186E")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('天王铃', 1)"), scpexpr(EXPR_END)), "loc_18C5")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xAA, 1)"), scpexpr(EXPR_END)), "loc_18C5")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -918,7 +918,7 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('银胸针', 1)"), scpexpr(EXPR_END)), "loc_19F2")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x3C, 1)"), scpexpr(EXPR_END)), "loc_19F2")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)

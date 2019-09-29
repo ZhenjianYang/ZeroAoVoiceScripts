@@ -1200,7 +1200,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝３卷', 1)
+    AddItemNumber(0x2F0, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x188, 2)
     Jump("loc_171D")
@@ -1769,7 +1769,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('伊梅尔达馆的钥匙', 1)
+    AddItemNumber(0x321, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0116

@@ -1416,7 +1416,7 @@ def main():
 
     label("loc_19FB")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xEF, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1CD2")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xEF, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1CD2")
 
     #C0072
     ChrTalk(
@@ -1554,7 +1554,7 @@ def main():
     MenuCmd(1, 0, "改造·合成（导力器）")
     MenuCmd(1, 0, "委托改造（装备）")
     MenuCmd(1, 0, "委托升级魔导杖")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1D9C")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1D9C")
     MenuCmd(1, 0, "委托打造最强武器")
 
     label("loc_1D9C")
@@ -1562,7 +1562,7 @@ def main():
     MenuCmd(1, 0, "放弃")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GTR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1DCE")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GTR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1DCE")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_1DCE")
@@ -1753,7 +1753,7 @@ def main():
     label("loc_20E7")
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2112")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_210D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_210D")
     Call(0, 13)
     TalkEnd(0xD)
     Return()
@@ -1848,7 +1848,7 @@ def main():
     MenuCmd(1, 0, "对话")
     MenuCmd(1, 0, "改造·合成（导力器）")
     MenuCmd(1, 0, "委托改造（装备）")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_22C2")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_22C2")
     MenuCmd(1, 0, "委托打造最强武器")
 
     label("loc_22C2")
@@ -1856,7 +1856,7 @@ def main():
     MenuCmd(1, 0, "放弃")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GTR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_22F4")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_GTR), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_22F4")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_22F4")
@@ -1944,7 +1944,7 @@ def main():
     label("loc_247C")
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_24A7")
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('塞姆里亚石', 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_24A2")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x396, 0x0)"), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xE7, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_24A2")
     Call(0, 13)
     TalkEnd(0xD)
     Return()
@@ -2150,7 +2150,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('雷神之佑', 1)
+    AddItemNumber(0x3F4, 1)
     Jump("loc_28A2")
 
     label("loc_2823")
@@ -2168,7 +2168,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('纯白圣枪', 1)
+    AddItemNumber(0x408, 1)
     Jump("loc_28A2")
 
     label("loc_284F")
@@ -2186,7 +2186,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('天启', 1)
+    AddItemNumber(0x41C, 1)
     Jump("loc_28A2")
 
     label("loc_287B")
@@ -2204,7 +2204,7 @@ def main():
     )
 
     CloseMessageWindow()
-    AddItemNumber('天灾', 1)
+    AddItemNumber(0x430, 1)
 
     label("loc_28A2")
 
@@ -2212,7 +2212,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('塞姆里亚石', 1)
+    SubItemNumber(0x396, 1)
     OP_DE(0x18, 0x0)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_29B7")
 

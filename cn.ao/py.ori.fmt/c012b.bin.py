@@ -257,7 +257,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('特里斯坦号', 1)
+    SubItemNumber(0x349, 1)
     SetScenarioFlags(0x13C, 0)
     OP_66(0x2, 0x1)
     Call(0, 6)
@@ -371,7 +371,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('迷你沙袋', 1)
+    SubItemNumber(0x348, 1)
     SetScenarioFlags(0x13C, 1)
     OP_66(0x3, 0x1)
     Call(0, 6)
@@ -510,7 +510,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('冲浪板', 1)
+    SubItemNumber(0x34E, 1)
     SetScenarioFlags(0x13C, 2)
     OP_66(0x4, 0x1)
     Call(0, 6)
@@ -623,7 +623,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('点唱机', 1)
+    SubItemNumber(0x34F, 1)
     SetScenarioFlags(0x13C, 3)
     OP_66(0x5, 0x1)
     Call(0, 6)
@@ -735,7 +735,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('安乐椅', 1)
+    SubItemNumber(0x352, 1)
     SetScenarioFlags(0x13C, 4)
     OP_66(0x6, 0x1)
     Call(0, 6)
@@ -847,7 +847,7 @@ def main():
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('迷你水族馆', 1)
+    SubItemNumber(0x353, 1)
     SetScenarioFlags(0x13C, 5)
     OP_66(0x7, 0x1)
     Call(0, 6)

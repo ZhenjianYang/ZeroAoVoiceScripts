@@ -2606,7 +2606,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('支援科车辆钥匙', 1)
+    AddItemNumber(0x35C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
     #C0098

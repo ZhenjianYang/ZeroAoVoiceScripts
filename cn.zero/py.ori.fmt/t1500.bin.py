@@ -10898,7 +10898,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x343, 1)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x2C, 0x1, 0x2)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_CF83")
 
     #C0534

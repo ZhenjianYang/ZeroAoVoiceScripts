@@ -980,9 +980,9 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SubItemNumber('尼克鲁的问诊表', 1)
-    SubItemNumber('迪诺的问诊表', 1)
-    SubItemNumber('库雷斯队员的问诊表', 1)
+    SubItemNumber(0x32D, 1)
+    SubItemNumber(0x32E, 1)
+    SubItemNumber(0x32F, 1)
 
     #C0049
     ChrTalk(

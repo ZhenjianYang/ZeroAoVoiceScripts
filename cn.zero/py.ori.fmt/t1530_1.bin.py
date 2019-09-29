@@ -11363,7 +11363,7 @@ def main():
     OP_57(0x0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    SubItemNumber('选秀活动特别奖纪念盾', 1)
+    SubItemNumber(0x341, 1)
 
     #C0639
     ChrTalk(
@@ -12882,7 +12882,7 @@ def main():
     FadeToBright(300, 0)
     SetMessageWindowPos(14, 280, 60, 3)
     OP_5A()
-    AddItemNumber('选秀活动特别奖纪念盾', 1)
+    AddItemNumber(0x342, 1)
 
     #C0739
     ChrTalk(

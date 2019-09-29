@@ -6646,9 +6646,9 @@ def main():
 
     label("loc_93CC")
 
-    SubItemNumber('废弃材料', 10)
-    SubItemNumber('苦西红柿酱', 1)
-    SubItemNumber('金属探测器', 1)
+    SubItemNumber(0x328, 10)
+    SubItemNumber(0x340, 1)
+    SubItemNumber(0x375, 1)
     OP_C9(0x0, 0x200000)
     OP_50(0x1E, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_32(0xFF, 0xFE, 0x0)
