@@ -8,7 +8,7 @@ set p=%~p0
 set p=%p:\= %
 for %%a in (%p%) do set curd=%%a
 
-set input=%curp%\tmp\psp.tmp.py.%curd%
+set input=%curp%\tmp\py.%curd%
 set output=%curp%\tmp\psp.py.%curd%
 
 md "%output%"
