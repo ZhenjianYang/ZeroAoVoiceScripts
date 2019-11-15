@@ -6875,7 +6875,7 @@ def main():
 
     EventBegin(0x0)
     Sound(103, 0, 100, 0)
-    FadeToDark(1000, 0, -1)
+    FadeToDark(0, 0, -1)
     OP_0D()
     OP_68(-170, 1280, 390, 0)
     MoveCamera(45, 21, 0, 0)

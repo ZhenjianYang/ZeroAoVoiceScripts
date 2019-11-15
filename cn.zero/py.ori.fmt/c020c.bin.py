@@ -3527,7 +3527,7 @@ def main():
     label("Function_28_3BCB")
 
     EventBegin(0x0)
-    FadeToDark(1000, 0, -1)
+    FadeToDark(0, 0, -1)
     OP_0D()
     OP_68(160, 5000, 20460, 0)
     MoveCamera(23, 30, 0, 0)

@@ -6246,7 +6246,7 @@ def main():
     label("Function_17_71E4")
 
     EventBegin(0x0)
-    FadeToDark(1000, 0, -1)
+    FadeToDark(0, 0, -1)
     OP_0D()
     OP_68(-70, 2450, -3180, 0)
     MoveCamera(309, 28, 0, 0)
