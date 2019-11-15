@@ -1601,9 +1601,9 @@ def main():
     def Function_18_218B(): pass
 
     label("Function_18_218B")
-
     EventBegin(0x1)
     SetMapFlags(0x8000000)
+    FadeToDark(0, 0, -1)
     OP_6F(0x1)
     OP_69(0x1, 0x0)
     SetMapObjFrame(0xD, "m00ele00", 0x2, "down_kp")

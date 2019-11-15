@@ -5943,7 +5943,7 @@ def main():
     #C0363
     ChrTalk(
         0xFE,
-        "塞、塞利娜前辈来了吗……！？\x02",
+        "瑟、瑟蕾奴前辈来了吗……！？\x02",
     )
 
     CloseMessageWindow()
